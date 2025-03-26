@@ -14,7 +14,7 @@
                 <div class="col-lg-3">
                     <div class="site-logo">
                         <a href="./">
-                            <img src="images/logo.svg" alt="Logo">
+                            <img src="{{asset('images/rubtech-logo.png')}}" alt="Logo">
                         </a>
                     </div>
 					<!-- Logo End -->
@@ -27,7 +27,7 @@
                             <li>
                                 <a href="#">
                                     <div class="icon-box">
-                                        <img src="images/icon-phone.svg" alt="">
+                                        <i class="fas fa-phone text-light"></i>
                                     </div>
                                     <p>+(123) 698-5245</p>
                                 </a>
@@ -35,7 +35,7 @@
                             <li>
                                 <a href="#">
                                     <div class="icon-box">
-                                        <img src="images/icon-mail.svg" alt="">
+                                       <i class="fa fa-envelope text-light"></i>
                                     </div>
                                      <p>info@domain.com</p>
                                 </a>
