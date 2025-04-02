@@ -9,7 +9,7 @@
         <!-- Video Start -->
         <div class="hero-bg-video">
             <!-- Selfhosted Video Start -->
-            <!-- <video autoplay muted loop id="myVideo"><source src="images/hero-bg-video.mp4" type="video/mp4"></video> -->
+            <!-- <video autoplay muted loop id="myVideo"><source src="https://html.awaikenthemes.com/toplax/images/hero-bg-video.mp4" type="video/mp4"></video> -->
             <video autoplay muted loop id="myVideo"><source src="https://demo.awaikenthemes.com/assets/videos/toplax-video.mp4" type="video/mp4"></video>
             
             <!-- Selfhosted Video End -->
@@ -67,7 +67,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/about-img-1.jpg" alt="">
+                                <img src="https://html.awaikenthemes.com/toplax/images/about-img-1.jpg" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -75,7 +75,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="images/about-img-2.jpg" alt="">
+                                <img src="https://html.awaikenthemes.com/toplax/images/about-img-2.jpg" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -203,7 +203,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-1.svg" alt="">
+                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-1.svg" alt="">
                             </div>
 
                             <div class="service-body">
@@ -212,7 +212,7 @@
 
                             <div class="service-footer">
                                 <a href="service-single.html" class="service-btn">
-                                    <img src="images/arrow-dark.svg" alt="">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -221,7 +221,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-2.svg" alt="">
+                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-2.svg" alt="">
                             </div>
 
                             <div class="service-body">
@@ -230,7 +230,7 @@
 
                             <div class="service-footer">
                                 <a href="service-single.html" class="service-btn">
-                                    <img src="images/arrow-dark.svg" alt="">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -239,7 +239,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-3.svg" alt="">
+                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-3.svg" alt="">
                             </div>
 
                             <div class="service-body">
@@ -248,7 +248,7 @@
 
                             <div class="service-footer">
                                 <a href="service-single.html" class="service-btn">
-                                    <img src="images/arrow-dark.svg" alt="">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -257,7 +257,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-4.svg" alt="">
+                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-4.svg" alt="">
                             </div>
 
                             <div class="service-body">
@@ -266,7 +266,7 @@
 
                             <div class="service-footer">
                                 <a href="service-single.html" class="service-btn">
-                                    <img src="images/arrow-dark.svg" alt="">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -296,11 +296,11 @@
                     <!-- Our Story Header Image Start -->
                     <div class="our-story-header-img">
                         <figure class="reveal image-anime">
-                            <img src="images/our-story-header-img-1.jpg" alt="">
+                            <img src="https://html.awaikenthemes.com/toplax/images/our-story-header-img-1.jpg" alt="">
                         </figure>
 
                         <figure class="reveal image-anime">
-                            <img src="images/our-story-header-img-2.jpg" alt="">
+                            <img src="https://html.awaikenthemes.com/toplax/images/our-story-header-img-2.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Our Story Header Image End -->
@@ -312,7 +312,7 @@
                     <!-- Our Story Image Start -->
                     <div class="our-story-img">
                         <figure class="reveal image-anime">
-                            <img src="images/our-story-img.jpg" alt="">
+                            <img src="https://html.awaikenthemes.com/toplax/images/our-story-img.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Our Story Image End -->
@@ -354,7 +354,7 @@
                                 <!-- Client Image Start -->
                                 <div class="client-image">
                                     <figure class="image-anime reveal">
-                                        <img src="images/story-client-img-1.jpg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/story-client-img-1.jpg" alt="">
                                     </figure>
                                 </div>
                                 <!-- Client Image End -->
@@ -362,7 +362,7 @@
                                 <!-- Client Image Start -->
                                 <div class="client-image">
                                     <figure class="image-anime reveal">
-                                        <img src="images/story-client-img-2.jpg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/story-client-img-2.jpg" alt="">
                                     </figure>
                                 </div>
                                 <!-- Client Image End -->
@@ -370,7 +370,7 @@
                                 <!-- Client Image Start -->
                                 <div class="client-image">
                                     <figure class="image-anime reveal">
-                                        <img src="images/story-client-img-3.jpg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/story-client-img-3.jpg" alt="">
                                     </figure>
                                 </div>
                                 <!-- Client Image End -->
@@ -418,7 +418,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="images/icon-who-we-do-1.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-1.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>automation solutions</h3>
@@ -430,7 +430,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="images/icon-who-we-do-2.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-2.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>quality control</h3>
@@ -444,7 +444,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="images/icon-who-we-do-3.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-3.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>process engineering</h3>
@@ -456,7 +456,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="images/icon-who-we-do-4.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-4.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>product development</h3>
@@ -481,12 +481,12 @@
                     <!-- What We Do Image Start -->
                     <div class="what-we-do-image">
                         <figure class="image-anime">
-                            <img src="images/what-we-do-image.jpg" alt="">
+                            <img src="https://html.awaikenthemes.com/toplax/images/what-we-do-image.jpg" alt="">
                         </figure>
 
                         <!-- Contact Now Circle Start -->
                         <div class="contact-now-circle">
-                            <img src="images/contact-now-circle.svg" alt="">
+                            <img src="https://html.awaikenthemes.com/toplax/images/contact-now-circle.svg" alt="">
                         </div>
                         <!-- Contact Now Circle End -->
                     </div>      
@@ -543,7 +543,7 @@
                             <div class="project-item wow fadeInUp">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="images/project-1.jpg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/project-1.jpg" alt="">
                                     </figure>
                                 </div>                                
                                 
@@ -563,7 +563,7 @@
                             <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="images/project-2.jpg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/project-2.jpg" alt="">
                                     </figure>
                                 </div>                                
                                 
@@ -583,7 +583,7 @@
                             <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="images/project-3.jpg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/project-3.jpg" alt="">
                                     </figure>
                                 </div>                                
                                 
@@ -603,7 +603,7 @@
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="images/project-4.jpg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/project-4.jpg" alt="">
                                     </figure>
                                 </div>                                
                                 
@@ -652,7 +652,7 @@
                     <!-- Our Process Image Start -->
                     <div class="our-process-image">
                         <figure class="image-anime reveal">
-                            <img src="images/our-process-image.jpg" alt="">
+                            <img src="https://html.awaikenthemes.com/toplax/images/our-process-image.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Our Process Image End -->
@@ -821,9 +821,9 @@
                     <!-- Pricing Benifit List Start -->
                     <div class="pricing-benefit-list wow fadeInUp" data-wow-delay="0.6s">
                         <ul>
-                            <li><img src="images/icon-pricing-benefit-1.svg" alt="">Get 30 day free trial</li>
-                            <li><img src="images/icon-pricing-benefit-2.svg" alt="">No any hidden fees pay</li>
-                            <li><img src="images/icon-pricing-benefit-3.svg" alt="">You can  cancel anytime </li>
+                            <li><img src="https://html.awaikenthemes.com/toplax/images/icon-pricing-benefit-1.svg" alt="">Get 30 day free trial</li>
+                            <li><img src="https://html.awaikenthemes.com/toplax/images/icon-pricing-benefit-2.svg" alt="">No any hidden fees pay</li>
+                            <li><img src="https://html.awaikenthemes.com/toplax/images/icon-pricing-benefit-3.svg" alt="">You can  cancel anytime </li>
                         </ul>
                     </div>
                     <!-- Pricing Benifit List End -->
@@ -841,7 +841,7 @@
                     <!-- Our Testimonial Image Start -->
                     <div class="our-testimonial-image">
                         <figure class="image-anime reveal">
-                            <img src="images/testimonial-image.jpg" alt="">
+                            <img src="https://html.awaikenthemes.com/toplax/images/testimonial-image.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Our Testimonial Image End -->
@@ -879,7 +879,7 @@
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/author-1.jpg" alt="">
+                                                        <img src="https://html.awaikenthemes.com/toplax/images/author-1.jpg" alt="">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">
@@ -909,7 +909,7 @@
                                             <div class="testimonial-body">
                                                 <div class="author-image">
                                                     <figure class="image-anime">
-                                                        <img src="images/author-2.jpg" alt="">
+                                                        <img src="https://html.awaikenthemes.com/toplax/images/author-2.jpg" alt="">
                                                     </figure>
                                                 </div>            
                                                 <div class="author-content">
@@ -940,7 +940,7 @@
                                 <!-- Agency Support Logo Start -->
                                 <div class="swiper-slide">
                                     <div class="company-logo">
-                                        <img src="images/company-logo-1.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/company-logo-1.svg" alt="">
                                     </div>
                                 </div>
                                 <!-- Agency Support Logo End -->
@@ -948,7 +948,7 @@
                                 <!-- Agency Support Logo Start -->
                                 <div class="swiper-slide">
                                     <div class="company-logo">
-                                        <img src="images/company-logo-2.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/company-logo-2.svg" alt="">
                                     </div>
                                 </div>
                                 <!-- Agency Support Logo End -->
@@ -956,7 +956,7 @@
                                 <!-- Agency Support Logo Start -->
                                 <div class="swiper-slide">
                                     <div class="company-logo">
-                                        <img src="images/company-logo-3.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/company-logo-3.svg" alt="">
                                     </div>
                                 </div>
                                 <!-- Agency Support Logo End -->
@@ -964,7 +964,7 @@
                                 <!-- Agency Support Logo Start -->
                                 <div class="swiper-slide">
                                     <div class="company-logo">
-                                        <img src="images/company-logo-4.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/company-logo-4.svg" alt="">
                                     </div>
                                 </div>
                                 <!-- Agency Support Logo End -->
@@ -972,7 +972,7 @@
                                 <!-- Agency Support Logo Start -->
                                 <div class="swiper-slide">
                                     <div class="company-logo">
-                                        <img src="images/company-logo-5.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/company-logo-5.svg" alt="">
                                     </div>
                                 </div>
                                 <!-- Agency Support Logo End -->
@@ -980,7 +980,7 @@
                                 <!-- Agency Support Logo Start -->
                                 <div class="swiper-slide">
                                     <div class="company-logo">
-                                        <img src="images/company-logo-1.svg" alt="">
+                                        <img src="https://html.awaikenthemes.com/toplax/images/company-logo-1.svg" alt="">
                                     </div>
                                 </div>
                                 <!-- Agency Support Logo End -->
@@ -1024,7 +1024,7 @@
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-single.html" class="image-anime" data-cursor-text="View">
-                                    <img src="images/blog-1.jpg" alt="">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/blog-1.jpg" alt="">
                                 </a>
                             </figure>
                         </div>
@@ -1040,7 +1040,7 @@
 
                             <!-- Post Item Button Start -->
                             <div class="post-item-btn">
-                                <a href="blog-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                                <a href="blog-single.html"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg" alt=""></a>
                             </div>
                             <!-- Post Item Button End -->
                         </div>
@@ -1056,7 +1056,7 @@
                         <div class="post-featured-image">
                             <figure>
                                 <a href="blog-single.html" class="image-anime" data-cursor-text="View">
-                                    <img src="images/blog-2.jpg" alt="">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/blog-2.jpg" alt="">
                                 </a>
                             </figure>
                         </div>
@@ -1072,7 +1072,7 @@
 
                             <!-- Post Item Button Start -->
                             <div class="post-item-btn">
-                                <a href="blog-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                                <a href="blog-single.html"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg" alt=""></a>
                             </div>
                             <!-- Post Item Button End -->
                         </div>
