@@ -175,7 +175,7 @@
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">services</h3>
+                        <h3 class="wow fadeInUp">Our Products</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Comprehensive solutions <span>for industrial excellence</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -407,7 +407,7 @@
                     <div class="what-we-do-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">what we do</h3>
+                            <h3 class="wow fadeInUp">why choose us</h3>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry <span>solutions today</span></h2>
                         </div>
                         <!-- Section Title End -->
@@ -625,7 +625,7 @@
     </div>
     <!-- Our Work Section End -->
 
-    <!-- Our Process Section Start -->
+    {{-- <!-- Our Process Section Start -->
     <div class="our-process">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -702,9 +702,9 @@
             </div>
         </div>
     </div>
-    <!-- Our Process Section End -->
+    <!-- Our Process Section End --> --}}
 
-    <!-- Our Pricing Section Start -->
+ {{--    <!-- Our Pricing Section Start -->
     <div class="our-pricing">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -831,7 +831,7 @@
             </div>
         </div>
     </div>
-    <!-- Our Pricing Section End -->
+    <!-- Our Pricing Section End --> --}}
 
     <!-- Our Testimonial Section Start -->
     <div class="our-testimonial">
