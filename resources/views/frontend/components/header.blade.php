@@ -25,19 +25,19 @@
                     <div class="topbar-contact-info">
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="tel:+919717599905">
                                     <div class="icon-box">
                                         <i class="fas fa-phone text-light"></i>
                                     </div>
-                                    <p>+(123) 698-5245</p>
+                                    <p>+91-9717599905</p>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="mailto:enquiry@rubtechmech.in">
                                     <div class="icon-box">
                                        <i class="fa fa-envelope text-light"></i>
                                     </div>
-                                     <p>info@domain.com</p>
+                                     <p>enquiry@rubtechmech.in</p>
                                 </a>
                             </li>
                         </ul>

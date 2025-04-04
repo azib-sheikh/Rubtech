@@ -26,9 +26,9 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">welcome our industry</h3>
-                            <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating <span>industry for today</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes. </p>
+                            <h3 class="wow fadeInUp">Welcome to Rubtech Mech (INDIA) LLP</h3>
+                            <h1 class="text-anime-style-2" data-cursor="-opaque">High-Performance Food Grade <span>Rubber Products Manufacturers in India </span></h1>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">We specialize in manufacturing FDA-compliant, high-performance rubber components for food applications, ensuring durability, safety, and compliance with global standards.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -100,8 +100,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Building quality through <span>industrial innovation</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is a commitment to delivering superior products through cutting-edge technology and innovative processes.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Engineering Excellence in <span>Food-Grade Rubber Solutions</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">At the core of Rubtech Mech (INDIA) LLP is a dedication to manufacturing high-performance rubber components that meet global food safety regulations and industry standards.</p>
                         </div>
                         <!-- Section Title End -->
                 
@@ -113,10 +113,10 @@
                                         <!-- About Content List Start -->
                                         <div class="about-content-list wow fadeInUp" data-wow-delay="0.5s">
                                             <ul>
-                                                <li>sustainable manufacturing</li>
-                                                <li>advanced automation</li>
-                                                <li>efficient production processes</li>
-                                                <li>reliable delivery services</li>
+                                                <li>Certified Quality & Compliance </li>
+                                                <li>Precision Engineering</li>
+                                                <li>Innovative Material Science</li>
+                                                <li>Global Manufacturing Standards</li>
                                             </ul>
                                         </div>
                                         <!-- About Content List End -->
@@ -176,7 +176,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">Our Products</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Comprehensive solutions <span>for industrial excellence</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">High-Performance Rubber Items Manufacturer in india <span>for Food & Milling Industries</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -184,7 +184,7 @@
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content dark-section wow fadeInUp" data-wow-delay="0.25s">
-                        <p>We provide a wide range of services tailored to meet the unique needs of modern industries. From precision manufacturing and advanced automation to custom product design and efficient logistics.</p>
+                        <p>We manufacture a wide range of food-grade rubber components designed for superior durability, compliance, and efficiency. Our products cater to the stringent requirements of global industries, ensuring high performance and long service life.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -207,7 +207,7 @@
                             </div>
 
                             <div class="service-body">
-                                <h3>custom manufacturing solution</h3>
+                                <h3>Sieve Cleaning Rubber Ball</h3>
                             </div>
 
                             <div class="service-footer">
@@ -225,7 +225,7 @@
                             </div>
 
                             <div class="service-body">
-                                <h3>industrial automation and robotics</h3>
+                                <h3>Rubber Cube</h3>
                             </div>
 
                             <div class="service-footer">
@@ -243,7 +243,7 @@
                             </div>
 
                             <div class="service-body">
-                                <h3>product design and prototyping</h3>
+                                <h3>Anti Vibration Mounts</h3>
                             </div>
 
                             <div class="service-footer">
@@ -261,7 +261,41 @@
                             </div>
 
                             <div class="service-body">
-                                <h3>equipment maintenance support</h3>
+                                <h3>Rubber Sleeve</h3>
+                            </div>
+
+                            <div class="service-footer">
+                                <a href="service-single.html" class="service-btn">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-4.svg" alt="">
+                            </div>
+
+                            <div class="service-body">
+                                <h3>Rubber Inspection Cap</h3>
+                            </div>
+
+                            <div class="service-footer">
+                                <a href="service-single.html" class="service-btn">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Service Item End -->
+                        <!-- Service Item Start -->
+                        <div class="service-item">
+                            <div class="icon-box">
+                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-4.svg" alt="">
+                            </div>
+
+                            <div class="service-body">
+                                <h3>Rubber Ring</h3>
                             </div>
 
                             <div class="service-footer">
@@ -287,7 +321,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">our story</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Transforming industries <span>with innovative efficient solutions</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">From Innovation to Excellence in <span>Rubber Manufacturing</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -321,7 +355,7 @@
                 <div class="col-lg-6">
                     <div class="our-story-content">
                         <div class="our-story-content-body">
-                            <p>We specialize in revolutionizing industries by delivering innovative, efficient solutions that enhance productivity and streamline processes. Through advanced technologies, precision engineering, and sustainable practices.</p>
+                            <p>From a small unit manufacturing carbon seal rings to becoming a leading name in high-performance rubber components, Rubtech Mech (INDIA) LLP has grown through innovation and expertise. Guided by Mr. Daljit Singh’s mastery in rubber science, we now serve global industries with precision-engineered, compliant solutions.</p>
                         </div>
 
                         <div class="our-story-counters">
@@ -407,8 +441,8 @@
                     <div class="what-we-do-content">
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">why choose us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative factory and industry <span>solutions today</span></h2>
+                            <h3 class="wow fadeInUp">Why Choose us?</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Precision Engineering & Compliance-Driven Manufacturing</span></h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -421,8 +455,8 @@
                                         <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-1.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>automation solutions</h3>
-                                        <p>Streamlining processes through cutting-edge technology.</p>
+                                        <h3>Regulatory Compliance</h3>
+                                        <p>Meeting global standards with FDA, EU, and Japan-compliant food-grade rubber components.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->
@@ -433,8 +467,8 @@
                                         <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-2.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>quality control</h3>
-                                        <p>Ensuring product excellence through rigorous testing.</p>
+                                        <h3>Global OEM Partnerships</h3>
+                                        <p> Supplying Tier 1 OEMs in the US and Europe with high-quality, precision-engineered rubber solutions.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->
@@ -447,8 +481,8 @@
                                         <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-3.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>process engineering</h3>
-                                        <p>Ensuring product excellence through rigorous testing.</p>
+                                        <h3>Advanced Material Science</h3>
+                                        <p>Expertise in rubber compound design ensures high performance and extra-long service life.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->
@@ -459,8 +493,8 @@
                                         <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-4.svg" alt="">
                                     </div>
                                     <div class="what-we-item-content">
-                                        <h3>product development</h3>
-                                        <p>Streamlining processes through cutting-edge technology.</p>
+                                        <h3>Proven Industry Expertise</h3>
+                                        <p> Led by a seasoned rubber science expert with decades of experience in process engineering.</p>
                                     </div>
                                 </div>
                                 <!-- What We Do Item End -->
@@ -505,7 +539,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">our work</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our successful project <span>initiatives</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Industries <span>we Serve</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -1010,7 +1044,7 @@
                 <div class="col-lg-7">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Stay updated with the latest trends, innovations, and expert insights in the manufacturing and industrial sectors</p>
+                        <p>Explore innovations, compliance, and performance in rubber manufacturing for food and industrial applications.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
