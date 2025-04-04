@@ -47,7 +47,7 @@
     --primary-color: #222222;
     --secondary-color: #f5f5f5;
     --text-color: #81848a;
-    --accent-color: #253984 /* #ff9900 */;
+    --accent-color: #2369f6 /* #ff9900 */;
     --white-color: #ffffff;
     --divider-color: #ebebeb;
     --dark-divider-color: #ffffff1a;
@@ -216,7 +216,7 @@ body {
     bottom: 0;
     width: 12px;
     height: 12px;
-    background-image: url("../images/arrow-white.svg");
+    background-image: url("https://html.awaikenthemes.com/toplax/images/arrow-white.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 24px auto;
@@ -302,7 +302,7 @@ body {
 }
 
 .btn-highlighted::before {
-    background-image: url("../images/arrow-dark.svg");
+    background-image: url("https://html.awaikenthemes.com/toplax/images/arrow-dark.svg");
 }
 
 .btn-highlighted:hover::before {
@@ -426,7 +426,8 @@ body {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background: url("../images/icon-sub-heading.svg") no-repeat;
+    background: url("https://html.awaikenthemes.com/toplax/images/icon-sub-heading.svg")
+        no-repeat;
     background-position: left center;
     background-size: cover;
     width: 16px;
@@ -434,7 +435,7 @@ body {
 }
 
 .section-title h1 {
-    font-size: 70px;
+    font-size: 52px;
     font-weight: 300;
     line-height: 1.2em;
     letter-spacing: -0.01em;
@@ -542,7 +543,7 @@ body {
 
 .topbar-contact-info ul li p {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     width: calc(100% - 60px);
     margin: 0;
@@ -550,6 +551,11 @@ body {
 
 .topbar-qoute-btn {
     line-height: 1em;
+    display: flex;
+    align-items: center;
+}
+#google_translate_element {
+    margin-left: 10px;
 }
 
 header.main-header {
@@ -871,7 +877,8 @@ header.main-header .header-sticky.active {
 .hero {
     padding: 150px 0 40px;
     position: relative;
-    background: url("../images/hero-bg.jpg") no-repeat;
+    background: url("https://html.awaikenthemes.com/toplax/images/hero-bg.jpg")
+        no-repeat;
     background-position: center center;
     background-size: cover;
 }
@@ -1015,7 +1022,8 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("../images/icon-check.svg") no-repeat center left;
+    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
+        no-repeat center left;
     background-size: cover;
 }
 
@@ -1025,7 +1033,8 @@ header.main-header .header-sticky.active {
 
 .about-us {
     padding: 100px 0;
-    background: url("../images/about-us-bg.svg") no-repeat;
+    background: url("https://html.awaikenthemes.com/toplax/images/about-us-bg.svg")
+        no-repeat;
     background-position: bottom left;
     background-size: auto;
 }
@@ -1119,7 +1128,8 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("../images/icon-check.svg") no-repeat center left;
+    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
+        no-repeat center left;
     background-size: cover;
 }
 
@@ -1135,7 +1145,7 @@ header.main-header .header-sticky.active {
 }
 
 .genuine-rating-counter .about-counter h2 {
-    background: url("../images/genuine-rating-counter-bg.jpg");
+    background: url("https://html.awaikenthemes.com/toplax/images/genuine-rating-counter-bg.jpg");
     background-size: cover;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1177,7 +1187,8 @@ header.main-header .header-sticky.active {
 .our-services {
     position: relative;
     padding: 100px 0 280px;
-    background: url("../images/our-service-bg.jpg") no-repeat center center;
+    background: url("https://html.awaikenthemes.com/toplax/images/our-service-bg.jpg")
+        no-repeat center center;
     background-size: cover;
 }
 
@@ -1216,6 +1227,7 @@ header.main-header .header-sticky.active {
     display: flex;
     flex-wrap: wrap;
     gap: 30px 60px;
+    justify-content: center;
 }
 
 .services-list-box .service-item {
@@ -1435,7 +1447,8 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .what-we-do {
-    background: url("../images/what-we-do-bg.svg"), var(--primary-color);
+    background: url("https://html.awaikenthemes.com/toplax/images/what-we-do-bg.svg"),
+        var(--primary-color);
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: auto;
@@ -1829,15 +1842,15 @@ header.main-header .header-sticky.active {
 }
 
 .pricing-box.box-1::before {
-    background-image: url("../images/icon-pricing-box-1.svg");
+    background-image: url("https://html.awaikenthemes.com/toplax/images/icon-pricing-box-1.svg");
 }
 
 .pricing-box.box-2::before {
-    background-image: url("../images/icon-pricing-box-2.svg");
+    background-image: url("https://html.awaikenthemes.com/toplax/images/icon-pricing-box-2.svg");
 }
 
 .pricing-box.box-3::before {
-    background-image: url("../images/icon-pricing-box-3.svg");
+    background-image: url("https://html.awaikenthemes.com/toplax/images/icon-pricing-box-3.svg");
 }
 
 .pricing-box.highlighted-box {
@@ -1917,7 +1930,8 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("../images/icon-check.svg") no-repeat center left;
+    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
+        no-repeat center left;
     background-size: cover;
 }
 
@@ -1960,7 +1974,8 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .our-testimonial {
-    background: url("../images/testimonial-bg.png"), var(--secondary-color);
+    background: url("https://html.awaikenthemes.com/toplax/images/testimonial-bg.png"),
+        var(--secondary-color);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2072,7 +2087,7 @@ header.main-header .header-sticky.active {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("../images/arrow-white.svg");
+    background: url("https://html.awaikenthemes.com/toplax/images/arrow-white.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 24px auto;
@@ -2343,7 +2358,8 @@ header.main-header .header-sticky.active {
 
 .page-header {
     position: relative;
-    background: url("../images/page-header-bg.jpg") no-repeat center center;
+    background: url("https://html.awaikenthemes.com/toplax/images/page-header-bg.jpg")
+        no-repeat center center;
     background-size: cover;
     padding: 150px 0;
 }
@@ -2416,7 +2432,7 @@ header.main-header .header-sticky.active {
 
 .mission-vision-bg {
     position: relative;
-    background: url("../images/our-service-bg.jpg");
+    background: url("https://html.awaikenthemes.com/toplax/images/our-service-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2544,7 +2560,8 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("../images/icon-check.svg") no-repeat center left;
+    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
+        no-repeat center left;
     background-size: cover;
 }
 
@@ -2654,7 +2671,8 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("../images/icon-check.svg") no-repeat center left;
+    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
+        no-repeat center left;
     background-size: cover;
 }
 
@@ -4476,7 +4494,8 @@ header.main-header .header-sticky.active {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    background: url("../images/arrow-dark.svg") no-repeat;
+    background: url("https://html.awaikenthemes.com/toplax/images/arrow-dark.svg")
+        no-repeat;
     background-position: right center;
     background-size: cover;
     width: 24px;
@@ -4762,7 +4781,7 @@ header.main-header .header-sticky.active {
     }
 
     .section-title h1 {
-        font-size: 54px;
+        font-size: 46px;
     }
 
     .section-title h2 {
