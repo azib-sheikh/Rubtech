@@ -73,9 +73,9 @@
                                 <li class="nav-item"><a class="nav-link" href="./">Home</a>
                                    
                                 </li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
                                 <li class="nav-item"><a class="nav-link" href="services.html">Our Products</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Industry We Serve</a></li>
+                                <li class="nav-item"><a class="nav-link" href="industries-we-serve">Industry We Serve</a></li>
                                 <li class="nav-item"><a class="nav-link" href="projects.html">Certificates & Awards</a></li>
                                 <li class="nav-item submenu"><a class="nav-link" href="#">Events</a>
                                     <ul>                                        
@@ -84,8 +84,8 @@
                                        
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Blogs</a></li>   
-                                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                             
+                                <li class="nav-item"><a class="nav-link" href="blog">Blogs</a></li>   
+                                 <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>                             
                             </ul>
                         </div>
 
