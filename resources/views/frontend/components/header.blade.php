@@ -74,7 +74,7 @@
                                    
                                 </li>                                
                                 <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Our Products</a></li>
+                                <li class="nav-item"><a class="nav-link" href="products">Our Products</a></li>
                                 <li class="nav-item"><a class="nav-link" href="industries-we-serve">Industry We Serve</a></li>
                                 <li class="nav-item"><a class="nav-link" href="projects.html">Certificates & Awards</a></li>
                                 <li class="nav-item submenu"><a class="nav-link" href="#">Events</a>

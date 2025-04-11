@@ -10,7 +10,7 @@
         <div class="hero-bg-video">
             <!-- Selfhosted Video Start -->
             <!-- <video autoplay muted loop id="myVideo"><source src="https://html.awaikenthemes.com/toplax/images/hero-bg-video.mp4" type="video/mp4"></video> -->
-            <video autoplay muted loop id="myVideo"><source src="https://demo.awaikenthemes.com/assets/videos/toplax-video.mp4" type="video/mp4"></video>
+            <video autoplay muted loop id="myVideo"><source src="{{asset("/videos/bannervideo.mp4")}}" type="video/mp4"></video>
             
             <!-- Selfhosted Video End -->
 
@@ -34,7 +34,7 @@
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                            <a href="/about" class="btn-default"><span>explore more</span></a>
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -67,7 +67,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="https://html.awaikenthemes.com/toplax/images/about-img-1.jpg" alt="">
+                                <img src="{{asset('/images/h-image-about.jpeg')}}" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -75,7 +75,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="https://html.awaikenthemes.com/toplax/images/about-img-2.jpg" alt="">
+                                <img src="{{asset('images/v-image-about.jpg')}}" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -107,30 +107,30 @@
                 
                         <div class="about-content-body">
                             <div class="row align-items-center">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <!-- About List Btn Box Start -->
                                     <div class="about-list-btn">
                                         <!-- About Content List Start -->
                                         <div class="about-content-list wow fadeInUp" data-wow-delay="0.5s">
                                             <ul>
-                                                <li>Certified Quality & Compliance </li>
-                                                <li>Precision Engineering</li>
-                                                <li>Innovative Material Science</li>
-                                                <li>Global Manufacturing Standards</li>
+                                                <li><b>Certified Quality & Compliance - </b>ISO 9001:2015 & GMP certified, compliant with US FDA 21 CFR 177.2600, EU EN 2002R0178, and JA9104 Japan Regulations. </li>
+                                                <li><b>Precision Engineering - </b>Expertly crafted rubber components designed for durability, efficiency, and extra-long service life.</li>
+                                                <li><b>Innovative Material Science - </b>Advanced rubber compound development ensuring superior performance and regulatory adherence.</li>
+                                                <li><b>Global Manufacturing Standards - </b>Supplying Tier 1 OEMs in the US and Europe with high-quality, food-safe rubber solutions.</li>
                                             </ul>
                                         </div>
                                         <!-- About Content List End -->
                 
                                         <!-- About Content Btn Start -->
                                         <div class="about-content-btn wow fadeInUp" data-wow-delay="0.75s">
-                                            <a href="about.html" class="btn-default"><span>learn more</span></a>
+                                            <a href="/about" class="btn-default"><span>learn more</span></a>
                                         </div>
                                         <!-- About Content Btn End -->
                                     </div>
                                     <!-- About List Btn Box End -->                                 
                                 </div>
                 
-                                <div class="col-md-6">
+                                {{-- <div class="col-md-6">
                                     <!-- About Content Counter Start -->
                                     <div class="genuine-rating-counter">
                                         <!-- About Counter Item Start -->
@@ -157,7 +157,7 @@
                                         <!-- About Counter Item End -->
                                     </div>
                                     <!-- About Content Counter End -->
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-1.svg" alt="">
+                                <img src="{{asset('/images/icons/sieve_cleaning_rubber_ball.png')}}" alt="">
                             </div>
 
                             <div class="service-body">
@@ -221,7 +221,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-2.svg" alt="">
+                                <img src="{{asset('/images/icons/rubber_cube.png')}}" alt="">
                             </div>
 
                             <div class="service-body">
@@ -239,7 +239,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-3.svg" alt="">
+                                <img src="{{asset('/images/icons/anti_vibration_mount.png')}}" alt="">
                             </div>
 
                             <div class="service-body">
@@ -257,7 +257,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-4.svg" alt="">
+                                <img src="{{asset('/images/icons/rubber_sleve.png')}}" alt="">
                             </div>
 
                             <div class="service-body">
@@ -274,7 +274,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-4.svg" alt="">
+                                <img src="{{asset('/images/icons/rubber_inspection_cap.png')}}" alt="">
                             </div>
 
                             <div class="service-body">
@@ -291,7 +291,7 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/toplax/images/icon-service-4.svg" alt="">
+                                <img src="{{asset('/images/icons/rubber_ring')}}" alt="">
                             </div>
 
                             <div class="service-body">
@@ -330,11 +330,11 @@
                     <!-- Our Story Header Image Start -->
                     <div class="our-story-header-img">
                         <figure class="reveal image-anime">
-                            <img src="https://html.awaikenthemes.com/toplax/images/our-story-header-img-1.jpg" alt="">
+                            <img src="{{asset('images/story-1.jpeg')}}" alt="">
                         </figure>
 
                         <figure class="reveal image-anime">
-                            <img src="https://html.awaikenthemes.com/toplax/images/our-story-header-img-2.jpg" alt="">
+                            <img src="{{asset('images/story-2.jpeg')}}" alt="">
                         </figure>
                     </div>
                     <!-- Our Story Header Image End -->
@@ -346,7 +346,7 @@
                     <!-- Our Story Image Start -->
                     <div class="our-story-img">
                         <figure class="reveal image-anime">
-                            <img src="https://html.awaikenthemes.com/toplax/images/our-story-img.jpg" alt="">
+                            <img src="{{asset('images/mining.jpg')}}" alt="">
                         </figure>
                     </div>
                     <!-- Our Story Image End -->
@@ -384,7 +384,7 @@
                         <!-- Our Story Intro Video Start -->
                         <div class="our-story-intro-video">
                             <!-- Our Story Client Image Start -->
-                            <div class="our-story-client-img">
+                            {{-- <div class="our-story-client-img">
                                 <!-- Client Image Start -->
                                 <div class="client-image">
                                     <figure class="image-anime reveal">
@@ -408,7 +408,7 @@
                                     </figure>
                                 </div>
                                 <!-- Client Image End -->
-                            </div>
+                            </div> --}}
                             <!-- Our Story Client Image End -->
 
                             <!-- Intro Video Box Start -->
@@ -452,7 +452,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-1.svg" alt="">
+                                        <img src="{{asset('images/icons/regulatory_complaince.png')}}" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>Regulatory Compliance</h3>
@@ -464,7 +464,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-2.svg" alt="">
+                                        <img src="{{asset('images/icons/global_oem_partenership.png')}}" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>Global OEM Partnerships</h3>
@@ -478,7 +478,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-3.svg" alt="">
+                                        <img src="{{asset('images/icons/advance_material_science.png')}}" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>Advanced Material Science</h3>
@@ -490,7 +490,7 @@
                                 <!-- What We Do Item Start -->
                                 <div class="what-we-do-item">
                                     <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-who-we-do-4.svg" alt="">
+                                        <img src="{{asset('images/icons/proven_industry_expense.png')}}" alt="">
                                     </div>
                                     <div class="what-we-item-content">
                                         <h3>Proven Industry Expertise</h3>
@@ -503,9 +503,9 @@
                         <!-- What We Do List Start -->
 
                         <!-- What We Do Footer Start -->
-                        <div class="what-we-do-footer">
+                       {{--  <div class="what-we-do-footer">
                             <p>Lorem ipsum is a placeholder text commonly used <span>to demonstrate</span></p>
-                        </div>
+                        </div> --}}
                         <!-- What We Do Footer End -->
                     </div>
                     <!-- What We Do Content End -->
@@ -515,7 +515,7 @@
                     <!-- What We Do Image Start -->
                     <div class="what-we-do-image">
                         <figure class="image-anime">
-                            <img src="https://html.awaikenthemes.com/toplax/images/what-we-do-image.jpg" alt="">
+                            <img src="{{asset('images/chooseus.jpg')}}" alt="">
                         </figure>
 
                         <!-- Contact Now Circle Start -->
@@ -559,11 +559,22 @@
                     <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
                             <li><a href="#" class="active-btn" data-filter="*">all</a></li>
-                            <li><a href="#" data-filter=".manufacturing">manufacturing</a></li>
-                            <li><a href="#" data-filter=".automation">automation</a></li>
-                            <li><a href="#" data-filter=".sustainability">sustainability</a></li>
-                            <li><a href="#" data-filter=".development">development</a></li>
-                            <li><a href="#" data-filter=".infrastructure">infrastructure</a></li>
+                            <li><a href="#" data-filter=".flour">Flour</a></li>
+                            <li><a href="#" data-filter=".mineral">Mineral</a></li>
+                            <li><a href="#" data-filter=".oil">Edible Oil</a></li>
+                            <li><a href="#" data-filter=".cement">Cement & Mortar</a></li>
+                            <li><a href="#" data-filter=".pharma">Pharmaceuticals</a></li>
+                             <li><a href="#" data-filter=".salt">Salt</a></li>
+
+                              <li><a href="#" data-filter=".sugar">Sugar</a></li>
+                               <li><a href="#" data-filter=".rice">Rice Milling</a></li>
+                                <li><a href="#" data-filter=".cereal">Cereal</a></li>
+                                 <li><a href="#" data-filter=".coffee">Coffee</a></li>
+                                  <li><a href="#" data-filter=".guargum">Guar Gum</a></li>
+                                   <li><a href="#" data-filter=".malt">Malt</a></li>
+                                    <li><a href="#" data-filter=".millet">Millet</a></li>
+                                     <li><a href="#" data-filter=".powder">Powder</a></li>
+                                     <li><a href="#" data-filter=".spices">Spices</a></li>
                         </ul>
                     </div>
                     <!-- Choose Our Project Nav End -->
@@ -572,82 +583,270 @@
                 <div class="col-lg-12">
                     <!-- Project Item Boxes start -->
                     <div class="row project-item-boxes align-items-center">
-                        <div class="col-md-6 project-item-box manufacturing automation">
+                        <div class="col-md-4 project-item-box flour">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/project-1.jpg" alt="">
+                                        <img src="{{asset('images/industry/flour.jpg')}}" alt="">
                                     </figure>
                                 </div>                                
                                 
                                 <div class="project-tag">
-                                    <a href="project-single.html">manufacturing</a>
+                                    <a href="project-single.html">Flour</a>
                                 </div>
                                 
-                                <div class="project-content">
-                                    <h3><a href="project-single.html">Total Quality Management Implementation</a></h3>
-                                </div>
+                                
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-6 project-item-box automation sustainability development infrastructure">
+                        <div class="col-md-4 project-item-box mineral">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/project-2.jpg" alt="">
+                                        <img src="{{asset('images/industry/mineral.jpeg')}}" alt="">
                                     </figure>
                                 </div>                                
                                 
                                 <div class="project-tag">
-                                    <a href="project-single.html">automation</a>
+                                    <a href="project-single.html">Mineral</a>
                                 </div>
                                 
-                                <div class="project-content">
-                                    <h3><a href="project-single.html">Advanced Research in Materials Sciences</a></h3>
-                                </div>
+                                
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-6 project-item-box sustainability infrastructure">
+                        <div class="col-md-4 project-item-box oil">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/project-3.jpg" alt="">
+                                        <img src="{{asset('images/industry/oil.jpg')}}" alt="">
                                     </figure>
                                 </div>                                
                                 
                                 <div class="project-tag">
-                                    <a href="project-single.html">sustainability</a>
+                                    <a href="project-single.html">Edible Oil</a>
                                 </div>
                                 
-                                <div class="project-content">
-                                    <h3><a href="project-single.html">Workplace Safety Enhancement Initiative</a></h3>
-                                </div>
+                               
                             </div>
                             <!-- Project Item End -->
                         </div>
 
-                        <div class="col-md-6 project-item-box manufacturing development">
+                        <div class="col-md-4 project-item-box cement">
                             <!-- Project Item Start -->
                             <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="project-image">
                                     <figure class="image-anime">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/project-4.jpg" alt="">
+                                        <img src="{{asset('images/industry/CEMENT.png')}}" alt="">
                                     </figure>
                                 </div>                                
                                 
                                 <div class="project-tag">
-                                    <a href="project-single.html">infrastructure</a>
+                                    <a href="project-single.html">Cement & Mortar </a>
                                 </div>
                                 
-                                <div class="project-content">
-                                    <h3><a href="project-single.html">Robotic Process Automation Deployment</a></h3>
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box pharma">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/malt.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Pharmaceuticals </a>
                                 </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box salt">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/salt.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Salt </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box sugar">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/sugar.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Sugar</a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box rice">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/rice-milling.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Rice Milling </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box cereal">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/cereal.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Cereal </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box coffee">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/coffe.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Coffee</a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box guargum">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/guar-gum.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Guar Gum </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box malt">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/malt.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Malt </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                             <div class="col-md-4 project-item-box millet">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/flour-2.png')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Millet </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                         <div class="col-md-4 project-item-box powder">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/powder.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Powder </a>
+                                </div>
+                                
+                               
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-4 project-item-box spices">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="{{asset('images/industry/Spices.jpg')}}" alt="">
+                                    </figure>
+                                </div>                                
+                                
+                                <div class="project-tag">
+                                    <a href="project-single.html">Spices </a>
+                                </div>
+                                
+                               
                             </div>
                             <!-- Project Item End -->
                         </div>
