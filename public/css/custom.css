@@ -589,7 +589,7 @@ header.main-header .header-sticky.active {
 .navbar {
     padding: 10px 0px;
     align-items: center;
-    background: var(--primary-color);
+    background: var(--accent-color);
 }
 
 .main-header .header-sticky.active-sticky-header.hide .navbar {
@@ -645,7 +645,8 @@ header.main-header .header-sticky.active {
 
 .main-menu ul li .nav-link:hover,
 .main-menu ul li .nav-link:focus {
-    color: var(--accent-color);
+    color: var(--white-color);
+    transform: scale(1.1);
 }
 
 .main-menu ul ul {
@@ -734,16 +735,20 @@ header.main-header .header-sticky.active {
 }
 
 .header-social-links ul li a {
-    color: var(--accent-color);
+    color: var(--white-color);
     transition: all 0.3s ease-in-out;
 }
 
 .header-social-links ul li:hover a {
     color: var(--white-color);
 }
+.header-social-links ul li a i:hover {
+    transform: scale(1.2);
+}
 
 .header-social-links ul li a i {
     font-size: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 .responsive-menu,
@@ -875,7 +880,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .hero {
-    padding: 150px 0 40px;
+    padding: 70px 0 70px;
     position: relative;
     background: url("https://html.awaikenthemes.com/toplax/images/hero-bg.jpg")
         no-repeat;
@@ -893,8 +898,8 @@ header.main-header .header-sticky.active {
     right: 0;
     background: linear-gradient(
         270deg,
-        transparent 42.92%,
-        rgba(0, 0, 0, 0.5) 100%
+        rgba(0, 0, 0, 0.7) 20%,
+        rgba(0, 0, 0, 0.7) 100%
     );
     width: 100%;
     height: 100%;
@@ -989,6 +994,9 @@ header.main-header .header-sticky.active {
     position: relative;
     z-index: 1;
 }
+.hero-video .excellence-innovating-list {
+    display: none;
+}
 
 .excellence-innovating-list {
     position: relative;
@@ -1022,8 +1030,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
-        no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 
@@ -1128,8 +1135,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
-        no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 
@@ -1231,7 +1237,7 @@ header.main-header .header-sticky.active {
 }
 
 .services-list-box .service-item {
-    width: calc(25% - 45px);
+    width: calc(33.33% - 45px);
     position: relative;
 }
 
@@ -1247,7 +1253,7 @@ header.main-header .header-sticky.active {
     border-right: 1px solid var(--divider-color);
 }
 
-.services-list-box .service-item:nth-child(4n + 4):after {
+.services-list-box .service-item:nth-child(3n + 3):after {
     display: none;
 }
 
@@ -1930,8 +1936,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
-        no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 
@@ -2298,7 +2303,7 @@ header.main-header .header-sticky.active {
 }
 
 .footer-social-links ul li a i {
-    color: var(--accent-color);
+    color: var(--white-color);
     font-size: 18px;
     transition: all 0.3s ease-in-out;
 }
@@ -2560,8 +2565,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
-        no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 
@@ -2671,8 +2675,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url("https://html.awaikenthemes.com/toplax/images/icon-check.svg")
-        no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 
