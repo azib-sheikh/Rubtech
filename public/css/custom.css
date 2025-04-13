@@ -47,7 +47,7 @@
     --primary-color: #222222;
     --secondary-color: #f5f5f5;
     --text-color: #81848a;
-    --accent-color: #2369f6 /* #ff9900 */;
+    --accent-color: #253984 /* #ff9900 */;
     --white-color: #ffffff;
     --divider-color: #ebebeb;
     --dark-divider-color: #ffffff1a;
@@ -268,7 +268,7 @@ body {
 
 .btn-default:hover span {
     background-color: transparent;
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .btn-default span::after {
@@ -426,8 +426,7 @@ body {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    background: url("https://html.awaikenthemes.com/toplax/images/icon-sub-heading.svg")
-        no-repeat;
+    background: url("/images/icons/gear.png") no-repeat;
     background-position: left center;
     background-size: cover;
     width: 16px;
@@ -1074,9 +1073,10 @@ header.main-header .header-sticky.active {
 
 .about-img-2 img {
     border: 10px solid var(--white-color);
-    aspect-ratio: 1 / 1.22;
+    aspect-ratio: 1 / 1.5;
     object-fit: cover;
     border-radius: 40px;
+    max-width: 400px;
 }
 
 .company-experience {
@@ -1193,8 +1193,7 @@ header.main-header .header-sticky.active {
 .our-services {
     position: relative;
     padding: 100px 0 280px;
-    background: url("https://html.awaikenthemes.com/toplax/images/our-service-bg.jpg")
-        no-repeat center center;
+    background: url("/images/services.jpeg") no-repeat center center;
     background-size: cover;
 }
 
@@ -1579,7 +1578,7 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .our-work {
-    padding: 100px 0 60px;
+    padding: 100px 0 120px;
 }
 
 .our-Project-nav {
@@ -1707,7 +1706,80 @@ header.main-header .header-sticky.active {
 .project-content h3 a {
     color: inherit;
 }
+.industry-image img {
+    width: 100%;
+    aspect-ratio: 1 / 0.7;
+    object-fit: cover;
+    border-radius: 40px;
+    transition: all 0.4s ease-in-out;
+}
+.industry-image .project-tag {
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    color: var(--white-color);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1em;
+    text-transform: capitalize;
+    padding: 10px 12px;
+    overflow: hidden;
+    background-color: var(--accent-color);
+}
+.industry-button-next,
+.industry-button-prev {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    background: var(--accent-color);
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
 
+.industry-button-next:hover,
+.industry-button-prev:hover {
+    background: var(--primary-color);
+}
+
+.industry-button-next::before,
+.industry-button-prev::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://html.awaikenthemes.com/toplax/images/arrow-white.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 24px auto;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.industry-button-prev::before {
+    transform: rotate(225deg);
+}
+
+.industry-button-next:hover:before,
+.industry-button-prev:hover:before {
+    color: var(--primary-color);
+}
+.industry-btn {
+    position: relative;
+    transform: translateY(-175px);
+}
+.industry-button-next {
+    position: absolute;
+    right: -80px;
+}
+.industry-button-prev {
+    position: absolute;
+    left: -80px;
+}
 /************************************/
 /***      10. Our Process css     ***/
 /************************************/
@@ -2220,7 +2292,8 @@ header.main-header .header-sticky.active {
 /************************************/
 
 .main-footer {
-    background: url(../images/footer-bg.svg), var(--primary-color);
+    background: url("https://html.awaikenthemes.com/toplax/images/footer-bg.svg"),
+        var(--primary-color);
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: auto;
@@ -2366,7 +2439,7 @@ header.main-header .header-sticky.active {
     background: url("https://html.awaikenthemes.com/toplax/images/page-header-bg.jpg")
         no-repeat center center;
     background-size: cover;
-    padding: 150px 0;
+    padding: 90px 0;
 }
 
 .page-header::before {
@@ -3167,7 +3240,7 @@ header.main-header .header-sticky.active {
 
 .sidebar-cta-box {
     position: relative;
-    background-image: url(../images/sidebar-cta-bg-img.jpg);
+    background-image: url("https://html.awaikenthemes.com/toplax/images/sidebar-cta-bg-img.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -4357,6 +4430,10 @@ header.main-header .header-sticky.active {
     object-fit: cover;
     border-radius: 20px;
 }
+.box-shadow {
+    box-shadow: 0px 0px 10px 5px var(--accent-color);
+    margin: 20px;
+}
 
 /************************************/
 /***     27. Video Gallery css    ***/
@@ -5006,7 +5083,7 @@ header.main-header .header-sticky.active {
     }
 
     .our-work {
-        padding: 50px 0 20px;
+        padding: 50px 0 50px;
     }
 
     .project-item {
@@ -6453,4 +6530,13 @@ header.main-header .header-sticky.active {
     .google-map-iframe iframe {
         height: 350px;
     }
+}
+
+#contact-tab .nav-link {
+    color: var(--accent-color);
+}
+#contact-tab .nav-link.active,
+#contact-tab .show > .nav-link {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
