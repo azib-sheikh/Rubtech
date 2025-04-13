@@ -20,3 +20,15 @@ Route::get('blog', function () {
 Route::get('products', function () {
     return view('frontend.pages.products');
 });
+Route::get('certificate-awards', function () {
+    return view('frontend.pages.certificates');
+});
+Route::get('image-gallery', function () {
+    return view('frontend.pages.image-gallery');
+});
+Route::get('video-gallery', function () {
+    return view('frontend.pages.video-gallery');
+});
+Route::get('single', function () {
+    return view('frontend.pages.single');
+});
