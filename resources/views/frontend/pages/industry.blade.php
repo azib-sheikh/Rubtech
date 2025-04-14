@@ -59,7 +59,7 @@ Industry we serve
                 <div class="row project-item-boxes align-items-center">
 
 
-                    <div class="col-md-4 project-item-box flour">
+                    <div class="col-md-6 project-item-box flour">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp">
                             <div class="project-image">
@@ -69,7 +69,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Flour</a>
+                                <a href="/single-industry">Flour</a>
                             </div>
 
 
@@ -77,17 +77,17 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box mineral">
+                    <div class="col-md-6 project-item-box mineral">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="project-image">
                                 <figure class="image-anime">
-                                    <img src="{{asset('images/industry/mineral.jpeg')}}" alt="">
+                                    <img src="{{asset('images/mining.jpg')}}" alt="">
                                 </figure>
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Mineral</a>
+                                <a href="/single-industry">Mineral</a>
                             </div>
 
 
@@ -95,7 +95,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box oil">
+                    <div class="col-md-6 project-item-box oil">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="project-image">
@@ -105,7 +105,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Edible Oil</a>
+                                <a href="/single-industry">Edible Oil</a>
                             </div>
 
 
@@ -113,7 +113,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box cement">
+                    <div class="col-md-6 project-item-box cement">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -123,7 +123,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Cement & Mortar </a>
+                                <a href="/single-industry">Cement & Mortar </a>
                             </div>
 
 
@@ -131,7 +131,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box pharma">
+                    <div class="col-md-6 project-item-box pharma">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -141,7 +141,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Pharmaceuticals </a>
+                                <a href="/single-industry">Pharmaceuticals </a>
                             </div>
 
 
@@ -149,7 +149,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box salt">
+                    <div class="col-md-6 project-item-box salt">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -159,7 +159,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Salt </a>
+                                <a href="/single-industry">Salt </a>
                             </div>
 
 
@@ -167,7 +167,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box sugar">
+                    <div class="col-md-6 project-item-box sugar">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -177,7 +177,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Sugar</a>
+                                <a href="/single-industry">Sugar</a>
                             </div>
 
 
@@ -185,7 +185,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box rice">
+                    <div class="col-md-6 project-item-box rice">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -195,7 +195,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Rice Milling </a>
+                                <a href="/single-industry">Rice Milling </a>
                             </div>
 
 
@@ -203,7 +203,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box cereal">
+                    <div class="col-md-6 project-item-box cereal">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -213,7 +213,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Cereal </a>
+                                <a href="/single-industry">Cereal </a>
                             </div>
 
 
@@ -221,7 +221,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box coffee">
+                    <div class="col-md-6 project-item-box coffee">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -231,7 +231,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Coffee</a>
+                                <a href="/single-industry">Coffee</a>
                             </div>
 
 
@@ -239,7 +239,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box guargum">
+                    <div class="col-md-6 project-item-box guargum">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -249,7 +249,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Guar Gum </a>
+                                <a href="/single-industry">Guar Gum </a>
                             </div>
 
 
@@ -257,7 +257,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box malt">
+                    <div class="col-md-6 project-item-box malt">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -267,14 +267,14 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Malt </a>
+                                <a href="/single-industry">Malt </a>
                             </div>
 
 
                         </div>
                         <!-- Project Item End -->
                     </div>
-                    <div class="col-md-4 project-item-box millet">
+                    <div class="col-md-6 project-item-box millet">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -284,7 +284,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Millet </a>
+                                <a href="/single-industry">Millet </a>
                             </div>
 
 
@@ -292,7 +292,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-4 project-item-box powder">
+                    <div class="col-md-6 project-item-box powder">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -302,14 +302,14 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Powder </a>
+                                <a href="/single-industry">Powder </a>
                             </div>
 
 
                         </div>
                         <!-- Project Item End -->
                     </div>
-                    <div class="col-md-4 project-item-box spices">
+                    <div class="col-md-6 project-item-box spices">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -319,7 +319,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="project-single.html">Spices </a>
+                                <a href="/single-industry">Spices </a>
                             </div>
 
 

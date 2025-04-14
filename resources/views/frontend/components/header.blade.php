@@ -43,7 +43,7 @@
                     </ul>
                     <!-- Topbar Qoute Button Start -->
                     <div class="topbar-qoute-btn">
-                        <a href="/contact" class="btn-default"><span>Enquire Now</span></a>
+                        <a href="/contact" class="btn-default"><span>Get A Free Sample</span></a>
                         <div id="google_translate_element"></div>
                     </div>
                     <!-- Topbar Qoute Button End -->

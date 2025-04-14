@@ -598,7 +598,7 @@ Home Page
                 <div class="swiper-slide industry-image">
                     <a href="#">
                         <figure class="image-anime">
-                            <img src="{{asset('images/industry/mineral.jpeg')}}" alt="">
+                            <img src="{{asset('images/industry/mining.jpeg')}}" alt="">
                         </figure>
                         <div class="project-tag">
                             Mineral

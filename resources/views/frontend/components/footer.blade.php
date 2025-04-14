@@ -15,7 +15,7 @@
 
                     <!-- Footer Contact Circle Start -->
                     <div class="footer-contact-circle">
-                        <a href="contact.html" class="btn-default"><span>Get a quote</span></a>
+                        <a href="contact.html" class="btn-default"><span>Download Brochure</span></a>
                     </div>
                     <!-- Footer Contact Circle End -->
                 </div>
