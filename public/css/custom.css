@@ -3982,7 +3982,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url(../images/icon-check.svg) no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 
@@ -6539,4 +6539,16 @@ header.main-header .header-sticky.active {
 #contact-tab .show > .nav-link {
     color: var(--white-color);
     background-color: var(--accent-color);
+}
+.product-tag {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: var(--accent-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    padding: 6px 20px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 15px;
 }

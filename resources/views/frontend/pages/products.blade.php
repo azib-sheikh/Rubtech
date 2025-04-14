@@ -45,11 +45,11 @@ Our Products
                             </div>
 
                             <div class="project-tag d-none">
-                                <a href="project-single.html">manufacturing</a>
+                                <a href="/single-product">manufacturing</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">BARREL SHAPE RUBBER CLEANER</a></h3>
+                                <h3><a href="/single-product">BARREL SHAPE RUBBER CLEANER</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -65,11 +65,11 @@ Our Products
                             </div>
 
                             <div class="project-tag d-none">
-                                <a href="project-single.html">automation</a>
+                                <a href="/single-product">automation</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">16MM SIEVE CLEANING</a></h3>
+                                <h3><a href="/single-product">16MM SIEVE CLEANING</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -85,11 +85,11 @@ Our Products
                             </div>
 
                             <div class="project-tag d-none">
-                                <a href="project-single.html">automation</a>
+                                <a href="/single-product">automation</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">24MM SIEVE CLEANING RUBBER BALLS</a></h3>
+                                <h3><a href="/single-product">24MM SIEVE CLEANING RUBBER BALLS</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->
@@ -105,11 +105,11 @@ Our Products
                             </div>
 
                             <div class="project-tag d-none">
-                                <a href="project-single.html">development</a>
+                                <a href="/single-product">development</a>
                             </div>
 
                             <div class="project-content">
-                                <h3><a href="project-single.html">25MM SIEVE CLEANING RUBBER BALLS</a></h3>
+                                <h3><a href="/single-product">25MM SIEVE CLEANING RUBBER BALLS</a></h3>
                             </div>
                         </div>
                         <!-- Project Item End -->

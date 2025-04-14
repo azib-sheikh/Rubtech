@@ -32,3 +32,9 @@ Route::get('video-gallery', function () {
 Route::get('single', function () {
     return view('frontend.pages.single');
 });
+Route::get('single-product', function () {
+    return view('frontend.pages.single-product');
+});
+Route::get('single-industry', function () {
+    return view('frontend.pages.single-industry');
+});
