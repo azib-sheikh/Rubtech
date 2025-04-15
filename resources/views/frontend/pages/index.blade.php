@@ -598,7 +598,7 @@ Home Page
                 <div class="swiper-slide industry-image">
                     <a href="#">
                         <figure class="image-anime">
-                            <img src="{{asset('images/industry/mining.jpeg')}}" alt="">
+                            <img src="{{asset('images/mining.jpg')}}" alt="">
                         </figure>
                         <div class="project-tag">
                             Mineral
@@ -1020,7 +1020,7 @@ Home Page
                                             </div>
                                             <div class="author-content">
                                                 <h3>M SALIM Junakiya</h3>
-                                                <p>Contractor</p>
+                                                <p>Manufacturer</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1054,7 +1054,7 @@ Home Page
                                             </div>
                                             <div class="author-content">
                                                 <h3>Vipin Kumar</h3>
-                                                <p>senior engineer</p>
+                                                <p>Machine manufacturer</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1165,8 +1165,8 @@ Home Page
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure>
-                            <a href="blog-single.html" class="image-anime" data-cursor-text="View">
-                                <img src="https://html.awaikenthemes.com/toplax/images/blog-1.jpg" alt="">
+                            <a href="/single" class="image-anime" data-cursor-text="View">
+                                <img src="{{asset('images/fda.jpeg')}}" alt="">
                             </a>
                         </figure>
                     </div>
@@ -1176,15 +1176,15 @@ Home Page
                     <div class="post-item-body">
                         <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h2><a href="blog-single.html">Sustainable Practices Reducing Waste in Industrial
-                                    Production</a></h2>
+                            <h2><a href="/single">Importance of FDA-Compliant Rubber Components in Food Processing</a>
+                            </h2>
                         </div>
                         <!-- Post Item Content End -->
 
                         <!-- Post Item Button Start -->
                         <div class="post-item-btn">
-                            <a href="blog-single.html"><img
-                                    src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg" alt=""></a>
+                            <a href="/single"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg"
+                                    alt=""></a>
                         </div>
                         <!-- Post Item Button End -->
                     </div>
@@ -1199,8 +1199,8 @@ Home Page
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure>
-                            <a href="blog-single.html" class="image-anime" data-cursor-text="View">
-                                <img src="https://html.awaikenthemes.com/toplax/images/blog-2.jpg" alt="">
+                            <a href="/single" class="image-anime" data-cursor-text="View">
+                                <img src="{{asset('images/fda.jpeg')}}" alt="">
                             </a>
                         </figure>
                     </div>
@@ -1210,14 +1210,15 @@ Home Page
                     <div class="post-item-body">
                         <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h2><a href="blog-single.html">Advance Robotics Revolutionizing Industrial Workflow</a></h2>
+                            <h2><a href="/single">Importance of FDA-Compliant Rubber Components in Food
+                                    Processing</a></h2>
                         </div>
                         <!-- Post Item Content End -->
 
                         <!-- Post Item Button Start -->
                         <div class="post-item-btn">
-                            <a href="blog-single.html"><img
-                                    src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg" alt=""></a>
+                            <a href="/single"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg"
+                                    alt=""></a>
                         </div>
                         <!-- Post Item Button End -->
                     </div>

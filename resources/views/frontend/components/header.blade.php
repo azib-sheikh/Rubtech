@@ -2,7 +2,7 @@
 <div class="preloader">
     <div class="loading-container">
         <div class="loading"></div>
-        <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+        <div id="loading-icon"><img src="{{asset('images/rubtech-logo.png')}}" alt=""></div>
     </div>
 </div>
 <!-- Preloader End -->
@@ -73,12 +73,21 @@
                             <li class="nav-item"><a class="nav-link" href="./">Home</a>
 
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                            <li class="nav-item submenu"><a class="nav-link" href="/about">About Us</a>
+                                <ul>
+                                    <li class="nav-item"><a class="nav-link" href="/ceo-message">CEO Message</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="/certificate-awards">Certificates &
+                                            Awards</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/research-and-development">R & D</a>
+                                    </li>
+
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="products">Our Products</a></li>
                             <li class="nav-item"><a class="nav-link" href="industries-we-serve">Industry We Serve</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="/certificate-awards">Certificates &
-                                    Awards</a></li>
+
                             <li class="nav-item submenu"><a class="nav-link" href="#">Gallery</a>
                                 <ul>
                                     <li class="nav-item"><a class="nav-link" href="/image-gallery">Image
@@ -98,9 +107,15 @@
                         <!-- Header Social Links Start -->
                         <div class="header-social-links">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCKJXISzn9dYuLxDZb6Ssiag"><i
+                                            class="fa-brands fa-youtube"></i></a></li>
+                                <li><a
+                                        href="https://www.facebook.com/people/Rubtech-Mech/pfbid026haTZ3D83Y2vYmEQjb2fTL8MgEPsti1BbTfmnHdVwsG6Qv7uSaSeiSGDocdJPR8Pl/"><i
+                                            class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/rubtechmech/"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li><a style="font-size: 20px" href="https://api.whatsapp.com/send/?phone=9599002161"><i
+                                            class="fa-brands fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                         <!-- Header Social Links End -->

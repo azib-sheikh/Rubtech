@@ -4,7 +4,7 @@ Industry we serve
 @endpush
 @section('content')
 <!-- Page Header Start -->
-<div class="page-header parallaxie">
+<div class="page-header industries parallaxie">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -314,7 +314,7 @@ Industry we serve
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
                                 <figure class="image-anime">
-                                    <img src="{{asset('images/industry/Spices.jpg')}}" alt="">
+                                    <img src="{{asset('images/industry/spices.jpg')}}" alt="">
                                 </figure>
                             </div>
 

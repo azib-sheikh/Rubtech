@@ -38,3 +38,9 @@ Route::get('single-product', function () {
 Route::get('single-industry', function () {
     return view('frontend.pages.single-industry');
 });
+Route::get('ceo-message', function () {
+    return view('frontend.pages.promoter-message');
+});
+Route::get('research-and-development', function () {
+    return view('frontend.pages.randd');
+});
