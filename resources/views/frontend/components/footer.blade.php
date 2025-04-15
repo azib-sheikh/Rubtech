@@ -15,7 +15,8 @@
 
                     <!-- Footer Contact Circle Start -->
                     <div class="footer-contact-circle">
-                        <a href="contact.html" class="btn-default"><span>Download Brochure</span></a>
+                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="javascript:void(0)"
+                            class="btn-default"><span>Download Brochure</span></a>
                     </div>
                     <!-- Footer Contact Circle End -->
                 </div>
@@ -42,10 +43,15 @@
                     <!-- Footer Social Link Start -->
                     <div class="footer-social-links">
                         <ul>
-                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCKJXISzn9dYuLxDZb6Ssiag"><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/rubtech-mech-gurgaon"><i
+                                        class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a
+                                    href="https://www.facebook.com/people/Rubtech-Mech/pfbid026haTZ3D83Y2vYmEQjb2fTL8MgEPsti1BbTfmnHdVwsG6Qv7uSaSeiSGDocdJPR8Pl/"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/rubtechmech/"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
                     <!-- Footer Social Link End -->
@@ -86,9 +92,9 @@
                 <div class="footer-links">
                     <h3>Contact</h3>
                     <ul>
-                        <li>+91 123654789</li>
-                        <li>info@domainname.com</li>
-                        <li>520, West Valley, Amin and minim</li>
+                        <li>+91-9717599905</li>
+                        <li>enquiry@rubtechmech.in</li>
+                        <li>Plot No. 896, Udyog Vihar Phase 1, Gurgaon (Haryana), India, 122016</li>
                     </ul>
                 </div>
                 <!-- Footer Links End -->
@@ -122,3 +128,56 @@
     </script>
 </footer>
 <!-- Footer End -->
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-5" id="staticBackdropLabel">Download Brochure</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="contact-form">
+                    <!-- Contact Form Start -->
+                    <form id="contactForm" action="#" method="POST" data-toggle="validator">
+                        <div class="row">
+                            <div class="form-group col-md-6 mb-4">
+                                <input type="text" name="fname" class="form-control" id="fname"
+                                    placeholder="Enter first name" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group col-md-6 mb-4">
+                                <input type="text" name="lname" class="form-control" id="lname"
+                                    placeholder="Enter last name" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group col-md-12 mb-4">
+                                <input type="email" name="email" class="form-control" id="email"
+                                    placeholder="Enter your e-mail" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group col-md-12 mb-4">
+                                <input type="text" name="phone" class="form-control" id="phone"
+                                    placeholder="Enter your phone no." required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+
+
+                            <div class="col-md-12">
+                                <button type="submit" class="btn-default"><span>submit message</span></button>
+                                <div id="msgSubmit" class="h3 hidden"></div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Contact Form End -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

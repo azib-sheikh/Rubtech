@@ -197,7 +197,7 @@ Contact
                 <!-- Page Contact Form Start -->
                 <div class="contact-us-form">
                     <div class="section-title">
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Contact <span>me</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Contact <span>Us</span></h2>
                     </div>
 
                     <div class="contact-form">
@@ -259,8 +259,9 @@ Contact
                 <!-- Google Map Start -->
                 <div class="google-map-iframe">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d321772.163152393!2d77.031839!3d28.573633!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1744685409563!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <!-- Google Map End -->
             </div>

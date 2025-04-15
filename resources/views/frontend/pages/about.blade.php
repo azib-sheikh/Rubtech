@@ -4,7 +4,7 @@ About
 @endpush
 @section('content')
 <!-- Page Header Start -->
-<div class="page-header parallaxie">
+<div class="page-header about-us parallaxie">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -565,122 +565,17 @@ About
 </div>
 <!-- Our History Section End -->
 
-<!-- What We Do Start -->
-<div class="what-we-do">
-    <div class="container-fluid">
-        <div class="row no-gutters">
-            <div class="col-lg-6">
-                <!-- What We Do Content Start -->
-                <div class="what-we-do-content">
-                    <!-- Section Title Start -->
-                    <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">Why Choose us?</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Precision Engineering &
-                                Compliance-Driven Manufacturing</span></h2>
-                    </div>
-                    <!-- Section Title End -->
 
-                    <!-- What We Do List Start -->
-                    <div class="what-we-do-list">
-                        <div class="what-we-do-list-box-1">
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/regulatory_complaince.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Regulatory Compliance</h3>
-                                    <p>Meeting global standards with FDA, EU, and Japan-compliant food-grade rubber
-                                        components.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/global_oem_partenership.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Global OEM Partnerships</h3>
-                                    <p> Supplying Tier 1 OEMs in the US and Europe with high-quality,
-                                        precision-engineered rubber solutions.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-                        </div>
-
-                        <div class="what-we-do-list-box-2">
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/advance_material_science.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Advanced Material Science</h3>
-                                    <p>Expertise in rubber compound design ensures high performance and extra-long
-                                        service life.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/proven_industry_expense.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Proven Industry Expertise</h3>
-                                    <p> Led by a seasoned rubber science expert with decades of experience in process
-                                        engineering.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-                        </div>
-                    </div>
-                    <!-- What We Do List Start -->
-
-                    <!-- What We Do Footer Start -->
-                    {{-- <div class="what-we-do-footer">
-                        <p>Lorem ipsum is a placeholder text commonly used <span>to demonstrate</span></p>
-                    </div> --}}
-                    <!-- What We Do Footer End -->
-                </div>
-                <!-- What We Do Content End -->
-            </div>
-
-            <div class="col-lg-6">
-                <!-- What We Do Image Start -->
-                <div class="what-we-do-image">
-                    <figure class="image-anime">
-                        <img src="{{asset('images/why-us.jpeg')}}" alt="">
-                    </figure>
-
-                    <!-- Contact Now Circle Start -->
-                    <div class="contact-now-circle">
-                        <a href="/contact">
-                            <img src="{{asset('images/icons/roundbox.svg')}}" alt="">
-                        </a>
-                    </div>
-                    <!-- Contact Now Circle End -->
-                </div>
-                <!-- What We Do Image End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- What We Do End -->
 
 <!-- Our Features Section Start -->
-<div class="our-features">
+<div class="our-features ">
     <div class="container">
         <div class="row section-row align-items-center">
             <div class="col-lg-6">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">our key feature</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Core strengths in <span>industrial
-                            innovation</span></h2>
+
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Why <span>Choose Us</span></h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -688,8 +583,7 @@ About
             <div class="col-lg-6">
                 <!-- Section Title Content Start -->
                 <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                    <p>Our expertise in industrial innovation combines advanced technology, sustainable practices, and a
-                        skilled workforce to deliver efficient, future-ready solutions that drive industry progress.</p>
+                    <p>A one stop source for overseas businesses to easily and effectively find, connect processes</p>
                 </div>
                 <!-- Section Title Content End -->
             </div>
@@ -704,9 +598,12 @@ About
                         <img src="https://html.awaikenthemes.com/toplax/images/icon-features-1.svg" alt="">
                     </div>
                     <div class="features-item-content">
-                        <h3>Advanced Technology Integration</h3>
-                        <p>We integrate cutting-edge technologies into every aspect of our operations, enhancing
-                            efficiency, precision, and innovation to deliver superior industrial solutions.</p>
+                        <h3>Quality</h3>
+                        <p>Sieving can be an interesting option in order to identify and create different valuable
+                            products starting from a bulk
+                            ingredient. Particle dimensions can play a role in food, metal powder, construction and many
+                            other industries, where
+                            each product extracted from bulk can correspond to a different market opportunity.</p>
                     </div>
                 </div>
                 <!-- Our Features Item End -->
@@ -717,9 +614,14 @@ About
                         <img src="https://html.awaikenthemes.com/toplax/images/icon-features-2.svg" alt="">
                     </div>
                     <div class="features-item-content">
-                        <h3>Uncompromising Quality Standards</h3>
-                        <p>We uphold the highest quality standards across all processes, ensuring consistency,
-                            reliability, and excellence in every product and service we deliver.</p>
+                        <h3>Safety</h3>
+                        <p>Sieving is required in order to make sure that undesired particles are not entering together
+                            with main product into
+                            production cycle. In specific industries like food, this application follows law
+                            requirements concerning food production
+                            safety. In other industries, like 3D printing, this application is necessary in order to
+                            guarantee final component
+                            quality</p>
                     </div>
                 </div>
                 <!-- Our Features Item End -->
@@ -730,9 +632,12 @@ About
                         <img src="https://html.awaikenthemes.com/toplax/images/icon-features-3.svg" alt="">
                     </div>
                     <div class="features-item-content">
-                        <h3>Continuous Innovation and R&D</h3>
-                        <p>We prioritize ongoing research and development to drive continuous innovation, staying ahead
-                            of industry trends and creating advanced solutions that meet evolving market demands.</p>
+                        <h3>Recovery</h3>
+                        <p>The circular economy concept is triggering industries to rethink their production process and
+                            find ways to make it more
+                            sustainable; within this context, sieving can be a good opportunity to extract valuable
+                            product from waste and transform
+                            it into a new opportunity as a new product to be used or sold.</p>
                     </div>
                 </div>
                 <!-- Our Features Item End -->
@@ -752,15 +657,14 @@ About
 <!-- Our Features Section End -->
 
 <!-- Our Process Section Start -->
-<div class="our-process">
+<div class="our-process d-none">
     <div class="container">
         <div class="row section-row align-items-center">
             <div class="col-lg-6">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">our process</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Streamlined processes <span>for optimal
-                            efficiency</span></h2>
+
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Why <span>Choose Us?</span></h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -768,8 +672,7 @@ About
             <div class="col-lg-6">
                 <!-- Section Title Content Start -->
                 <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                    <p>Our process is designed to maximize efficiency and quality at every stage of production. By
-                        integrating advanced technologies and best practices, we ensure seamless workflows.</p>
+                    <p>A one stop source for overseas businesses to easily and effectively find, connect processes</p>
                 </div>
                 <!-- Section Title Content End -->
             </div>
@@ -795,9 +698,12 @@ About
                             <h2>01</h2>
                         </div>
                         <div class="process-step-content">
-                            <h3>understanding your needs</h3>
-                            <p>We begin by thoroughly assessing your requirements and objectives to develop a tailored
-                                approach.</p>
+                            <h3>Quality</h3>
+                            <p>Sieving can be an interesting option in order to identify and create different valuable
+                                products starting from a bulk
+                                ingredient. Particle dimensions can play a role in food, metal powder, construction and
+                                many other industries, where
+                                each product extracted from bulk can correspond to a different market opportunity.</p>
                         </div>
                     </div>
                     <!-- Process Step Item End -->
@@ -808,9 +714,14 @@ About
                             <h2>02</h2>
                         </div>
                         <div class="process-step-content">
-                            <h3>design and planning</h3>
-                            <p>Our team collaborates to create detailed project plans, ensuring all aspects of the
-                                process.</p>
+                            <h3>Safety</h3>
+                            <p>Sieving is required in order to make sure that undesired particles are not entering
+                                together with main product into
+                                production cycle. In specific industries like food, this application follows law
+                                requirements concerning food production
+                                safety. In other industries, like 3D printing, this application is necessary in order to
+                                guarantee final component
+                                quality.</p>
                         </div>
                     </div>
                     <!-- Process Step Item End -->
@@ -821,8 +732,12 @@ About
                             <h2>03</h2>
                         </div>
                         <div class="process-step-content">
-                            <h3>implementation</h3>
-                            <p>Utilizing advanced technologies and skilled personnel, we execute the project</p>
+                            <h3>Recovery</h3>
+                            <p>The circular economy concept is triggering industries to rethink their production process
+                                and find ways to make it more
+                                sustainable; within this context, sieving can be a good opportunity to extract valuable
+                                product from waste and transform
+                                it into a new opportunity as a new product to be used or sold.</p>
                         </div>
                     </div>
                     <!-- Process Step Item End -->
