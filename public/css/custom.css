@@ -929,7 +929,7 @@ header.main-header .header-sticky.active {
 
 .hero.hero-slider-layout .hero-slide {
     position: relative;
-    padding: 210px 0;
+    padding: 130px 0;
 }
 
 .hero.hero-slider-layout .hero-slide::before {
@@ -1707,12 +1707,23 @@ header.main-header .header-sticky.active {
 .project-content h3 a {
     color: inherit;
 }
+
 .industry-image img {
     width: 100%;
     aspect-ratio: 1 / 0.7;
     object-fit: cover;
     border-radius: 40px;
     transition: all 0.4s ease-in-out;
+}
+.product-image img {
+    width: 100%;
+    aspect-ratio: 1 / 0.7;
+    object-fit: cover;
+    border-radius: 40px 40px 0px 0px;
+    transition: all 0.4s ease-in-out;
+}
+.product-image .project-tag {
+    display: none;
 }
 .industry-image .project-tag {
     backdrop-filter: blur(50px);
@@ -1783,6 +1794,40 @@ header.main-header .header-sticky.active {
 }
 .industry-btn.certificate-btns {
     transform: translateY(-330px);
+}
+.product-image .product-title {
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    color: var(--white-color);
+    border-radius: 0px 0px 40px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1em;
+    text-transform: capitalize;
+    padding: 20px 25px;
+    overflow: hidden;
+    background-color: var(--accent-color);
+}
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+.product-image .product-detail {
+    position: absolute;
+    background-color: #0003;
+    color: #fff;
+    z-index: 2;
+    border-radius: 40px;
+    padding: 30px;
+    height: 100%;
+    transform: scale(0);
+    transition: 0.3s ease-in;
+}
+.product-image:hover .product-detail {
+    transform: scale(1);
+}
+.industry-btn.products-btn {
+    transform: translateY(-200px);
 }
 /************************************/
 /***      10. Our Process css     ***/
@@ -4638,11 +4683,11 @@ header.main-header .header-sticky.active {
     margin-bottom: 40px;
 }
 
-.contact-info-item:last-child {
+/* .contact-info-item:last-child {
     border: none;
     padding-bottom: 0;
     margin-bottom: 0;
-}
+} */
 
 .contact-info-item .icon-box {
     position: relative;
@@ -6570,4 +6615,62 @@ header.main-header .header-sticky.active {
     padding: 6px 20px;
     transition: all 0.3s ease-in-out;
     margin-left: 15px;
+}
+#pills-tabContent .contact-info-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#pills-tabContent .contact-info-box .contact-info-item {
+    width: 33%;
+    min-width: 300px;
+    max-width: fit-content;
+}
+#google_translate_element select {
+    width: 100px;
+}
+#google_translate_element span {
+    max-width: 40px;
+}
+#google_translate_element {
+    overflow: hidden;
+    width: 100px;
+}
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    background: var(--accent-color);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+}
+.search-bar {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background: #fff;
+    transform: translateY(-110%);
+    box-shadow: 0px 0px 10px #ccc;
+    transition: 0.3s ease-in-out;
+}
+.search-holder {
+    padding: 50px 20px;
+    position: relative;
+}
+.search-bar.active {
+    transform: translateY(0px);
+}
+
+.search-bar .header-close {
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    top: 10px;
+    font-size: 32px;
+    cursor: pointer;
 }

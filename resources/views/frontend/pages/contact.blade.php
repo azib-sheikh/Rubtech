@@ -29,169 +29,7 @@ Contact
 <div class="page-contact-us">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6">
-                <!-- Contact Information Start -->
-                <div class="contact-information">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">contact us</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Get in touch <span>with us</span></h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Reach out for any inquiries, support, or to
-                            discuss how we can meet your industrial needs.</p>
-                    </div>
-                    <!-- Section Title End -->
-                    <ul class="nav nav-pills mb-3" id="contact-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true">General Enquiry</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                                aria-selected="false">National Business</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                                aria-selected="false">International Business</button>
-                        </li>
 
-                    </ul>
-                    <br>
-                    <div class="tab-content " id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                            aria-labelledby="pills-home-tab" tabindex="0">
-                            <div class="contact-info-box">
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item wow fadeInUp">
-                                    <div class="icon-box">
-                                        <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>contact</h3>
-                                        <p>+1.809.120.670</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item wow fadeInUp">
-                                    <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-phone.svg" alt="">
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>contact</h3>
-                                        <p>+1.809.120.670</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item wow fadeInUp" data-wow-delay="0.25s">
-                                    <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-mail.svg" alt="">
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>Email</h3>
-                                        <p>info@domain.com</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-
-
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab" tabindex="0">
-                            <div class="contact-info-box">
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item">
-                                    <div class="icon-box">
-                                        <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>contact</h3>
-                                        <p>+1.809.120.670</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item">
-                                    <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-phone.svg" alt="">
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>contact</h3>
-                                        <p>+1.809.120.670</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item ">
-                                    <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-mail.svg" alt="">
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>Email</h3>
-                                        <p>info@domain.com</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-
-
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                            aria-labelledby="pills-contact-tab" tabindex="0">
-                            <div class="contact-info-box">
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item ">
-                                    <div class="icon-box">
-                                        <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>contact</h3>
-                                        <p>+1.809.120.670</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item ">
-                                    <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-phone.svg" alt="">
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>contact</h3>
-                                        <p>+1.809.120.670</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-
-                                <!-- Page Contact Item Start -->
-                                <div class="contact-info-item ">
-                                    <div class="icon-box">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/icon-mail.svg" alt="">
-                                    </div>
-                                    <div class="contact-info-content">
-                                        <h3>Email</h3>
-                                        <p>info@domain.com</p>
-                                    </div>
-                                </div>
-                                <!-- Page Contact Item End -->
-
-
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <!-- Contact Info Box Start -->
-
-                </div>
-                <!-- Contact Information End -->
-            </div>
 
             <div class="col-lg-6">
                 <!-- Page Contact Form Start -->
@@ -246,16 +84,7 @@ Contact
                 </div>
                 <!-- Page Contact Form End -->
             </div>
-        </div>
-    </div>
-</div>
-<!--  Page Contact Us End -->
-
-<!-- Google Map Start -->
-<div class="google-map">
-    <div class="container-flude">
-        <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-6 google-map">
                 <!-- Google Map Start -->
                 <div class="google-map-iframe">
                     <iframe
@@ -268,6 +97,179 @@ Contact
         </div>
     </div>
 </div>
-<!-- Google Map End -->
+<!--  Page Contact Us End -->
+<div class="container pb-5">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Contact Information Start -->
+            <div class="contact-information">
+                <!-- Section Title Start -->
+                <div class="section-title text-center">
+                    <h3 class="wow fadeInUp">contact us</h3>
+                    <h2 class="text-anime-style-3 text-center" data-cursor="-opaque">Get in touch <span>with us</span>
+                    </h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">Reach out for any inquiries, support, or to
+                        discuss how we can meet your industrial needs.</p>
+                </div>
+                <!-- Section Title End -->
+                <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="contact-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">General Enquiry</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">National
+                            Business</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">International
+                            Business</button>
+                    </li>
+
+                </ul>
+                <br>
+                <div class="tab-content " id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="contact-info-box">
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item wow fadeInUp">
+                                <div class="icon-box">
+                                    <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>contact</h3>
+                                    <p>+1.809.120.670</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item wow fadeInUp">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/icon-phone.svg" alt="">
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>contact</h3>
+                                    <p>+1.809.120.670</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item wow fadeInUp">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/icon-mail.svg" alt="">
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>Email</h3>
+                                    <p>info@domain.com</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <div class="contact-info-box">
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item">
+                                <div class="icon-box">
+                                    <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>contact</h3>
+                                    <p>+1.809.120.670</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/icon-phone.svg" alt="">
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>contact</h3>
+                                    <p>+1.809.120.670</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item ">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/icon-mail.svg" alt="">
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>Email</h3>
+                                    <p>info@domain.com</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div class="contact-info-box">
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item ">
+                                <div class="icon-box">
+                                    <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>contact</h3>
+                                    <p>+1.809.120.670</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item ">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/icon-phone.svg" alt="">
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>contact</h3>
+                                    <p>+1.809.120.670</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+
+                            <!-- Page Contact Item Start -->
+                            <div class="contact-info-item ">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/toplax/images/icon-mail.svg" alt="">
+                                </div>
+                                <div class="contact-info-content">
+                                    <h3>Email</h3>
+                                    <p>info@domain.com</p>
+                                </div>
+                            </div>
+                            <!-- Page Contact Item End -->
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Contact Info Box Start -->
+
+            </div>
+            <!-- Contact Information End -->
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
 
 @endsection

@@ -1,0 +1,32 @@
+.sidebar {
+    background-color: #253984;
+    height: calc(100vh - 55px);
+    position: fixed;
+    bottom: 0px;
+    width: 16.6%;
+}
+.sidebar ul {
+    list-style: none;
+}
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar ul li {
+    padding: 10px 5px;
+    border-bottom: 1px solid #ccc5;
+}
+.dashboard-right {
+    height: calc(100vh - 55px);
+}
+.action-col {
+    width: 125px;
+}
+.big-col {
+    width: 40%;
+}
+#backend-navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}

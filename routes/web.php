@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('frontend.pages.index');
@@ -43,4 +46,21 @@ Route::get('ceo-message', function () {
 });
 Route::get('research-and-development', function () {
     return view('frontend.pages.randd');
+});
+Route::get('know-us-more', function () {
+    return view('frontend.pages.know-us');
+});
+
+Auth::routes();
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/home', [HomeController::class, 'index'])->name('home');
+    Route::resource('blogs', BlogController::class);
+    Route::prefix('admin/products')->group(
+        function () {
+            Route::get('/', [ProductController::class, 'index'])->name('product.index');
+            Route::get('/create', [ProductController::class, 'create'])->name('product.create');
+            Route::get('/edit/{id}', [ProductController::class, 'edit'])->name('product.create');
+        }
+    );
 });

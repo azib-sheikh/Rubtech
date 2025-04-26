@@ -35,81 +35,47 @@ Contact
                     <!-- Team Member Info Start -->
                     <div class="team-member-info">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Research & <span>Development</span></h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.4s">We are persistently inspired to incorporate
-                            innovations in every facet of our work, as we believe in doing our best to
-                            exceed customer expectations. Our commitment to our customers is evident in every component
-                            that we manufacture. We have
-                            a complete set-up for chemical, physical, and ageing characterization and validation of all
-                            types of elastomeric
-                            materials, exceeding customer requirements. We have developed a distinctive capability to
-                            meet customer standards and
-                            targets through committed R&D.</p>
-                        <p class="wow fadeInUp" data-wow-delay="0.8s">The facility is equipped with the latest design
-                            and validation processes and is staffed by a skilled team of
-                            professionals. We use the latest engineering standards developed and standardised over
-                            decades of experience. Our target
-                            is to achieve and maintain products that are designed and manufactured right the first time.
-                            The R&D facility is fully
-                            supported to ensure well-coordinated product development while expeditiously meeting
-                            customer time lines and product
-                            launches.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">At Rubtech Mech, our R&amp;D is the cornerstone of
+                            our innovation and product
+                            excellence. Guided by our promoter’s 50+ years of industry expertise, we’ve
+                            built a strong foundation for developing high-performance rubber compound
+                            designs across diverse applications.</p>
+                        <div class="mission-vision-content-list my-4">
+                            <h4 class="mb-4">Key R&amp;D Strengths:</h4>
+                            <ul>
+                                <li><b>Expert-Led Innovation</b> Led by a promoter with rich legacy of experience of
+                                    experience in rubber
+                                    compound designing and product development.</li>
+                                <li><b>Advanced Testing Capabilities</b> In-house setup for comprehensive chemical,
+                                    physical, and ageing
+                                    characterization of all types of rubber compound designs.</li>
+                                <li><b>Precision Engineering</b> Strong focus on design validation and simulation helps
+                                    minimize errors,
+                                    reduce development cycles, and improve product reliability from the
+                                    initial stage.</li>
+                                <li><b>Custom Product Development</b> Proven ability to develop tailored solutions that
+                                    meet or exceed specific
+                                    customer standards and industry benchmarks.</li>
+                                <li><b>Cross-Industry Expertise</b> A track record of developing innovative, durable
+                                    products for automotive,
+                                    machinery, and heavy-duty industry.</li>
+                            </ul>
+                        </div>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">Our R&amp;D ensures full regulatory compliance,
+                            with successful test reports
+                            validating product performance across industry standards and customer-specific
+                            requirements.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">We specialize in developing products that meet
+                            complex and custom
+                            requirements, backed by deep expertise and advanced engineering capabilities.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">We invite you to explore our strengths and see how
+                            Rubtech Mech can add
+                            value to your product journey through innovation and experience.</p>
 
                     </div>
                     <!-- Team Member Info End -->
 
 
-
-                    <!-- Page Contact Form Start -->
-                    <div class="contact-us-form">
-                        <div class="section-title">
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Contact <span>me</span></h2>
-                        </div>
-
-                        <div class="contact-form">
-                            <!-- Contact Form Start -->
-                            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp"
-                                data-wow-delay="0.5s">
-                                <div class="row">
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="fname" class="form-control" id="fname"
-                                            placeholder="Enter first name" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="lname" class="form-control" id="lname"
-                                            placeholder="Enter last name" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="email" name="email" class="form-control" id="email"
-                                            placeholder="Enter your e-mail" required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group col-md-6 mb-4">
-                                        <input type="text" name="phone" class="form-control" id="phone"
-                                            placeholder="Enter your phone no." required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group col-md-12 mb-5">
-                                        <textarea name="message" class="form-control" id="message" rows="4"
-                                            placeholder="Write Message"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn-default"><span>submit message</span></button>
-                                        <div id="msgSubmit" class="h3 hidden"></div>
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- Contact Form End -->
-                        </div>
-                    </div>
-                    <!-- Page Contact Form End -->
                 </div>
                 <!-- Team Member Content End -->
             </div>
@@ -136,6 +102,420 @@ Contact
     </div>
 </div>
 <!-- Page Team Single End -->
+
+<!-- Certificates start -->
+<div class="container py-5">
+    <div class="project-entry mb-4 text-center">
+        <h2 class="text-anime-style-2">Our <span>Certificates</span></h2>
+    </div>
+    <div class="row gallery-items page-gallery-box justify-content-center">
+
+
+        <div class="col-lg-4 col-6">
+            <!-- image gallery start -->
+            <div class="box-shadow wow fadeInUp" data-cursor-text="View"
+                style="visibility: visible; animation-name: fadeInUp;">
+                <a
+                    href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/rubtech-gmp-certificate.jpeg">
+                    <figure class="image-anime">
+                        <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/rubtech-gmp-certificate.jpeg"
+                            alt="">
+                    </figure>
+                </a>
+            </div>
+            <!-- image gallery end -->
+        </div>
+
+        <div class="col-lg-4 col-6">
+            <!-- image gallery start -->
+            <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <a
+                    href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/rubtech-iso-certificate.jpeg">
+                    <figure class="image-anime">
+                        <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/rubtech-iso-certificate.jpeg"
+                            alt="">
+                    </figure>
+                </a>
+            </div>
+            <!-- image gallery end -->
+        </div>
+
+    </div>
+</div>
+<!-- Certificates ends -->
+<div class="project-entry mb-4 text-center">
+    <h2 class="text-anime-style-2">Our <span>Awards</span></h2>
+</div>
+
+<!-- Awards start -->
+<div class="container py-5">
+    <div class="row gallery-items page-gallery-box justify-content-center">
+        <div class="col-lg-3 col-6">
+            <!-- image gallery start -->
+            <div class="box-shadow wow fadeInUp" data-cursor-text="View"
+                style="visibility: visible; animation-name: fadeInUp;">
+                <a href="https://www.rubtechmech.com/media/certificate/Award.jpg">
+                    <figure class="image-anime">
+                        <img src="https://www.rubtechmech.com/media/certificate/Award.jpg" alt="">
+                    </figure>
+                </a>
+            </div>
+            <!-- image gallery end -->
+        </div>
+
+        <div class="col-lg-3 col-6">
+            <!-- image gallery start -->
+            <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <a href="https://www.rubtechmech.com/media/certificate/Award1.jpg">
+                    <figure class="image-anime">
+                        <img src="https://www.rubtechmech.com/media/certificate/Award1.jpg" alt="">
+                    </figure>
+                </a>
+            </div>
+            <!-- image gallery end -->
+        </div>
+
+        <div class="col-lg-3 col-6">
+            <!-- image gallery start -->
+            <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <a href="https://www.rubtechmech.com/media/certificate/Award2.jpg">
+                    <figure class="image-anime">
+                        <img src="https://www.rubtechmech.com/media/certificate/Award2.jpg" alt="">
+                    </figure>
+                </a>
+            </div>
+            <!-- image gallery end -->
+        </div>
+
+        <div class="col-lg-3 col-6">
+            <!-- image gallery start -->
+            <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <a href="https://www.rubtechmech.com/media/certificate/Award3.jpg">
+                    <figure class="image-anime">
+                        <img src="https://www.rubtechmech.com/media/certificate/Award3.jpg" alt="">
+                    </figure>
+                </a>
+            </div>
+            <!-- image gallery end -->
+        </div>
+
+    </div>
+</div>
+<!-- Awards ends -->
+
+<div class="project-entry mb-4 text-center">
+    <h2 class="text-anime-style-2">Tests <span>Certificates</span></h2>
+</div>
+<div class="container py-5">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-cursor-text="View"
+                    style="visibility: visible; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00001.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00001.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00002.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00002.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00003.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00003.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00004.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00004.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            {{-- second row --}}
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00005.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00005.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00006.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00006.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00007.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00007.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00008.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00008.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00009.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00009.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00010.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00010.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00011.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS_Report_Complete_00011.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8373_RUBTECH-US_FDA_page-0001.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8373_RUBTECH-US_FDA_page-0001.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8374_RUBTECH_EU_Regulation_page-0001.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8374_RUBTECH_EU_Regulation_page-0001.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+            <div class="swiper-slide">
+                <!-- image gallery start -->
+                <div class="box-shadow wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <a
+                        href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8375_RUBTECH_Japan_Regulation_page-0001.webp">
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8375_RUBTECH_Japan_Regulation_page-0001.webp"
+                                alt="">
+                        </figure>
+                    </a>
+                </div>
+                <!-- image gallery end -->
+            </div>
+
+        </div>
+    </div>
+    <div class="industry-btn certificate-btns">
+        <div class="industry-button-prev"></div>
+        <div class="industry-button-next"></div>
+    </div>
+</div>
+
+<div class="project-entry mb-4 text-center">
+    <h2 class="text-anime-style-2">Downloadable <span>Reports</span></h2>
+</div>
+
+<!-- Awards start -->
+<div class="container py-5">
+    <div class="row page-services justify-content-center p-0">
+        <div class="col-lg-3 col-md-6 ">
+            <!-- Service Item Start -->
+            <div class="service-item ">
+
+                <div class="service-body">
+                    <h3>Download JAPAN JA9104 Report</h3>
+                </div>
+
+                <div class="service-footer">
+                    <a href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8375_RUBTECH_Japan_Regulation.pdf"
+                        class="service-btn">
+                        <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-3 col-md-6 ">
+            <!-- Service Item Start -->
+            <div class="service-item ">
+
+                <div class="service-body">
+                    <h3>Download SGS Report</h3>
+                </div>
+
+                <div class="service-footer">
+                    <a href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/SGS-Report-Complete.pdf"
+                        class="service-btn">
+                        <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-3 col-md-6 ">
+            <!-- Service Item Start -->
+            <div class="service-item ">
+
+                <div class="service-body">
+                    <h3>Download US FDA Report</h3>
+                </div>
+
+                <div class="service-footer">
+                    <a href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8373_RUBTECH-US_FDA.pdf"
+                        class="service-btn">
+                        <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- Service Item End -->
+        </div>
+
+        <div class="col-lg-3 col-md-6 ">
+            <!-- Service Item Start -->
+            <div class="service-item ">
+
+                <div class="service-body">
+                    <h3>Download EU 2002R0178</h3>
+                </div>
+
+                <div class="service-footer">
+                    <a href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/certificate/TR_8374_RUBTECH_EU_Regulation.pdf"
+                        class="service-btn">
+                        <img src="https://html.awaikenthemes.com/toplax/images/arrow-dark.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- Service Item End -->
+        </div>
+
+
+
+    </div>
+</div>
 
 
 

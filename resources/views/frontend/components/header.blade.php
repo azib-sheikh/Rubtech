@@ -7,6 +7,25 @@
 </div>
 <!-- Preloader End -->
 
+{{-- Search bar --}}
+<div class="search-bar">
+    <div class="search-holder">
+        <span class="header-close" aria-hidden="true">&times;</span>
+        <div class="container">
+
+            <form>
+                <div class="input-group form-group">
+                    <input type="text" class="form-control p-2" placeholder="Search...."
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="input-group-text py-2" type="submit" id="basic-addon2">Search</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <!-- Topbar Section Start -->
 <div class="topbar">
     <div class="container">
@@ -43,8 +62,11 @@
                     </ul>
                     <!-- Topbar Qoute Button Start -->
                     <div class="topbar-qoute-btn">
-                        <a href="/contact" class="btn-default"><span>Get A Free Sample</span></a>
+                        <a href="/contact" class="btn-default"><span>Get A Quote</span></a>
                         <div id="google_translate_element"></div>
+                        <div class="search-icon">
+                            <i class="fa fa-search text-light"></i>
+                        </div>
                     </div>
                     <!-- Topbar Qoute Button End -->
                 </div>
@@ -73,8 +95,8 @@
                             <li class="nav-item"><a class="nav-link" href="./">Home</a>
 
                             </li>
-                            <li class="nav-item submenu"><a class="nav-link" href="/about">About Us</a>
-                                <ul>
+                            <li class="nav-item"><a class="nav-link" href="/about">About Us</a>
+                                {{-- <ul>
                                     <li class="nav-item"><a class="nav-link" href="/ceo-message">CEO Message</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="/certificate-awards">Certificates &
@@ -82,12 +104,15 @@
                                     <li class="nav-item"><a class="nav-link" href="/research-and-development">R & D</a>
                                     </li>
 
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li class="nav-item"><a class="nav-link" href="products">Our Products</a></li>
                             <li class="nav-item"><a class="nav-link" href="industries-we-serve">Industry We Serve</a>
                             </li>
+                            <li class="nav-item"><a class="nav-link" href="/research-and-development">R & D
+                                    Certificates</a>
 
+                                {{--
                             <li class="nav-item submenu"><a class="nav-link" href="#">Gallery</a>
                                 <ul>
                                     <li class="nav-item"><a class="nav-link" href="/image-gallery">Image
@@ -96,8 +121,9 @@
                                     </li>
 
                                 </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li>
+                            </li> --}}
+                            {{-- <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li> --}}
+                            <li class="nav-item"><a class="nav-link" href="contact">Know us more</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
                         </ul>
                     </div>
