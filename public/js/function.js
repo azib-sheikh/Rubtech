@@ -53,9 +53,7 @@
         speed: 1000,
         spaceBetween: 0,
         loop: true,
-        autoplay: {
-            delay: 4000,
-        },
+
         pagination: {
             el: ".hero-pagination",
             clickable: true,
@@ -165,6 +163,13 @@
     if ($(".counter").length) {
         $(".counter").counterUp({ delay: 5, time: 2000 });
     }
+
+    $(".search-icon").click(function () {
+        $(".search-bar").addClass("active");
+    });
+    $(".header-close").click(function () {
+        $(".search-bar").removeClass("active");
+    });
 
     /* Image Reveal Animation */
     if ($(".reveal").length) {

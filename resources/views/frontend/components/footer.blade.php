@@ -117,11 +117,15 @@
     </div>
     <script type="text/javascript">
         function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-            {pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
-            'google_translate_element'
-        );
-    }
+            new google.translate.TranslateElement(
+                {
+                    pageLanguage: 'en', // Default language of your page
+                    includedLanguages: 'en,fr,de,es,it,pt,ru,fa,zh-CN,ja,ar,tr,hi', // List of languages you want to include
+                    layout: google.translate.TranslateElement.InlineLayout.DROPDOWN
+                },
+                'google_translate_element'
+            );
+        }
     </script>
     <script type="text/javascript"
         src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">

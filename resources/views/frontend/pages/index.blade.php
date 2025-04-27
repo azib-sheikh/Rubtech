@@ -4,7 +4,7 @@ Home Page
 @endpush
 @section('content')
 <!-- Hero Section Start -->
-<div class="hero hero-video">
+{{-- <div class="hero hero-video">
     <!-- Video Start -->
     <div class="hero-bg-video">
         <!-- Selfhosted Video Start -->
@@ -58,11 +58,366 @@ Home Page
             </div>
         </div>
     </div>
+</div> --}}
+<!-- Hero Section End -->
+
+<!-- Hero Section Start -->
+<div class="hero hero-slider-layout">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Hero Slide Start -->
+            <div class="swiper-slide">
+                <div class="hero-slide">
+                    <!-- Slider Image Start -->
+                    <div class="hero-slider-image">
+                        <img src="https://html.awaikenthemes.com/toplax/images/hero-bg.jpg" alt="">
+                    </div>
+                    <!-- Slider Image End -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <!-- Hero Content Start -->
+                                <div class="hero-content">
+                                    <!-- Section Title Start -->
+                                    <div class="section-title dark-section">
+                                        <h3 class="wow fadeInUp">welcome our industry</h3>
+                                        <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating
+                                            <span>industry for today</span>
+                                        </h1>
+                                        <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is
+                                            a commitment to delivering superior products through cutting-edge technology
+                                            and innovative processes. </p>
+                                    </div>
+                                    <!-- Section Title End -->
+
+                                    <!-- Hero Button Start -->
+                                    <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                                        <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                                    </div>
+                                    <!-- Hero Button End -->
+                                </div>
+                                <!-- Hero Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Slide End -->
+
+            <!-- Hero Slide Start -->
+            <div class="swiper-slide">
+                <div class="hero-slide">
+                    <!-- Slider Image Start -->
+                    <div class="hero-slider-image">
+                        <img src="https://html.awaikenthemes.com/toplax/images/hero-bg-2.jpg" alt="">
+                    </div>
+                    <!-- Slider Image End -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <!-- Hero Content Start -->
+                                <div class="hero-content">
+                                    <!-- Section Title Start -->
+                                    <div class="section-title dark-section">
+                                        <h3 class="wow fadeInUp">welcome our industry</h3>
+                                        <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating
+                                            <span>industry for today</span>
+                                        </h1>
+                                        <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is
+                                            a commitment to delivering superior products through cutting-edge technology
+                                            and innovative processes. </p>
+                                    </div>
+                                    <!-- Section Title End -->
+
+                                    <!-- Hero Button Start -->
+                                    <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                                        <a href="contact.html" class="btn-default"><span>explore more</span></a>
+                                    </div>
+                                    <!-- Hero Button End -->
+                                </div>
+                                <!-- Hero Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Slide End -->
+        </div>
+        <div class="hero-pagination"></div>
+    </div>
 </div>
 <!-- Hero Section End -->
 
+<!-- Our Products Section Start -->
+<div class="our-work">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-6">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">Our Products</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Industries <span>we Serve</span></h2>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <div class="col-lg-6">
+                <!-- Section Title Content Start -->
+                <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+                    <p>We specialize in manufacturing a diverse range of food-grade & Industrial rubber components,
+                        engineered for exceptional
+                        durability, compliance, and operational efficiency.</p>
+                    <p>
+                        Our products are crafted to meet the highest industry standards, ensuring consistent
+                        performance, efficiency and
+                        extended service life across various global industries.</p>
+                </div>
+                <!-- Section Title Content End -->
+            </div>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            Sieve Cleaning Rubber Balls are engineered for efficient screening, sieving, sorting, and
+                            cleaning applications. Crafted
+                            from premium materials like Natural Rubber (NR), Styrene Butadiene Rubber (SBR),
+                            Polybutadiene Rubber (PBR), Ethylene
+                            Propylene (EPDM), Silicon, Viton, Neoprene, and Nitrile Rubber (NBR), these spherical balls
+                            offer exceptional durability
+                            and resilience.
+                        </div>
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Sieve Cleaning Rubber Ball
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            Rubber cube ensures efficient performance in various industries, including edible oil,
+                            millet, and salt processing. Its
+                            robust construction aids in vibration damping and equipment stability, enhancing operational
+                            efficiency.
+                        </div>
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Rubber Cube
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            These Mounts are ideal for use in machinery, compressors, and equipment requiring vibration
+                            absorption to enhance
+                            operational efficiency and longevity.
+                        </div>
+
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Anti Vibration Mounts
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            These hollow-cylindrical sleeves are ideal for lift pipes, viewing glass support, and
+                            air-lock systems in milling and
+                            processing industries. Their robust construction ensures long-lasting performance and
+                            compliance with international
+                            safety standards.
+                        </div>
+
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Rubber Sleeves
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            This versatile inspection cap is utilized across various industries, including edible oil,
+                            millet, and salt processing,
+                            providing access points for inspections, maintenance, or sampling in equipment and storage
+                            tanks. ​
+                        </div>
+
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Inspection Cap
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            RTM Rubber Rings are designed to meet the stringent demands of industries requiring reliable
+                            and long-lasting sealing
+                            solutions. Their robust construction and material versatility make them suitable for a wide
+                            array of applications,
+                            ensuring optimal performance and longevity.
+                        </div>
+
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Rubber Rings
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="industry-btn products-btn">
+            <div class="industry-button-prev"></div>
+            <div class="industry-button-next"></div>
+        </div>
+    </div>
+</div>
+<!-- Our Work Section End -->
+
+<!-- What We Do Start -->
+<div class="what-we-do">
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-lg-6">
+                <!-- What We Do Content Start -->
+                <div class="what-we-do-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title dark-section">
+                        <h3 class="wow fadeInUp">Why Choose us?</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Precision Engineering &
+                                Compliance-Driven Manufacturing</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+
+                    <!-- What We Do List Start -->
+                    <div class="what-we-do-list">
+                        <div class="what-we-do-list-box-1">
+                            <!-- What We Do Item Start -->
+                            <div class="what-we-do-item">
+                                <div class="icon-box">
+                                    <img src="{{asset('images/icons/regulatory_complaince.png')}}" alt="">
+                                </div>
+                                <div class="what-we-item-content">
+                                    <h3>Certified Quality & Compliance - </h3>
+                                    <p>ISO 9001:2015 & GMP certified, compliant with US FDA 21 CFR 177.2600, EU EN
+                                        2002R0178,
+                                        and JA9104 Japan Regulations.</p>
+                                </div>
+                            </div>
+                            <!-- What We Do Item End -->
+
+                            <!-- What We Do Item Start -->
+                            <div class="what-we-do-item">
+                                <div class="icon-box">
+                                    <img src="{{asset('images/icons/global_oem_partenership.png')}}" alt="">
+                                </div>
+                                <div class="what-we-item-content">
+                                    <h3>Global Supply Network - </h3>
+                                    <p>Exporting to the USA, Europe, and Latin America, with Expanding Reach Fueled by
+                                        Positive Client
+                                        Experiences.</p>
+                                </div>
+                            </div>
+                            <!-- What We Do Item End -->
+                        </div>
+
+                        <div class="what-we-do-list-box-2">
+                            <!-- What We Do Item Start -->
+                            <div class="what-we-do-item">
+                                <div class="icon-box">
+                                    <img src="{{asset('images/icons/advance_material_science.png')}}" alt="">
+                                </div>
+                                <div class="what-we-item-content">
+                                    <h3>Precision Engineering - </h3>
+                                    <p>Expertly crafted rubber components designed for durability, efficiency, and
+                                        extra-long service
+                                        life.</p>
+                                </div>
+                            </div>
+                            <!-- What We Do Item End -->
+
+                            <!-- What We Do Item Start -->
+                            <div class="what-we-do-item">
+                                <div class="icon-box">
+                                    <img src="{{asset('images/icons/proven_industry_expense.png')}}" alt="">
+                                </div>
+                                <div class="what-we-item-content">
+                                    <h3>In-house R&D & Continous Improvement - </h3>
+                                    <p> Ensures meeting and exceeding expectation of industry and explore new horizons
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- What We Do Item End -->
+                        </div>
+                    </div>
+                    <!-- What We Do List Start -->
+
+                    <!-- What We Do Footer Start -->
+                    {{-- <div class="what-we-do-footer">
+                        <p>Lorem ipsum is a placeholder text commonly used <span>to demonstrate</span></p>
+                    </div> --}}
+                    <!-- What We Do Footer End -->
+                </div>
+                <!-- What We Do Content End -->
+            </div>
+
+            <div class="col-lg-6">
+                <!-- What We Do Image Start -->
+                <div class="what-we-do-image">
+                    <figure class="image-anime">
+                        <img src="{{asset('images/why-us.jpeg')}}" alt="">
+                    </figure>
+
+                    <!-- Contact Now Circle Start -->
+                    <div class="contact-now-circle">
+                        <a href="/contact">
+                            <img src="{{asset('images/icons/roundbox.svg')}}" alt="">
+                        </a>
+                    </div>
+                    <!-- Contact Now Circle End -->
+                </div>
+                <!-- What We Do Image End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- What We Do End -->
+
 <!-- About Us Start -->
-<div class="about-us">
+{{-- <div class="about-us">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -169,7 +524,7 @@ Home Page
                                     <!-- About Counter Item End -->
                                 </div>
                                 <!-- About Content Counter End -->
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -177,11 +532,11 @@ Home Page
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- About Us End -->
 
 <!-- Our Service Start -->
-<div class="our-services parallaxie">
+{{-- <div class="our-services parallaxie">
     <div class="container">
         <div class="row section-row align-items-center">
             <div class="col-lg-6">
@@ -205,11 +560,11 @@ Home Page
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- Our Service End -->
 
 <!-- Our Service List Start -->
-<div class="our-services-list">
+{{-- <div class="our-services-list">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -325,11 +680,11 @@ Home Page
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- Our Service List End -->
 
 <!-- Our Story Start -->
-<div class="our-story">
+{{-- <div class="our-story">
     <div class="container">
         <div class="row section-row align-items-center">
             <div class="col-lg-6">
@@ -430,7 +785,7 @@ Home Page
                                 </figure>
                             </div>
                             <!-- Client Image End -->
-                        </div> --}}
+                        </div>
                         <!-- Our Story Client Image End -->
 
                         <!-- Intro Video Box Start -->
@@ -452,114 +807,10 @@ Home Page
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- Our Story End -->
 
-<!-- What We Do Start -->
-<div class="what-we-do">
-    <div class="container-fluid">
-        <div class="row no-gutters">
-            <div class="col-lg-6">
-                <!-- What We Do Content Start -->
-                <div class="what-we-do-content">
-                    <!-- Section Title Start -->
-                    <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">Why Choose us?</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Precision Engineering &
-                                Compliance-Driven Manufacturing</span></h2>
-                    </div>
-                    <!-- Section Title End -->
 
-                    <!-- What We Do List Start -->
-                    <div class="what-we-do-list">
-                        <div class="what-we-do-list-box-1">
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/regulatory_complaince.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Regulatory Compliance</h3>
-                                    <p>Meeting global standards with FDA, EU, and Japan-compliant food-grade rubber
-                                        components.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/global_oem_partenership.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Global OEM Partnerships</h3>
-                                    <p> Supplying Tier 1 OEMs in the US and Europe with high-quality,
-                                        precision-engineered rubber solutions.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-                        </div>
-
-                        <div class="what-we-do-list-box-2">
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/advance_material_science.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Advanced Material Science</h3>
-                                    <p>Expertise in rubber compound design ensures high performance and extra-long
-                                        service life.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-
-                            <!-- What We Do Item Start -->
-                            <div class="what-we-do-item">
-                                <div class="icon-box">
-                                    <img src="{{asset('images/icons/proven_industry_expense.png')}}" alt="">
-                                </div>
-                                <div class="what-we-item-content">
-                                    <h3>Proven Industry Expertise</h3>
-                                    <p> Led by a seasoned rubber science expert with decades of experience in process
-                                        engineering.</p>
-                                </div>
-                            </div>
-                            <!-- What We Do Item End -->
-                        </div>
-                    </div>
-                    <!-- What We Do List Start -->
-
-                    <!-- What We Do Footer Start -->
-                    {{-- <div class="what-we-do-footer">
-                        <p>Lorem ipsum is a placeholder text commonly used <span>to demonstrate</span></p>
-                    </div> --}}
-                    <!-- What We Do Footer End -->
-                </div>
-                <!-- What We Do Content End -->
-            </div>
-
-            <div class="col-lg-6">
-                <!-- What We Do Image Start -->
-                <div class="what-we-do-image">
-                    <figure class="image-anime">
-                        <img src="{{asset('images/why-us.jpeg')}}" alt="">
-                    </figure>
-
-                    <!-- Contact Now Circle Start -->
-                    <div class="contact-now-circle">
-                        <a href="/contact">
-                            <img src="{{asset('images/icons/roundbox.svg')}}" alt="">
-                        </a>
-                    </div>
-                    <!-- Contact Now Circle End -->
-                </div>
-                <!-- What We Do Image End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- What We Do End -->
 
 <!-- Our Work Section Start -->
 <div class="our-work">

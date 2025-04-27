@@ -53,23 +53,44 @@ Industry we serve
                 </div>
                 <!-- Choose Our Project Nav End -->
             </div>
+            <div class="col-12">
+                <h2 class="wow fadeInUp" data-wow-delay="0.4s"> <span>Food & Agro-Processing</span> Industries
+                </h2>
+                <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Challenges:</h4>
+                <ul>
+                    <li>Food contamination due to wear debris of food-contact process
+                        aids</li>
+                    <li>Sieve Clogging, Inefficient sieving and production loss during
+                        sieving.</li>
+                    <li>Downtime due to frequent repairs and high maintenance costs.</li>
+                </ul>
+                <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Rubtech Solutions:</h4>
+                <ul>
+                    <li>Food-grade rubber sieve cleaners ensure food-safety.</li>
+                    <li>Effective cleaning and improved efficiency.</li>
+                    <li>Rubber components reduce wear and clogging, cutting
+                        maintenance and downtime.</li>
+                </ul>
+                <p class="my-3">Enhance product yield, consistency, and reduce operational costs.</p>
 
-            <div class="col-lg-12">
+            </div>
+
+
+            <div class="col-lg-12 pt-3">
                 <!-- Project Item Boxes start -->
                 <div class="row project-item-boxes align-items-center">
 
-
-                    <div class="col-md-6 project-item-box flour">
+                    <div class="col-md-6 project-item-box cereal">
                         <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp">
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
                                 <figure class="image-anime">
-                                    <img src="{{asset('images/industry/flour.jpg')}}" alt="">
+                                    <img src="{{asset('images/industry/cereal.jpg')}}" alt="">
                                 </figure>
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Flour</a>
+                                <a href="/single-industry">Cereal </a>
                             </div>
 
 
@@ -77,17 +98,35 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-6 project-item-box mineral">
+                    <div class="col-md-6 project-item-box coffee">
                         <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
                                 <figure class="image-anime">
-                                    <img src="{{asset('images/mining.jpg')}}" alt="">
+                                    <img src="{{asset('images/industry/coffe.jpg')}}" alt="">
                                 </figure>
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Mineral</a>
+                                <a href="/single-industry">Coffee</a>
+                            </div>
+
+
+                        </div>
+                        <!-- Project Item End -->
+                    </div>
+
+                    <div class="col-md-6 project-item-box millet">
+                        <!-- Project Item Start -->
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="project-image">
+                                <figure class="image-anime">
+                                    <img src="{{asset('images/industry/flour-2.png')}}" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="project-tag">
+                                <a href="/single-industry">Millet </a>
                             </div>
 
 
@@ -113,6 +152,86 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
+                    <div class="col-md-6 project-item-box spices">
+                        <!-- Project Item Start -->
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="project-image">
+                                <figure class="image-anime">
+                                    <img src="{{asset('images/industry/spices.jpg')}}" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="project-tag">
+                                <a href="/single-industry">Spices </a>
+                            </div>
+
+
+                        </div>
+                        <!-- Project Item End -->
+                    </div>
+
+                    <div class="col-md-6 project-item-box guargum">
+                        <!-- Project Item Start -->
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="project-image">
+                                <figure class="image-anime">
+                                    <img src="{{asset('images/industry/guar-gum.jpg')}}" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="project-tag">
+                                <a href="/single-industry">Guar Gum </a>
+                            </div>
+
+
+                        </div>
+                        <!-- Project Item End -->
+                    </div>
+
+                    <div class="col-md-6 project-item-box malt">
+                        <!-- Project Item Start -->
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="project-image">
+                                <figure class="image-anime">
+                                    <img src="{{asset('images/industry/malt.jpg')}}" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="project-tag">
+                                <a href="/single-industry">Malt </a>
+                            </div>
+
+
+                        </div>
+                        <!-- Project Item End -->
+                    </div>
+
+
+
+
+
+                    <div class="col-md-6 project-item-box flour">
+                        <!-- Project Item Start -->
+                        <div class="project-item wow fadeInUp">
+                            <div class="project-image">
+                                <figure class="image-anime">
+                                    <img src="{{asset('images/industry/flour.jpg')}}" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="project-tag">
+                                <a href="/single-industry">Flour</a>
+                            </div>
+
+
+                        </div>
+                        <!-- Project Item End -->
+                    </div>
+
+
+
+
+
                     <div class="col-md-6 project-item-box cement">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
@@ -131,23 +250,7 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-6 project-item-box pharma">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/industry/malt.jpg')}}" alt="">
-                                </figure>
-                            </div>
 
-                            <div class="project-tag">
-                                <a href="/single-industry">Pharmaceuticals </a>
-                            </div>
-
-
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
 
                     <div class="col-md-6 project-item-box salt">
                         <!-- Project Item Start -->
@@ -203,17 +306,53 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-6 project-item-box cereal">
+
+
+
+
+
+
+
+
+                </div>
+                <!-- Project Item Boxes End -->
+            </div>
+
+            <div class="col-12">
+                <h2 class="wow fadeInUp" data-wow-delay="0.4s"> <span>Mining &amp; Mineral </span> Industries
+                </h2>
+                <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Challenges:</h4>
+                <ul>
+                    <li>Abrasive materials cause wear and clogging.</li>
+                    <li>High maintenance costs and operational inefficiencies.</li>
+
+                </ul>
+                <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Rubtech Solutions:</h4>
+                <ul>
+                    <li>Rubber cleaners withstand harsh conditions, ensuring efficient sieving.</li>
+                    <li>Significantly reduce wear, minimize maintenance costs, and
+                        improve productivity.</li>
+
+                </ul>
+
+
+            </div>
+
+
+            <div class="col-lg-12 pt-3">
+                <!-- Project Item Boxes start -->
+                <div class="row project-item-boxes align-items-center">
+                    <div class="col-md-6 project-item-box mineral">
                         <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="project-image">
                                 <figure class="image-anime">
-                                    <img src="{{asset('images/industry/cereal.jpg')}}" alt="">
+                                    <img src="{{asset('images/mining.jpg')}}" alt="">
                                 </figure>
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Cereal </a>
+                                <a href="/single-industry">Mineral</a>
                             </div>
 
 
@@ -221,43 +360,34 @@ Industry we serve
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-6 project-item-box coffee">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/industry/coffe.jpg')}}" alt="">
-                                </figure>
-                            </div>
+                </div>
+            </div>
 
-                            <div class="project-tag">
-                                <a href="/single-industry">Coffee</a>
-                            </div>
+            <div class="col-12">
+                <h2 class="wow fadeInUp" data-wow-delay="0.4s"> <span>Pharmaceutical &amp; Chemical</span> Industries
+                </h2>
+                <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Challenges:</h4>
+                <ul>
+                    <li>Contamination of processed product and strict quality regulations</li>
+                    <li>Clogging due to fine powders and inefficiency in sieving.</li>
+                </ul>
+                <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Rubtech Solutions:</h4>
+                <ul>
+                    <li>Food-grade rubber components prevent contamination, ensuring
+                        product purity.</li>
+                    <li>Maintain filter efficiency, reducing downtime and meeting
+                        regulatory standards.</li>
 
-
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-6 project-item-box guargum">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/industry/guar-gum.jpg')}}" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag">
-                                <a href="/single-industry">Guar Gum </a>
-                            </div>
+                </ul>
 
 
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
+            </div>
 
-                    <div class="col-md-6 project-item-box malt">
+
+            <div class="col-lg-12 pt-3">
+                <!-- Project Item Boxes start -->
+                <div class="row project-item-boxes align-items-center">
+                    <div class="col-md-6 project-item-box pharma">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
@@ -267,31 +397,13 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Malt </a>
+                                <a href="/single-industry">Pharmaceuticals </a>
                             </div>
 
 
                         </div>
                         <!-- Project Item End -->
                     </div>
-                    <div class="col-md-6 project-item-box millet">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/industry/flour-2.png')}}" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag">
-                                <a href="/single-industry">Millet </a>
-                            </div>
-
-
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
                     <div class="col-md-6 project-item-box powder">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
@@ -309,25 +421,8 @@ Industry we serve
                         </div>
                         <!-- Project Item End -->
                     </div>
-                    <div class="col-md-6 project-item-box spices">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/industry/spices.jpg')}}" alt="">
-                                </figure>
-                            </div>
 
-                            <div class="project-tag">
-                                <a href="/single-industry">Spices </a>
-                            </div>
-
-
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
                 </div>
-                <!-- Project Item Boxes End -->
             </div>
         </div>
         <div class="col-lg-4">
