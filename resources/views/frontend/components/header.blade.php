@@ -106,7 +106,16 @@
 
                                 </ul> --}}
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="products">Our Products</a></li>
+                            <li class="nav-item submenu "><a class="nav-link" href="products">Our Products</a>
+                                <ul>
+                                    <li class="nav-item"><a class="nav-link" href="#">Product 1</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Product 2</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Product 3</a>
+                                    </li>
+
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="industries-we-serve">Industry We Serve</a>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="/research-and-development">R & D
@@ -123,7 +132,7 @@
                                 </ul>
                             </li> --}}
                             {{-- <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li> --}}
-                            <li class="nav-item"><a class="nav-link" href="contact">Know us more</a></li>
+                            <li class="nav-item"><a class="nav-link" href="know-us-more">Know us more</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
                         </ul>
                     </div>

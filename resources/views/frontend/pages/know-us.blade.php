@@ -28,7 +28,7 @@ gallery
 
 <!-- Page Blog Start -->
 
-<div class="page-blog">
+<div class="page-blog pb-5">
     <div class="container">
         <div class="row section-row align-items-center">
             <div class="col-lg-5">
@@ -51,6 +51,70 @@ gallery
             </div>
         </div>
         <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <!-- Post Item Start -->
+                <div class="post-item wow fadeInUp">
+                    <!-- Post Featured Image Start-->
+                    <div class="post-featured-image">
+                        <figure>
+                            <a href="/single" class="image-anime" data-cursor-text="View">
+                                <img src="{{asset('images/fda.jpeg')}}" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <!-- Post Featured Image End -->
+
+                    <!-- Post Item Body Start -->
+                    <div class="post-item-body">
+                        <!-- Post Item Content Start -->
+                        <div class="post-item-content">
+                            <h2><a href="blog-single.html">Importance of FDA-Compliant Rubber Components in Food
+                                    Processing</a></h2>
+                        </div>
+                        <!-- Post Item Content End -->
+
+                        <!-- Post Readmore Button Start -->
+                        <div class="post-readmore-btn">
+                            <a href="/single">Read more</a>
+                        </div>
+                        <!-- Post Readmore Button End -->
+                    </div>
+                    <!-- Post Item Body End -->
+                </div>
+                <!-- Post Item End -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Post Item Start -->
+                <div class="post-item wow fadeInUp">
+                    <!-- Post Featured Image Start-->
+                    <div class="post-featured-image">
+                        <figure>
+                            <a href="/single" class="image-anime" data-cursor-text="View">
+                                <img src="{{asset('images/fda.jpeg')}}" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <!-- Post Featured Image End -->
+
+                    <!-- Post Item Body Start -->
+                    <div class="post-item-body">
+                        <!-- Post Item Content Start -->
+                        <div class="post-item-content">
+                            <h2><a href="blog-single.html">Importance of FDA-Compliant Rubber Components in Food
+                                    Processing</a></h2>
+                        </div>
+                        <!-- Post Item Content End -->
+
+                        <!-- Post Readmore Button Start -->
+                        <div class="post-readmore-btn">
+                            <a href="/single">Read more</a>
+                        </div>
+                        <!-- Post Readmore Button End -->
+                    </div>
+                    <!-- Post Item Body End -->
+                </div>
+                <!-- Post Item End -->
+            </div>
             <div class="col-lg-4 col-md-6">
                 <!-- Post Item Start -->
                 <div class="post-item wow fadeInUp">
@@ -106,8 +170,13 @@ gallery
 
 
 <!-- Photo Gallery Section Start -->
-<div class="page-gallery">
+<div class="page-gallery py-1">
     <div class="container">
+        <div class="section-title">
+
+            <h2 class="text-anime-style-2" data-cursor="-opaque">Our <span>latest Gallery</span>
+            </h2>
+        </div>
         <!-- gallery section start -->
         <div class="row gallery-items page-gallery-box">
             <div class="col-lg-4 col-6">
@@ -262,7 +331,8 @@ gallery
                     <!-- Our Faqs Image Start -->
                     <div class="our-faqs-img">
                         <figure class="image-anime">
-                            <img src="images/our-faqs-image.jpg" alt="">
+                            <img src="{{asset('https://html.awaikenthemes.com/toplax/images/our-faqs-image.jpg')}}"
+                                alt="">
                         </figure>
                     </div>
                     <!-- Our Faqs Image End -->

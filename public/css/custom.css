@@ -1465,7 +1465,7 @@ header.main-header .header-sticky.active {
 }
 
 .what-we-do-content {
-    padding: 100px 120px;
+    padding: 100px 70px;
     height: 100%;
 }
 
@@ -3484,7 +3484,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url(../images/icon-check.svg) no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 
@@ -4374,7 +4374,7 @@ header.main-header .header-sticky.active {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    background: url(../images/icon-check.svg) no-repeat center left;
+    background: url("/images/icons/gear.png") no-repeat center left;
     background-size: cover;
 }
 

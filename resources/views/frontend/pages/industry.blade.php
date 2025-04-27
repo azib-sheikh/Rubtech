@@ -319,24 +319,22 @@ Industry we serve
             </div>
 
             <div class="col-12">
-                <h2 class="wow fadeInUp" data-wow-delay="0.4s"> <span>Food & Agro-Processing</span> Industries
+                <h2 class="wow fadeInUp" data-wow-delay="0.4s"> <span>Mining &amp; Mineral </span> Industries
                 </h2>
                 <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Challenges:</h4>
                 <ul>
-                    <li>Food contamination due to wear debris of food-contact process
-                        aids</li>
-                    <li>Sieve Clogging, Inefficient sieving and production loss during
-                        sieving.</li>
-                    <li>Downtime due to frequent repairs and high maintenance costs.</li>
+                    <li>Abrasive materials cause wear and clogging.</li>
+                    <li>High maintenance costs and operational inefficiencies.</li>
+
                 </ul>
                 <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Rubtech Solutions:</h4>
                 <ul>
-                    <li>Food-grade rubber sieve cleaners ensure food-safety.</li>
-                    <li>Effective cleaning and improved efficiency.</li>
-                    <li>Rubber components reduce wear and clogging, cutting
-                        maintenance and downtime.</li>
+                    <li>Rubber cleaners withstand harsh conditions, ensuring efficient sieving.</li>
+                    <li>Significantly reduce wear, minimize maintenance costs, and
+                        improve productivity.</li>
+
                 </ul>
-                <p class="my-3">Enhance product yield, consistency, and reduce operational costs.</p>
+
 
             </div>
 
@@ -366,24 +364,22 @@ Industry we serve
             </div>
 
             <div class="col-12">
-                <h2 class="wow fadeInUp" data-wow-delay="0.4s"> <span>Food & Agro-Processing</span> Industries
+                <h2 class="wow fadeInUp" data-wow-delay="0.4s"> <span>Pharmaceutical &amp; Chemical</span> Industries
                 </h2>
                 <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Challenges:</h4>
                 <ul>
-                    <li>Food contamination due to wear debris of food-contact process
-                        aids</li>
-                    <li>Sieve Clogging, Inefficient sieving and production loss during
-                        sieving.</li>
-                    <li>Downtime due to frequent repairs and high maintenance costs.</li>
+                    <li>Contamination of processed product and strict quality regulations</li>
+                    <li>Clogging due to fine powders and inefficiency in sieving.</li>
                 </ul>
                 <h4 class="wow fadeInUp my-3" data-wow-delay="0.6s">Rubtech Solutions:</h4>
                 <ul>
-                    <li>Food-grade rubber sieve cleaners ensure food-safety.</li>
-                    <li>Effective cleaning and improved efficiency.</li>
-                    <li>Rubber components reduce wear and clogging, cutting
-                        maintenance and downtime.</li>
+                    <li>Food-grade rubber components prevent contamination, ensuring
+                        product purity.</li>
+                    <li>Maintain filter efficiency, reducing downtime and meeting
+                        regulatory standards.</li>
+
                 </ul>
-                <p class="my-3">Enhance product yield, consistency, and reduce operational costs.</p>
+
 
             </div>
 

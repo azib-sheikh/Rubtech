@@ -43,7 +43,7 @@ About
                     <!-- About Image Start -->
                     <div class="about-img-2">
                         <figure class="image-anime reveal">
-                            <img src="{{asset('images/v-image-about.jpeg')}}" alt="">
+                            <img src="{{asset('images/v-image-about.png')}}" alt="">
                         </figure>
                     </div>
                     <!-- About Image End -->

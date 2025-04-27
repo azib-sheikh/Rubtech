@@ -24,7 +24,7 @@ Contact
     </div>
 </div>
 <!-- Page Header End -->
-<div class="page-team-single">
+<div class="page-team-single pb-3">
     <div class="container">
         <div class="row">
 

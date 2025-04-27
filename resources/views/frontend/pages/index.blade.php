@@ -182,9 +182,13 @@ Home Page
                 <div class="swiper-slide product-image">
                     <a href="#">
                         <div class="product-detail">
-                            This product is a good choice for every buyer Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Numquam dolores error natus, hic nemo doloremque, atque asperiores
-                            incidunt totam repudiandae dignissimos delectus a modi?
+                            Sieve Cleaning Rubber Balls are engineered for efficient screening, sieving, sorting, and
+                            cleaning applications. Crafted
+                            from premium materials like Natural Rubber (NR), Styrene Butadiene Rubber (SBR),
+                            Polybutadiene Rubber (PBR), Ethylene
+                            Propylene (EPDM), Silicon, Viton, Neoprene, and Nitrile Rubber (NBR), these spherical balls
+                            offer exceptional durability
+                            and resilience.
                         </div>
                         <figure class="image-anime">
                             <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
@@ -192,16 +196,17 @@ Home Page
                         </figure>
 
                         <div class="product-title">
-                            32MM SIEVE CLEANING RUBBER BALLS
+                            Sieve Cleaning Rubber Ball
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide product-image">
                     <a href="#">
                         <div class="product-detail">
-                            This product is a good choice for every buyer Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Numquam dolores error natus, hic nemo doloremque, atque asperiores
-                            incidunt totam repudiandae dignissimos delectus a modi?
+                            Rubber cube ensures efficient performance in various industries, including edible oil,
+                            millet, and salt processing. Its
+                            robust construction aids in vibration damping and equipment stability, enhancing operational
+                            efficiency.
                         </div>
                         <figure class="image-anime">
                             <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
@@ -209,16 +214,16 @@ Home Page
                         </figure>
 
                         <div class="product-title">
-                            32MM SIEVE CLEANING RUBBER BALLS
+                            Rubber Cube
                         </div>
                     </a>
                 </div>
                 <div class="swiper-slide product-image">
                     <a href="#">
                         <div class="product-detail">
-                            This product is a good choice for every buyer Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Numquam dolores error natus, hic nemo doloremque, atque asperiores
-                            incidunt totam repudiandae dignissimos delectus a modi?
+                            These Mounts are ideal for use in machinery, compressors, and equipment requiring vibration
+                            absorption to enhance
+                            operational efficiency and longevity.
                         </div>
 
                         <figure class="image-anime">
@@ -227,7 +232,66 @@ Home Page
                         </figure>
 
                         <div class="product-title">
-                            32MM SIEVE CLEANING RUBBER BALLS
+                            Anti Vibration Mounts
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            These hollow-cylindrical sleeves are ideal for lift pipes, viewing glass support, and
+                            air-lock systems in milling and
+                            processing industries. Their robust construction ensures long-lasting performance and
+                            compliance with international
+                            safety standards.
+                        </div>
+
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Rubber Sleeves
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            This versatile inspection cap is utilized across various industries, including edible oil,
+                            millet, and salt processing,
+                            providing access points for inspections, maintenance, or sampling in equipment and storage
+                            tanks. ​
+                        </div>
+
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Inspection Cap
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide product-image">
+                    <a href="#">
+                        <div class="product-detail">
+                            RTM Rubber Rings are designed to meet the stringent demands of industries requiring reliable
+                            and long-lasting sealing
+                            solutions. Their robust construction and material versatility make them suitable for a wide
+                            array of applications,
+                            ensuring optimal performance and longevity.
+                        </div>
+
+                        <figure class="image-anime">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/876280081_32mm Rubber Balls 1.jpg"
+                                alt="">
+                        </figure>
+
+                        <div class="product-title">
+                            Rubber Rings
                         </div>
                     </a>
                 </div>
@@ -267,9 +331,10 @@ Home Page
                                     <img src="{{asset('images/icons/regulatory_complaince.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>Regulatory Compliance</h3>
-                                    <p>Meeting global standards with FDA, EU, and Japan-compliant food-grade rubber
-                                        components.</p>
+                                    <h3>Certified Quality & Compliance - </h3>
+                                    <p>ISO 9001:2015 & GMP certified, compliant with US FDA 21 CFR 177.2600, EU EN
+                                        2002R0178,
+                                        and JA9104 Japan Regulations.</p>
                                 </div>
                             </div>
                             <!-- What We Do Item End -->
@@ -280,9 +345,10 @@ Home Page
                                     <img src="{{asset('images/icons/global_oem_partenership.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>Global OEM Partnerships</h3>
-                                    <p> Supplying Tier 1 OEMs in the US and Europe with high-quality,
-                                        precision-engineered rubber solutions.</p>
+                                    <h3>Global Supply Network - </h3>
+                                    <p>Exporting to the USA, Europe, and Latin America, with Expanding Reach Fueled by
+                                        Positive Client
+                                        Experiences.</p>
                                 </div>
                             </div>
                             <!-- What We Do Item End -->
@@ -295,9 +361,10 @@ Home Page
                                     <img src="{{asset('images/icons/advance_material_science.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>Advanced Material Science</h3>
-                                    <p>Expertise in rubber compound design ensures high performance and extra-long
-                                        service life.</p>
+                                    <h3>Precision Engineering - </h3>
+                                    <p>Expertly crafted rubber components designed for durability, efficiency, and
+                                        extra-long service
+                                        life.</p>
                                 </div>
                             </div>
                             <!-- What We Do Item End -->
@@ -308,9 +375,9 @@ Home Page
                                     <img src="{{asset('images/icons/proven_industry_expense.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>Proven Industry Expertise</h3>
-                                    <p> Led by a seasoned rubber science expert with decades of experience in process
-                                        engineering.</p>
+                                    <h3>In-house R&D & Continous Improvement - </h3>
+                                    <p> Ensures meeting and exceeding expectation of industry and explore new horizons
+                                    </p>
                                 </div>
                             </div>
                             <!-- What We Do Item End -->
