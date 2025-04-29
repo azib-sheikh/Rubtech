@@ -105,7 +105,7 @@ Contact
             <div class="contact-information">
                 <!-- Section Title Start -->
                 <div class="section-title text-center">
-                    <h3 class="wow fadeInUp">contact us</h3>
+                    {{-- <h3 class="wow fadeInUp">contact us</h3> --}}
                     <h2 class="text-anime-style-3 text-center" data-cursor="-opaque">Get in touch <span>with us</span>
                     </h2>
                     <p class="wow fadeInUp" data-wow-delay="0.2s">Reach out for any inquiries, support, or to

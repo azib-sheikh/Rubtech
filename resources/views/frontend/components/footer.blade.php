@@ -15,7 +15,7 @@
 
                     <!-- Footer Contact Circle Start -->
                     <div class="footer-contact-circle">
-                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="javascript:void(0)"
+                        <a href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/Catalogue-RTM.pdf"
                             class="btn-default"><span>Download Brochure</span></a>
                     </div>
                     <!-- Footer Contact Circle End -->

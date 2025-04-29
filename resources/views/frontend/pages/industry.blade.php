@@ -359,6 +359,23 @@ Industry we serve
                         </div>
                         <!-- Project Item End -->
                     </div>
+                    <div class="col-md-6 project-item-box mineral">
+                        <!-- Project Item Start -->
+                        <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="project-image">
+                                <figure class="image-anime">
+                                    <img src="{{asset('images/mining.png')}}" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="project-tag">
+                                <a href="/single-industry">Mining</a>
+                            </div>
+
+
+                        </div>
+                        <!-- Project Item End -->
+                    </div>
 
                 </div>
             </div>
@@ -392,7 +409,7 @@ Industry we serve
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="project-image">
                                 <figure class="image-anime">
-                                    <img src="{{asset('images/industry/malt.jpg')}}" alt="">
+                                    <img src="{{asset('images/industry/pharma.png')}}" alt="">
                                 </figure>
                             </div>
 

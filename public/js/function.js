@@ -92,7 +92,7 @@
     /* industries slider js */
 
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
+        slidesPerView: 4,
         speed: 1000,
         spaceBetween: 20,
         loop: true,
@@ -109,6 +109,24 @@
             prevEl: ".industry-button-prev",
         },
     });
+    /*  var swiper = new Swiper(".productSlider", {
+        slidesPerView: 4,
+        speed: 1000,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".industry-button-next",
+            prevEl: ".industry-button-prev",
+        },
+    }); */
 
     if ($(".testimonial-company-slider").length) {
         const testimonial_company_slider = new Swiper(

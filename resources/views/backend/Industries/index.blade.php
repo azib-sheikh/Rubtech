@@ -4,7 +4,7 @@
 <div class="container-fluid py-3">
     <div class="d-flex justify-content-between align-items-center">
         <h3>Industries</h3>
-        <a href="{{ route('admin.industries.create') }}" class="btn btn-primary">Create New Industry</a>
+        <a href="{{ route('industries.create') }}" class="btn btn-primary">Create New Industry</a>
     </div>
 
     <div class="p-3 bg-white mt-4">
@@ -50,10 +50,10 @@
                                 <td>{{ $industry->user->name }}</td>
                                 <td>{{ $industry->created_at->format('M d, Y') }}</td>
                                 <td>
-                                    <a href="{{ route('admin.industries.edit', $industry->id) }}" class="btn btn-sm btn-primary">
+                                    <a href="{{ route('industries.edit', $industry->id) }}" class="btn btn-sm btn-primary">
                                         Edit
                                     </a>
-                                    <form action="{{ route('admin.industries.destroy', $industry->id) }}" method="POST" class="d-inline">
+                                    <form action="{{ route('industries.destroy', $industry->id) }}" method="POST" class="d-inline">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this industry?')">
