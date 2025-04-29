@@ -35,85 +35,119 @@ Our Products
             <div class="col-lg-12">
                 <!-- Project Item Boxes start -->
                 <div class="row project-item-boxes align-items-center">
-                    <div class="col-md-3 project-item-box manufacturing automation">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/products/BarrelshapeRubberBall.jpg')}}" alt="">
-                                </figure>
+                    <div class="product-image col-md-3 project-item-box mb-4 ">
+                        <a href="#">
+                            <div class="product-detail">
+                                Sieve Cleaning Rubber Balls, made from high-quality materials such as NR, SBR, PBR,
+                                EPDM,
+                                Silicon, Viton, Neoprene, and
+                                NBR, ensure efficient screening, sieving, sorting, and cleaning with outstanding
+                                durability.
+                            </div>
+                            <figure class="image-anime">
+                                <img src="{{asset('images/products/seivecleaningball.jpg')}}" alt="">
+                            </figure>
+
+                            <div class="product-title">
+                                Sieve Cleaning Rubber Balls
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product-image col-md-3 project-item-box mb-4">
+                        <a href="#">
+                            <div class="product-detail">
+                                Rubber cube ensures efficient performance in various industries, including edible oil,
+                                millet, and salt processing. Its
+                                robust construction aids in vibration damping and equipment stability, enhancing
+                                operational
+                                efficiency.
+                            </div>
+                            <figure class="image-anime">
+                                <img src="{{asset('images/products/rubbbercube.jpg')}}" alt="">
+                            </figure>
+
+                            <div class="product-title">
+                                Rubber Cube
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product-image col-md-3 project-item-box mb-4">
+                        <a href="#">
+                            <div class="product-detail">
+                                These Mounts are ideal for use in machinery, compressors, and equipment requiring
+                                vibration
+                                absorption to enhance
+                                operational efficiency and longevity.
                             </div>
 
-                            <div class="project-tag d-none">
-                                <a href="/single-product">manufacturing</a>
+                            <figure class="image-anime">
+                                <img src="{{asset('images/products/antivibrationmount.jpg')}}" alt="">
+                            </figure>
+
+                            <div class="product-title">
+                                Anti Vibration Mounts
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product-image col-md-3 project-item-box mb-4">
+                        <a href="#">
+                            <div class="product-detail">
+                                Hollow cylindrical sleeves ideal for lift pipes, viewing glass support, and air-lock
+                                systems, ensuring durability and
+                                compliance with global safety standards in milling/processing industries.
                             </div>
 
-                            <div class="project-content">
-                                <h3><a href="/single-product">BARREL SHAPE RUBBER CLEANER</a></h3>
+                            <figure class="image-anime">
+                                <img src="{{asset('images/products/rubbersleve.jpg')}}" alt="">
+                            </figure>
+
+                            <div class="product-title">
+                                Rubber Sleeves
                             </div>
-                        </div>
-                        <!-- Project Item End -->
+                        </a>
+                    </div>
+                    <div class="product-image col-md-3 project-item-box mb-4">
+                        <a href="#">
+                            <div class="product-detail">
+                                This versatile inspection cap is utilized across various industries, including edible
+                                oil,
+                                millet, and salt processing,
+                                providing access points for inspections, maintenance, or sampling in equipment and
+                                storage
+                                tanks. ​
+                            </div>
+
+                            <figure class="image-anime">
+                                <img src="{{asset('images/products/inspectioncap.jpg')}}" alt="">
+                            </figure>
+
+                            <div class="product-title">
+                                Inspection Cap
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product-image col-md-3 project-item-box mb-4">
+                        <a href="#">
+                            <div class="product-detail">
+                                RTM Rubber Rings provide durable, versatile sealing for demanding industrial
+                                applications,
+                                ensuring reliable
+                                performance, adaptability, and longevity across a wide range of uses.
+                            </div>
+
+                            <figure class="image-anime">
+                                <img src="{{asset('images/products/rubberring.jpg')}}" alt="">
+                            </figure>
+
+                            <div class="product-title">
+                                Rubber Rings
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="col-md-3 project-item-box automation sustainability development">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/products/16mmRubberBalls.jpg')}}" alt="">
-                                </figure>
-                            </div>
 
-                            <div class="project-tag d-none">
-                                <a href="/single-product">automation</a>
-                            </div>
 
-                            <div class="project-content">
-                                <h3><a href="/single-product">16MM SIEVE CLEANING</a></h3>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
 
-                    <div class="col-md-3 project-item-box sustainability infrastructure">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/products/28mmRubberBalls.jpg')}}" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag d-none">
-                                <a href="/single-product">automation</a>
-                            </div>
-
-                            <div class="project-content">
-                                <h3><a href="/single-product">24MM SIEVE CLEANING RUBBER BALLS</a></h3>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-3 project-item-box manufacturing development">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="{{asset('images/products/65mmRubberBalls.jpg')}}" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag d-none">
-                                <a href="/single-product">development</a>
-                            </div>
-
-                            <div class="project-content">
-                                <h3><a href="/single-product">25MM SIEVE CLEANING RUBBER BALLS</a></h3>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
 
                 </div>
                 <!-- Project Item Boxes End -->

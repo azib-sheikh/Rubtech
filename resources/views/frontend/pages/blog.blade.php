@@ -62,6 +62,38 @@ Blog
                 </div>
                 <!-- Post Item End -->
             </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Post Item Start -->
+                <div class="post-item wow fadeInUp">
+                    <!-- Post Featured Image Start-->
+                    <div class="post-featured-image">
+                        <figure>
+                            <a href="/single" class="image-anime" data-cursor-text="View">
+                                <img src="{{asset('images/eco.png')}}" alt="">
+                            </a>
+                        </figure>
+                    </div>
+                    <!-- Post Featured Image End -->
+
+                    <!-- Post Item Body Start -->
+                    <div class="post-item-body">
+                        <!-- Post Item Content Start -->
+                        <div class="post-item-content">
+                            <h2><a href="blog-single.html">Sustainable Rubber Manufacturing: The Future of Eco-Friendly
+                                    Industrial Solutions</a></h2>
+                        </div>
+                        <!-- Post Item Content End -->
+
+                        <!-- Post Readmore Button Start -->
+                        <div class="post-readmore-btn">
+                            <a href="/single">Read more</a>
+                        </div>
+                        <!-- Post Readmore Button End -->
+                    </div>
+                    <!-- Post Item Body End -->
+                </div>
+                <!-- Post Item End -->
+            </div>
 
 
 

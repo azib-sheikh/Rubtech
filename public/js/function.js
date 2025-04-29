@@ -23,6 +23,7 @@
         }
 
         $(window).on("scroll", function () {
+            console.log("ok");
             var fromTop = $(window).scrollTop();
             setHeaderHeight();
             var headerHeight = $("header .header-sticky").outerHeight();

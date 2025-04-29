@@ -180,10 +180,23 @@ Product
                             <div class="row mb-2">
                                 <div class="col-4">
                                     <img class="img-fluid w-100"
-                                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/638288177_96 Anti Vibration Mount 2.jpg"
+                                        src="{{asset('images/products/antivibrationmount.jpg')}}" alt="">
+                                </div>
+                                <div class="col-8">Anti Vibration Mount</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4">
+                                    <img class="img-fluid w-100"
+                                        src="{{asset('images/products/seivecleaningball.jpg')}}" alt="">
+                                </div>
+                                <div class="col-8">Sieve Cleaning Rubber Balls</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4">
+                                    <img class="img-fluid w-100" src="{{asset('images/products/rubbbercube.jpg')}}"
                                         alt="">
                                 </div>
-                                <div class="col-8">96x96mm Anti Vibration Mount</div>
+                                <div class="col-8">Rubber Cube</div>
                             </div>
                             <div class="row mb-2">
                                 <div class="col-4">
@@ -191,32 +204,9 @@ Product
                                         src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/638288177_96 Anti Vibration Mount 2.jpg"
                                         alt="">
                                 </div>
-                                <div class="col-8">96x96mm Anti Vibration Mount</div>
+                                <div class="col-8">De-Stoner</div>
                             </div>
-                            <div class="row mb-2">
-                                <div class="col-4">
-                                    <img class="img-fluid w-100"
-                                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/638288177_96 Anti Vibration Mount 2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="col-8">96x96mm Anti Vibration Mount</div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col-4">
-                                    <img class="img-fluid w-100"
-                                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/638288177_96 Anti Vibration Mount 2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="col-8">96x96mm Anti Vibration Mount</div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col-4">
-                                    <img class="img-fluid w-100"
-                                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product/638288177_96 Anti Vibration Mount 2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="col-8">96x96mm Anti Vibration Mount</div>
-                            </div>
+
 
                         </div>
                     </div>
