@@ -63,7 +63,7 @@
                     <!-- Topbar Qoute Button Start -->
                     <div class="topbar-qoute-btn">
                         <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="javascript:void(0)"
-                            class="btn-default"><span>Get A Quote</span></a>
+                            class="btn-default"><span>Request A Quote</span></a>
                         <div id="google_translate_element"></div>
                         <div class="search-icon">
                             <i class="fa fa-search text-light"></i>
@@ -109,10 +109,18 @@
                             </li>
                             <li class="nav-item submenu "><a class="nav-link" href="products">Our Products</a>
                                 <ul>
-                                    <li class="nav-item"><a class="nav-link" href="#">Product 1</a>
+                                    <li class="nav-item"><a class="nav-link" href="#">Sieve Cleaning Rubber Balls</a>
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Product 2</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Product 3</a>
+                                    <li class="nav-item"><a class="nav-link" href="#">Rubber Cube</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Anti Vibration Mounts</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Rubber Sleeves</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Inspection Cap</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Rubber Rings</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Custom Prototype</a>
                                     </li>
 
                                 </ul>
@@ -133,7 +141,7 @@
                                 </ul>
                             </li> --}}
                             {{-- <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li> --}}
-                            <li class="nav-item submenu"><a class="nav-link" href="know-us-more">Know us more</a>
+                            <li class="nav-item submenu"><a class="nav-link" href="javascript:void(0)">Know us more</a>
                                 <ul>
                                     <li class="nav-item"><a class="nav-link" href="/blog">Blog</a>
                                     </li>

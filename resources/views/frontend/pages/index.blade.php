@@ -541,7 +541,7 @@ Home Page
                 <div class="swiper-slide industry-image">
                     <a href="#">
                         <figure class="image-anime">
-                            <img src="{{asset('images/industry/malt.jpg')}}" alt="">
+                            <img src="{{asset('images/industry/malt.png')}}" alt="">
                         </figure>
                         <div class="project-tag">
                             Malt

@@ -929,7 +929,7 @@ header.main-header .header-sticky.active {
 
 .hero.hero-slider-layout .hero-slide {
     position: relative;
-    padding: 130px 0;
+    padding: 110px 0;
 }
 
 .hero.hero-slider-layout .hero-slide::before {
@@ -1824,6 +1824,10 @@ header.main-header .header-sticky.active {
     height: 100%;
     transform: scale(0);
     transition: 0.3s ease-in;
+}
+.project-item-box .product-detail {
+    max-width: calc(100% - 30px);
+    background-color: #253a84f4;
 }
 .product-image:hover .product-detail {
     transform: scale(1);
@@ -6678,4 +6682,8 @@ header.main-header .header-sticky.active {
 }
 .btn-orange.btn-default {
     background-color: #ff9900;
+}
+.service-catagery-list .col-4 img {
+    height: 60px;
+    object-fit: cover;
 }
