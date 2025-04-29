@@ -27,7 +27,7 @@
             </div>
         @endif
 
-        <form method="POST" action="{{ route('admin.industries.store') }}" enctype="multipart/form-data">
+        <form method="POST" action="{{ route('industries.store') }}" enctype="multipart/form-data">
             @csrf
             <div class="mb-3">
                 <label for="title" class="form-label">Industry Title</label>
@@ -54,7 +54,7 @@
             </div>
             <div class="mb-3">
                 <label for="content" class="form-label">Industry Content</label>
-                <textarea class="form-control w-100 @error('content') is-invalid @enderror" name="content" id="content" rows="10" required>{{ old('content') }}</textarea>
+                <textarea class="form-control ckeditor w-100 @error('content') is-invalid @enderror" name="content" id="content" rows="10" required>{{ old('content') }}</textarea>
                 @error('content')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>

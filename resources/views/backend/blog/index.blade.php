@@ -1,52 +1,80 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container-fluid py-3">
+    <div class="d-flex justify-content-between align-items-center">
+        <h3>Blogs</h3>
+        <a href="{{ route('blogs.create') }}" class="btn btn-primary">Create New Blog</a>
+    </div>
 
-<div class="container-fluid">
-    <div class="table-responsive">
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">Sr.no</th>
-                    <th class="big-col" scope="col">Title</th>
-                    <th scope="col">Date of published</th>
-                    <th class="action-col" scope="col">Action</th>
-                </tr>
-            </thead>
-            <tbody>
+    <div class="p-3 bg-white mt-4">
+        @if(session('success'))
+            <div class="alert alert-success">
+                {{ session('success') }}
+            </div>
+        @endif
 
-                @foreach ($blogs as $key => $blog)
-                <tr>
-                    <th scope="row">{{$key + 1}}</th>
-                    <td>{{$blog->title}}</td>
-                    <td>{{$blog->created_at}}</td>
-                    <td>
-                        <div class="d-flex">
-                            <a href="{{ route('blogs.edit', $blog->id) }}" class="btn btn-primary">Edit</a>
-                            <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" class="ms-2">
-                                @csrf
-                                @method('DELETE')
-                                <button type="submit" class="btn btn-danger">Delete</button>
-                            </form>
-                        </div>
-                    </td>
-                </tr>
+        @if(session('error'))
+            <div class="alert alert-danger">
+                {{ session('error') }}
+            </div>
+        @endif
 
-                @endforeach
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Created At</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if($blogs->count() > 0)
+                        @foreach($blogs as $blog)
+                            <tr>
+                                <td>
+                                    @if($blog->image)
+                                        <img src="{{ asset('storage/' . $blog->image) }}" 
+                                             alt="{{ $blog->title }}" 
+                                             style="width: 50px; height: 50px; object-fit: cover;">
+                                    @else
+                                        <img src="{{ asset('images/placeholder.jpg') }}" 
+                                             alt="No image" 
+                                             style="width: 50px; height: 50px; object-fit: cover;">
+                                    @endif
+                                </td>
+                                <td>{{ $blog->title }}</td>
+                                <td>{{ $blog->user ? $blog->user->name : 'Unknown Author' }}</td>
+                                <td>{{ $blog->created_at->format('M d, Y') }}</td>
+                                <td>
+                                    <a href="{{ route('blogs.edit', $blog->id) }}" class="btn btn-sm btn-primary">
+                                        Edit
+                                    </a>
+                                    <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" class="d-inline">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this blog?')">
+                                            Delete
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        @endforeach
+                    @else
+                        <tr>
+                            <td colspan="5" class="text-center">No blogs found.</td>
+                        </tr>
+                    @endif
+                </tbody>
+            </table>
+        </div>
 
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="mt-4">
+            {{ $blogs->links() }}
+        </div>
     </div>
 </div>
 @endsection

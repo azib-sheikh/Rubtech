@@ -62,7 +62,8 @@
                     </ul>
                     <!-- Topbar Qoute Button Start -->
                     <div class="topbar-qoute-btn">
-                        <a href="/contact" class="btn-default"><span>Get A Quote</span></a>
+                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="javascript:void(0)"
+                            class="btn-default"><span>Get A Quote</span></a>
                         <div id="google_translate_element"></div>
                         <div class="search-icon">
                             <i class="fa fa-search text-light"></i>
@@ -132,7 +133,16 @@
                                 </ul>
                             </li> --}}
                             {{-- <li class="nav-item"><a class="nav-link" href="/blog">Blogs</a></li> --}}
-                            <li class="nav-item"><a class="nav-link" href="know-us-more">Know us more</a></li>
+                            <li class="nav-item submenu"><a class="nav-link" href="know-us-more">Know us more</a>
+                                <ul>
+                                    <li class="nav-item"><a class="nav-link" href="/blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="/image-gallery">Gallery</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/faq">Faqs</a>
+                                    </li>
+
+                                </ul>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
                         </ul>
                     </div>

@@ -155,7 +155,7 @@ About
                 <div class="team-member-content">
                     <!-- Team Member Info Start -->
                     <div class="team-member-info">
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">CEO <span>Message</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Promoter's <span>Message</span></h2>
                         <p class="wow fadeInUp" data-wow-delay="0.6s">At <b>Rubtech Mech</b>, innovation &amp; quality
                             is at the heart of everything we
                             produce. My personal mission is to help create a world where food remains free
@@ -213,8 +213,7 @@ About
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h3 class="wow fadeInUp">our history</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Foundation of excellences <span>in
-                            industry</span></h2>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Promoter's <span>Journey History</span></h2>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -272,18 +271,17 @@ About
                                         <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Allied Auto & General
                                                 Industries</span>
                                         </h2>
-                                        <p>Graphite Monomers & Face Seal Rings</p>
+                                        <p>Began by manufacturing Graphite Monomers and Face Seal Rings, and initiated
+                                            rubber moulding using a single hand press
+                                            with an investment of just Rs. 1,000 (US$25) in an 80 sq. ft. workspace.
+                                            Gradually took strategic steps to expand the
+                                            modest setup and focused on selling products in the Indian aftermarket,
+                                            laying the foundation for future growth and
+                                            development in the industry.</p>
                                     </div>
                                     <!-- Section Title End -->
 
-                                    <div class="our-history-list">
-                                        <ul>
-                                            <li>Quality Control System</li>
-                                            <li>Building Quality Industrial</li>
-                                            <li>Environmental Responsibility</li>
-                                            <li>Building Quality Industrial</li>
-                                        </ul>
-                                    </div>
+
                                 </div>
                                 <!-- Our History Content End -->
                             </div>
@@ -310,21 +308,18 @@ About
                                 <div class="our-history-content">
                                     <!-- Section Title Start -->
                                     <div class="section-title">
-                                        <h2 class="text-anime-style-2" data-cursor="-opaque">Journey
-                                            <span>started</span>
+                                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                                            <span>Climax Auto-Industry</span>
                                         </h2>
-                                        <p>Manufacturer of Automotive filters</p>
+                                        <p>Entered automotive filter manufacturing and expanded into hydraulic
+                                            compression moulding. Initiated indirect exports,
+                                            then began direct exports to Europe and the US. Established a joint venture
+                                            in East Africa to market Climax-branded car
+                                            parts for Japanese vehicles, strengthening global presence and diversifying
+                                            product offerings.</p>
                                     </div>
                                     <!-- Section Title End -->
 
-                                    <div class="our-history-list">
-                                        <ul>
-                                            <li>Quality Control System</li>
-                                            <li>Building Quality Industrial</li>
-                                            <li>Environmental Responsibility</li>
-                                            <li>Building Quality Industrial</li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <!-- Our History Content End -->
                             </div>
@@ -351,23 +346,20 @@ About
                                 <div class="our-history-content">
                                     <!-- Section Title Start -->
                                     <div class="section-title">
-                                        <h2 class="text-anime-style-2" data-cursor="-opaque">Journey
-                                            <span>progress</span>
+                                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                                            <span>Climax Automotive Pvt. Ltd.</span>
                                         </h2>
-                                        <p>Welcome to Industry, a leading industry innovator with a rich history of
-                                            excellence. With a passion for precision and a commitment to quality, we
-                                            have been empowering industries and driving progress.</p>
+                                        <p>Expanded into broader automotive component manufacturing. In the late 1990s,
+                                            developed advanced quality systems to meet
+                                            OEM standards. Became the first rubber component manufacturer in India to
+                                            achieve TS 16949 certification. This milestone
+                                            marked a strategic shift, focusing on serving OEMs and large aftermarket
+                                            clients, reinforcing a commitment to quality,
+                                            innovation, and industry leadership in the automotive component sector.</p>
                                     </div>
                                     <!-- Section Title End -->
 
-                                    <div class="our-history-list">
-                                        <ul>
-                                            <li>Quality Control System</li>
-                                            <li>Building Quality Industrial</li>
-                                            <li>Environmental Responsibility</li>
-                                            <li>Building Quality Industrial</li>
-                                        </ul>
-                                    </div>
+
                                 </div>
                                 <!-- Our History Content End -->
                             </div>
@@ -394,22 +386,20 @@ About
                                 <div class="our-history-content">
                                     <!-- Section Title Start -->
                                     <div class="section-title">
-                                        <h2 class="text-anime-style-2" data-cursor="-opaque">Global <span>reach</span>
+                                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Climax Overseas Pvt.
+                                                Ltd.</span>
                                         </h2>
-                                        <p>Manufactures and exports rubber components like seals, gaskets, bushings, and
-                                            mounts for OEMs and Tier-1 suppliers
-                                            across Europe and the U.S.</p>
+                                        <p>We specialized in manufacturing and exporting high-quality rubber components,
+                                            including seals, gaskets, bushings, and
+                                            mounts. Our products are trusted by OEMs and Tier-1 suppliers across Europe
+                                            and the U.S. With a strong commitment to
+                                            precision and reliability, we support a wide range of industries by
+                                            delivering durable solutions designed to meet strict
+                                            international standards and enhance overall performance.</p>
                                     </div>
                                     <!-- Section Title End -->
 
-                                    <div class="our-history-list">
-                                        <ul>
-                                            <li>Quality Control System</li>
-                                            <li>Building Quality Industrial</li>
-                                            <li>Environmental Responsibility</li>
-                                            <li>Building Quality Industrial</li>
-                                        </ul>
-                                    </div>
+
                                 </div>
                                 <!-- Our History Content End -->
                             </div>
@@ -436,22 +426,20 @@ About
                                 <div class="our-history-content">
                                     <!-- Section Title Start -->
                                     <div class="section-title">
-                                        <h2 class="text-anime-style-2" data-cursor="-opaque">Industry
-                                            <span>leader</span>
+                                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                                            <span>Rubtech Mech (India) LLP</span>
                                         </h2>
-                                        <p>Manufacturing & exporting high –performance food-grade, wear-resistant
-                                            industrial rubber components</p>
+                                        <p>Rubtech Mech (India) LLP was established to design, manufacture, and market
+                                            Food Grade Sieve Cleaners and other
+                                            machinery parts, supporting the Make in India initiative. The company
+                                            specializes in producing and exporting
+                                            high-performance, food-grade, and wear-resistant industrial rubber
+                                            components, catering to global markets with a strong
+                                            focus on quality, innovation, and customer satisfaction.</p>
                                     </div>
                                     <!-- Section Title End -->
 
-                                    <div class="our-history-list">
-                                        <ul>
-                                            <li>Quality Control System</li>
-                                            <li>Building Quality Industrial</li>
-                                            <li>Environmental Responsibility</li>
-                                            <li>Building Quality Industrial</li>
-                                        </ul>
-                                    </div>
+
                                 </div>
                                 <!-- Our History Content End -->
                             </div>

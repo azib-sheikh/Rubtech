@@ -15,7 +15,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('css/backend.css')}}">
-
+    
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
@@ -84,15 +84,15 @@
                     <div class="sidebar">
                         <ul class="ps-3">
                             <li>
-                                <a href="">Home</a>
+                                <a href="{{route('home')}}">Home</a>
                             </li>
                             <li>
-                                <a href="">Products</a>
+                                <a href="{{route('products.index')}}">Products</a>
                             </li>
                             <li>
-                                <a href="">Industries</a>
+                                <a href="{{route('industries.index')}}">Industries</a>
                             </li>
-                            <li><a href="">Blogs</a></li>
+                            <li><a href="{{route('blogs.index')}}">Blogs</a></li>
                         </ul>
 
                     </div>
@@ -105,6 +105,24 @@
         </main>
     </div>
     @stack('scripts')
+
+    <!-- Load TinyMCE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.8.2/tinymce.min.js"></script>
+    
+    <!-- Initialize TinyMCE -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            tinymce.init({
+                selector: 'textarea.tinymce',
+                plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+                height: 400,
+                menubar: false,
+                branding: false,
+                promotion: false
+            });
+        });
+    </script>
 </body>
 
 </html>

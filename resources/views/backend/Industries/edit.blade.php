@@ -26,7 +26,7 @@
             </div>
         @endif
 
-        <form method="POST" action="{{ route('admin.industries.update', $industry->id) }}" enctype="multipart/form-data">
+        <form method="POST" action="{{ route('industries.update', $industry->id) }}" enctype="multipart/form-data">
             @csrf
             @method('PUT')
             <div class="mb-3">
@@ -60,7 +60,7 @@
 
             <div class="mb-3">
                 <label for="content" class="form-label">Industry Content</label>
-                <textarea class="form-control w-100 @error('content') is-invalid @enderror" name="content" id="content" rows="10" required>{{ old('content', $industry->content) }}</textarea>
+                <textarea class="form-control ckeditor w-100 @error('content') is-invalid @enderror" name="content" id="content" rows="10" required>{{ old('content', $industry->content) }}</textarea>
                 @error('content')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -70,7 +70,7 @@
 
             <div class="mt-4">
                 <button type="submit" class="btn px-4 btn-primary">Update</button>
-                <a href="{{ route('admin.industries.index') }}" class="btn btn-secondary">Back to List</a>
+                <a href="{{ route('industries.index') }}" class="btn btn-secondary">Back to List</a>
             </div>
         </form>
     </div>

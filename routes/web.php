@@ -49,8 +49,8 @@ Route::get('ceo-message', function () {
 Route::get('research-and-development', function () {
     return view('frontend.pages.randd');
 });
-Route::get('know-us-more', function () {
-    return view('frontend.pages.know-us');
+Route::get('faq', function () {
+    return view('frontend.pages.faq');
 });
 
 // Authentication Routes
@@ -74,10 +74,10 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::delete('/products/image/{id}', [ProductController::class, 'deleteImage'])->name('products.deleteImage');
 
     // Industry Routes
-    Route::get('/industries', [IndustryController::class, 'index'])->name('admin.industries.index');
-    Route::get('/industries/create', [IndustryController::class, 'create'])->name('admin.industries.create');
-    Route::post('/industries', [IndustryController::class, 'store'])->name('admin.industries.store');
-    Route::get('/industries/{id}/edit', [IndustryController::class, 'edit'])->name('admin.industries.edit');
-    Route::put('/industries/{id}', [IndustryController::class, 'update'])->name('admin.industries.update');
-    Route::delete('/industries/{id}', [IndustryController::class, 'destroy'])->name('admin.industries.destroy');
+    Route::get('/industries', [IndustryController::class, 'index'])->name('industries.index');
+    Route::get('/industries/create', [IndustryController::class, 'create'])->name('industries.create');
+    Route::post('/industries', [IndustryController::class, 'store'])->name('industries.store');
+    Route::get('/industries/{id}/edit', [IndustryController::class, 'edit'])->name('industries.edit');
+    Route::put('/industries/{id}', [IndustryController::class, 'update'])->name('industries.update');
+    Route::delete('/industries/{id}', [IndustryController::class, 'destroy'])->name('industries.destroy');
 });

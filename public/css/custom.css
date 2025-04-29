@@ -987,7 +987,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero.hero-slider-layout .hero-pagination .swiper-pagination-bullet-active {
-    background-color: var(--accent-color);
+    background-color: #ff9900;
 }
 
 .hero-content {
@@ -1488,6 +1488,7 @@ header.main-header .header-sticky.active {
     border: 1px solid var(--dark-divider-color);
     border-radius: 40px;
     padding: 30px;
+    background: var(--dark-divider-color);
 }
 
 .what-we-do-list-box-1 .what-we-do-item:nth-child(even) {
@@ -1782,7 +1783,7 @@ header.main-header .header-sticky.active {
 }
 .industry-btn {
     position: relative;
-    transform: translateY(-175px);
+    transform: translateY(-135px);
 }
 .industry-button-next {
     position: absolute;
@@ -1793,7 +1794,7 @@ header.main-header .header-sticky.active {
     left: -80px;
 }
 .industry-btn.certificate-btns {
-    transform: translateY(-330px);
+    transform: translateY(-240px);
 }
 .product-image .product-title {
     backdrop-filter: blur(50px);
@@ -1807,6 +1808,7 @@ header.main-header .header-sticky.active {
     padding: 20px 25px;
     overflow: hidden;
     background-color: var(--accent-color);
+    text-align: center;
 }
 .product-image {
     position: relative;
@@ -1827,7 +1829,7 @@ header.main-header .header-sticky.active {
     transform: scale(1);
 }
 .industry-btn.products-btn {
-    transform: translateY(-200px);
+    transform: translateY(-165px);
 }
 /************************************/
 /***      10. Our Process css     ***/
@@ -6673,4 +6675,7 @@ header.main-header .header-sticky.active {
     top: 10px;
     font-size: 32px;
     cursor: pointer;
+}
+.btn-orange.btn-default {
+    background-color: #ff9900;
 }

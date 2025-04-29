@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class BlogController extends Controller
 {
     public function index()
     {
-        /*  $blogs = Blog::where('user_id', auth()->id())->latest()->get(); */
-        $blogs = Blog::latest()->get();
+        $blogs = Blog::with('user')->latest()->paginate(10);
         return view('backend.blog.index', compact('blogs'));
     }
 
@@ -24,15 +24,23 @@ class BlogController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'content' => 'required',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
 
-        Blog::create([
+        $data = [
             'user_id' => auth()->id(),
             'title' => $request->title,
             'content' => $request->content,
-        ]);
+        ];
 
-        return redirect()->route('blogs.index')->with('success', 'Blog created!');
+        if ($request->hasFile('image')) {
+            $imagePath = $request->file('image')->store('uploads/blogs', 'public');
+            $data['image'] = $imagePath;
+        }
+
+        Blog::create($data);
+
+        return redirect()->route('blogs.index')->with('success', 'Blog created successfully!');
     }
 
     public function show(Blog $blog)
@@ -48,33 +56,34 @@ class BlogController extends Controller
 
     public function update(Request $request, Blog $blog)
     {
-        // Validate input fields
         $request->validate([
             'title' => 'required|string|max:255',
             'content' => 'required',
-
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
         ]);
 
-        // Prepare update data
         $data = $request->only('title', 'content');
 
-        // Handle image upload if new image is uploaded
-        if ($request->hasFile('img')) {
-            $imagePath = $request->file('img')->store('uploads/blogs', 'public');
+        if ($request->hasFile('image')) {
+            // Delete old image if exists
+            if ($blog->image) {
+                Storage::disk('public')->delete($blog->image);
+            }
+            $imagePath = $request->file('image')->store('uploads/blogs', 'public');
             $data['image'] = $imagePath;
         }
 
-        // Update the blog
         $blog->update($data);
 
-        return redirect()->route('blogs.index')->with('success', 'Blog updated!');
+        return redirect()->route('blogs.index')->with('success', 'Blog updated successfully!');
     }
-
 
     public function destroy(Blog $blog)
     {
-
+        if ($blog->image) {
+            Storage::disk('public')->delete($blog->image);
+        }
         $blog->delete();
-        return redirect()->route('blogs.index')->with('success', 'Blog deleted!');
+        return redirect()->route('blogs.index')->with('success', 'Blog deleted successfully!');
     }
 }
