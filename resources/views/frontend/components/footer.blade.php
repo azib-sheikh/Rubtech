@@ -138,7 +138,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title fs-5" id="staticBackdropLabel">Download Brochure</h3>
+                <h3 class="modal-title fs-5" id="staticBackdropLabel">Request A Quote</h3>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -167,6 +167,12 @@
                             <div class="form-group col-md-12 mb-4">
                                 <input type="text" name="phone" class="form-control" id="phone"
                                     placeholder="Enter your phone no." required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-md-12 mb-4">
+                                <textarea type="text" name="message" class="form-control" id="message"
+                                    placeholder="Enter your message">
+                                </textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
 

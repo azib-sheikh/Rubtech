@@ -3,63 +3,7 @@
 Home Page
 @endpush
 @section('content')
-<!-- Hero Section Start -->
-{{-- <div class="hero hero-video">
-    <!-- Video Start -->
-    <div class="hero-bg-video">
-        <!-- Selfhosted Video Start -->
-        <!-- <video autoplay muted loop id="myVideo"><source src="https://html.awaikenthemes.com/toplax/images/hero-bg-video.mp4" type="video/mp4"></video> -->
-        <video autoplay muted loop id="myVideo">
-            <source src="{{asset('/videos/bannervideo.mp4')}}" type="video/mp4">
-        </video>
 
-        <!-- Selfhosted Video End -->
-
-        <!-- Youtube Video Start -->
-        <!-- <div id="herovideo" class="player" data-property="{videoURL:'74DWwSxsVSs',containment:'.hero-video', showControls:false, autoPlay:true, loop:true, vol:0, mute:false, startAt:0,  stopAt:296, opacity:1, addRaster:true, quality:'large', optimizeDisplay:true}"></div> -->
-        <!-- Youtube Video End -->
-    </div>
-    <!-- Video End -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <!-- Hero Content Start -->
-                <div class="hero-content">
-                    <!-- Section Title Start -->
-                    <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">Welcome to Rubtech Mech (INDIA) LLP</h3>
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">High-Performance Food Grade <span>Rubber
-                                Products Manufacturers in India </span></h1>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">We specialize in manufacturing FDA-compliant,
-                            high-performance rubber components for food applications, ensuring durability, safety, and
-                            compliance with global standards.</p>
-                    </div>
-                    <!-- Section Title End -->
-
-                    <!-- Hero Button Start -->
-                    <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="/about" class="btn-default"><span>explore more</span></a>
-                    </div>
-                    <!-- Hero Button End -->
-                </div>
-                <!-- Hero Content End -->
-            </div>
-
-            <div class="col-lg-12">
-                <!-- Excellence Innovating List Start -->
-                <div class="excellence-innovating-list wow fadeInUp" data-wow-delay="0.6s">
-                    <ul>
-                        <li>Advanced Manufacturing Solutions</li>
-                        <li>Quality Assurance Systems</li>
-                        <li>State-of-the-Art Technology</li>
-                    </ul>
-                </div>
-                <!-- Excellence Innovating List End -->
-            </div>
-        </div>
-    </div>
-</div> --}}
-<!-- Hero Section End -->
 
 <!-- Hero Section Start -->
 <div class="hero hero-slider-layout">
@@ -70,7 +14,7 @@ Home Page
                 <div class="hero-slide">
                     <!-- Slider Image Start -->
                     <div class="hero-slider-image">
-                        <img src="https://html.awaikenthemes.com/toplax/images/hero-bg.jpg" alt="">
+                        <img src="{{asset('images/slide1.jpg')}}" alt="">
                     </div>
                     <!-- Slider Image End -->
 
@@ -81,13 +25,15 @@ Home Page
                                 <div class="hero-content">
                                     <!-- Section Title Start -->
                                     <div class="section-title dark-section">
-                                        <h3 class="wow fadeInUp">welcome our industry</h3>
-                                        <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating
-                                            <span>industry for today</span>
+                                        <h3 class="wow fadeInUp">welcome to Rubtech</h3>
+                                        <h1 class="text-anime-style-2" data-cursor="-opaque">High-Performance for
+                                            <span>Rubber
+                                                Components</span>
                                         </h1>
-                                        <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is
-                                            a commitment to delivering superior products through cutting-edge technology
-                                            and innovative processes. </p>
+                                        <p class="wow fadeInUp" data-wow-delay="0.25s">Engineered for durability and
+                                            precision, our rubber components serve critical roles in automotive,
+                                            aerospace,
+                                            electronics, and industrial machinery worldwide.</p>
                                     </div>
                                     <!-- Section Title End -->
 
@@ -111,7 +57,7 @@ Home Page
                 <div class="hero-slide">
                     <!-- Slider Image Start -->
                     <div class="hero-slider-image">
-                        <img src="https://html.awaikenthemes.com/toplax/images/hero-bg-2.jpg" alt="">
+                        <img src="{{asset('images/slide2.jpg')}}" alt="">
                     </div>
                     <!-- Slider Image End -->
 
@@ -122,13 +68,96 @@ Home Page
                                 <div class="hero-content">
                                     <!-- Section Title Start -->
                                     <div class="section-title dark-section">
-                                        <h3 class="wow fadeInUp">welcome our industry</h3>
-                                        <h1 class="text-anime-style-2" data-cursor="-opaque">Excellence innovating
-                                            <span>industry for today</span>
+                                        <h3 class="wow fadeInUp">welcome to rubtech</h3>
+                                        <h1 class="text-anime-style-2" data-cursor="-opaque">50+ years of
+                                            <span>R&D and manufacturing experience</span>
                                         </h1>
-                                        <p class="wow fadeInUp" data-wow-delay="0.25s">At the heart of our operations is
-                                            a commitment to delivering superior products through cutting-edge technology
-                                            and innovative processes. </p>
+                                        <p class="wow fadeInUp" data-wow-delay="0.25s">With over five decades of
+                                            innovation, we blend research excellence and manufacturing expertise to
+                                            deliver reliable,
+                                            custom-engineered rubber solutions. </p>
+                                    </div>
+                                    <!-- Section Title End -->
+
+                                    <!-- Hero Button Start -->
+                                    <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                                        <a href="contact.html" class="btn-default btn-orange"><span>explore
+                                                more</span></a>
+                                    </div>
+                                    <!-- Hero Button End -->
+                                </div>
+                                <!-- Hero Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Slide End -->
+            <!-- Hero Slide Start -->
+            <div class="swiper-slide">
+                <div class="hero-slide">
+                    <!-- Slider Image Start -->
+                    <div class="hero-slider-image">
+                        <img src="{{asset('images/slide3.jpg')}}" alt="">
+                    </div>
+                    <!-- Slider Image End -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <!-- Hero Content Start -->
+                                <div class="hero-content">
+                                    <!-- Section Title Start -->
+                                    <div class="section-title dark-section">
+                                        <h3 class="wow fadeInUp">welcome to rubtech</h3>
+                                        <h1 class="text-anime-style-2" data-cursor="-opaque">USA-FDA, EU & Japan
+                                            <span>Compliance and Certification</span>
+                                        </h1>
+                                        <p class="wow fadeInUp" data-wow-delay="0.25s">Our products meet stringent FDA,
+                                            EU, and Japan regulatory standards, ensuring safety, performance, and trust
+                                            across
+                                            global industrial applications. </p>
+                                    </div>
+                                    <!-- Section Title End -->
+
+                                    <!-- Hero Button Start -->
+                                    <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                                        <a href="contact.html" class="btn-default btn-orange"><span>explore
+                                                more</span></a>
+                                    </div>
+                                    <!-- Hero Button End -->
+                                </div>
+                                <!-- Hero Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Slide End -->
+            <!-- Hero Slide Start -->
+            <div class="swiper-slide">
+                <div class="hero-slide">
+                    <!-- Slider Image Start -->
+                    <div class="hero-slider-image">
+                        <img src="{{asset('images/slide4.jpg')}}" alt="">
+                    </div>
+                    <!-- Slider Image End -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <!-- Hero Content Start -->
+                                <div class="hero-content">
+                                    <!-- Section Title Start -->
+                                    <div class="section-title dark-section">
+                                        <h3 class="wow fadeInUp">welcome to rubtech</h3>
+                                        <h1 class="text-anime-style-2" data-cursor="-opaque">Clientele across
+                                            <span>Europe, USA, Latin America</span>
+                                        </h1>
+                                        <p class="wow fadeInUp" data-wow-delay="0.25s">We proudly serve a global client
+                                            base, offering consistent quality, timely delivery, and tailored solutions
+                                            across
+                                            Europe, USA, and Latin America. </p>
                                     </div>
                                     <!-- Section Title End -->
 
@@ -159,8 +188,8 @@ Home Page
             <div class="col-lg-6">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">Our Products</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">Industries <span>we Serve</span></h2>
+                    {{-- <h3 class="wow fadeInUp">Our Products</h3> --}}
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">Our <span>Products</span></h2>
                 </div>
                 <!-- Section Title End -->
             </div>
