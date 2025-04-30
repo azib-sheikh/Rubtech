@@ -484,12 +484,9 @@ Industry we serve
                 <!-- Service Category List End -->
 
                 <!-- Sidebar CTA Box Start -->
-                <div class="sidebar-cta-box wow fadeInUp" data-wow-delay="0.25s"
-                    style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
+                <div class="sidebar-cta-box wow fadeInUp" data-wow-delay="0.25s">
                     <!-- Sidebar Image Start -->
-                    <div class="sidebar-cta-logo">
-                        <img src="images/footer-logo.svg" alt="">
-                    </div>
+
                     <!-- Sidebar Image End -->
 
                     <!-- Sidebar CTA Body Start -->

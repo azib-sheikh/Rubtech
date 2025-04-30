@@ -43,7 +43,7 @@ About
                     <!-- About Image Start -->
                     <div class="about-img-2">
                         <figure class="image-anime reveal">
-                            <img src="{{asset('images/v-image-about.png')}}" alt="">
+                            <img src="{{asset('images/companyimage.jpeg')}}" alt="">
                         </figure>
                     </div>
                     <!-- About Image End -->
@@ -555,8 +555,7 @@ About
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/mission-image.jpg"
-                                            alt="">
+                                        <img src="{{asset('images/mission1.jpeg')}}" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -582,14 +581,7 @@ About
                                             both industry and society.</p>
                                     </div>
 
-                                    <div class="mission-vision-content-list">
-                                        <ul>
-                                            <li>Sustainable Manufacturing Practices</li>
-                                            <li>Advanced Technology Integration</li>
-                                            <li>Community Environmental Responsibility</li>
-                                            <li>Innovation-Driven Growth</li>
-                                        </ul>
-                                    </div>
+
                                 </div>
                                 <!-- Mission Vision Content End -->
                             </div>
@@ -598,7 +590,7 @@ About
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/vision-image.jpg" alt="">
+                                        <img src="{{asset('images/mission2.jpeg')}}" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -642,7 +634,7 @@ About
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="https://html.awaikenthemes.com/toplax/images/value-image.jpg" alt="">
+                                        <img src="{{asset('images/mission3.jpeg')}}" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
