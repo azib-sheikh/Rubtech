@@ -39,7 +39,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="contact.html" class="btn-default btn-orange"><span>explore
+                                        <a href="/about" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
@@ -81,7 +81,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="contact.html" class="btn-default btn-orange"><span>explore
+                                        <a href="/about" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
@@ -122,7 +122,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="contact.html" class="btn-default btn-orange"><span>explore
+                                        <a href="/about" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
@@ -163,7 +163,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="contact.html" class="btn-default btn-orange"><span>explore
+                                        <a href="/about" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
