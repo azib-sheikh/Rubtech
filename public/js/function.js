@@ -54,9 +54,6 @@
         speed: 1000,
         spaceBetween: 0,
         loop: true,
-        autoplay: {
-            delay: 2000,
-        },
 
         pagination: {
             el: ".hero-pagination",

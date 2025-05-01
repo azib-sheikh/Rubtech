@@ -231,31 +231,40 @@ Product
                             <!-- Sidebar CTA Content End -->
 
                             <!-- Sidebar CTA Contact List Start -->
-                            <div class="sidebar-cta-contact-list">
-                                <!-- Sidebar CTA Contact Item Start -->
-                                <div class="sidebar-cta-contact-item">
-                                    <div class="icon-box">
-                                        <i class="fa fa-phone text-white"></i>
+                            <form id="sidebarform" action="#" method="POST" data-toggle="validator" class="wow fadeInUp"
+                                data-wow-delay="0.5s">
+                                <div class="row">
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="text" name="fname" class="form-control" id="fname"
+                                            placeholder="Your name" required>
+                                        <div class="help-block with-errors"></div>
                                     </div>
 
-                                    <div class="cta-contact-item-title">
-                                        <h3>+91-9717599905</h3>
+
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="email" name="email" class="form-control" id="email"
+                                            placeholder="Your e-mail" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="text" name="phone" class="form-control" id="phone"
+                                            placeholder="Enter your phone no." required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group col-md-12 mb-5">
+                                        <textarea name="message" class="form-control" id="message" rows="4"
+                                            placeholder="Write Message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn-default"><span>submit message</span></button>
+                                        <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>
-                                <!-- Sidebar CTA Contact Item End -->
-
-                                <!-- Sidebar CTA Contact Item Start -->
-                                <div class="sidebar-cta-contact-item">
-                                    <div class="icon-box">
-                                        <i class="fa fa-envelope text-white"></i>
-                                    </div>
-
-                                    <div class="cta-contact-item-title">
-                                        <h3>enquiry@rubtechmech.in</h3>
-                                    </div>
-                                </div>
-                                <!-- Sidebar CTA Contact Item End -->
-                            </div>
+                            </form>
                             <!-- Sidebar CTA Contact List End -->
                         </div>
                         <!-- Sidebar CTA Body End -->
