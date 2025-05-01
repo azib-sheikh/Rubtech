@@ -108,7 +108,7 @@ Contact
     <div class="project-entry mb-4 text-center">
         <h2 class="text-anime-style-2">Our <span>Certificates</span></h2>
     </div>
-    <div class="row gallery-items page-gallery-box justify-content-center">
+    <div class="row gallery-items page-gallery-box justify-content-center pt-5">
 
 
         <div class="col-lg-4 col-6">
