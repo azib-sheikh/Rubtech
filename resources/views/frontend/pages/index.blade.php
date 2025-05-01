@@ -14,7 +14,7 @@ Home Page
                 <div class="hero-slide">
                     <!-- Slider Image Start -->
                     <div class="hero-slider-image">
-                        <img src="{{asset('images/slide1.jpg')}}" alt="">
+                        <img src="{{asset('images/slide1.jpeg')}}" alt="">
                     </div>
                     <!-- Slider Image End -->
 
