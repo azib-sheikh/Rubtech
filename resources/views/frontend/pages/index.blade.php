@@ -39,7 +39,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="/about" class="btn-default btn-orange"><span>explore
+                                        <a href="{{ url('/about') }}" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
@@ -81,7 +81,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="/about" class="btn-default btn-orange"><span>explore
+                                        <a href="{{ url('/about') }}" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
@@ -122,7 +122,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="/about" class="btn-default btn-orange"><span>explore
+                                        <a href="{{ url('/about') }}" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
@@ -163,7 +163,7 @@ Home Page
 
                                     <!-- Hero Button Start -->
                                     <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="/about" class="btn-default btn-orange"><span>explore
+                                        <a href="{{ url('/about') }}" class="btn-default btn-orange"><span>explore
                                                 more</span></a>
                                     </div>
                                     <!-- Hero Button End -->
@@ -348,7 +348,7 @@ Home Page
                                     <img src="{{asset('images/icons/regulatory_complaince.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>Certified Quality & Compliance - </h3>
+                                    <h3>Certified Quality & Compliance</h3>
                                     <p>ISO 9001:2015 & GMP certified, compliant with US FDA 21 CFR 177.2600, EU EN
                                         2002R0178,
                                         and JA9104 Japan Regulations.</p>
@@ -362,7 +362,7 @@ Home Page
                                     <img src="{{asset('images/icons/global_oem_partenership.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>Global Supply Network - </h3>
+                                    <h3>Global Supply Network </h3>
                                     <p>Exporting to the USA, Europe, and Latin America, with Expanding Reach Fueled by
                                         Positive Client
                                         Experiences.</p>
@@ -378,7 +378,7 @@ Home Page
                                     <img src="{{asset('images/icons/advance_material_science.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>Precision Engineering - </h3>
+                                    <h3>Precision Engineering </h3>
                                     <p>Expertly crafted rubber components designed for durability, efficiency, and
                                         extra-long service
                                         life.</p>
@@ -392,7 +392,7 @@ Home Page
                                     <img src="{{asset('images/icons/proven_industry_expense.png')}}" alt="">
                                 </div>
                                 <div class="what-we-item-content">
-                                    <h3>In-house R&D & Continous Improvement - </h3>
+                                    <h3>In-house R&D & Continous Improvement </h3>
                                     <p> Ensures meeting and exceeding expectation of industry and explore new horizons
                                     </p>
                                 </div>
@@ -420,8 +420,8 @@ Home Page
 
                     <!-- Contact Now Circle Start -->
                     <div class="contact-now-circle">
-                        <a href="/contact">
-                            <img src="{{asset('images/icons/roundbox.svg')}}" alt="">
+                        <a href="/research-and-development">
+                            <img src="{{asset('images/icons/roundbox.png')}}" alt="">
                         </a>
                     </div>
                     <!-- Contact Now Circle End -->

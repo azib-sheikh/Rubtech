@@ -4,7 +4,7 @@ Contact
 @endpush
 @section('content')
 <!-- Page Header Start -->
-<div class="page-header parallaxie">
+<div class="page-header parallaxie contact-us">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -140,11 +140,12 @@ Contact
                             <!-- Page Contact Item Start -->
                             <div class="contact-info-item wow fadeInUp">
                                 <div class="icon-box">
-                                    <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
+                                    <img src="{{asset('images/icons/smartphone.png')}}" alt="">
+
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>contact</h3>
-                                    <p>+1.809.120.670</p>
+                                    <p><a href="tel:+919599002160">+91-9599002160</a></p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -155,7 +156,7 @@ Contact
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>contact</h3>
-                                    <p>+1.809.120.670</p>
+                                    <p><a href="tel:+919871706307">+91-9871706307</a></p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -167,7 +168,9 @@ Contact
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>Email</h3>
-                                    <p>info@domain.com</p>
+                                    <p>
+                                        <a href="mailto:enquiry@rubtechmech.in">enquiry@rubtechmech.in</a>
+                                    </p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -179,24 +182,25 @@ Contact
                         tabindex="0">
                         <div class="contact-info-box">
                             <!-- Page Contact Item Start -->
-                            <div class="contact-info-item">
+                            <div class="contact-info-item ">
                                 <div class="icon-box">
-                                    <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
+                                    <img src="{{asset('images/icons/smartphone.png')}}" alt="">
+
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>contact</h3>
-                                    <p>+1.809.120.670</p>
+                                    <p><a href="tel:+919717171813">+91-9717171813</a></p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
                             <!-- Page Contact Item Start -->
-                            <div class="contact-info-item">
+                            <div class="contact-info-item ">
                                 <div class="icon-box">
                                     <img src="https://html.awaikenthemes.com/toplax/images/icon-phone.svg" alt="">
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>contact</h3>
-                                    <p>+1.809.120.670</p>
+                                    <p><a href="tel:+919871706307">+91-9871706307</a></p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -208,7 +212,9 @@ Contact
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>Email</h3>
-                                    <p>info@domain.com</p>
+                                    <p>
+                                        <a href="mailto:sales@rubtechmech.in">sales@rubtechmech.in</a>
+                                    </p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -222,11 +228,12 @@ Contact
                             <!-- Page Contact Item Start -->
                             <div class="contact-info-item ">
                                 <div class="icon-box">
-                                    <i style="font-size: 20px" class="fa fa-mobile text-light"></i>
+                                    <img src="{{asset('images/icons/smartphone.png')}}" alt="">
+
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>contact</h3>
-                                    <p>+1.809.120.670</p>
+                                    <p><a href="tel:+919871706307">+91-9871706307</a></p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -237,7 +244,7 @@ Contact
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>contact</h3>
-                                    <p>+1.809.120.670</p>
+                                    <p><a href="tel:+919599002161">+91-9599002161</a></p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -249,7 +256,9 @@ Contact
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>Email</h3>
-                                    <p>info@domain.com</p>
+                                    <p>
+                                        <a href="mailto:exports@rubtechmech.in">exports@rubtechmech.in</a>
+                                    </p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->

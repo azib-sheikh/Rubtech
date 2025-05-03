@@ -57,8 +57,7 @@ Faqs
                     <!-- Our Faqs Image Start -->
                     <div class="our-faqs-img">
                         <figure class="image-anime">
-                            <img src="{{asset('https://html.awaikenthemes.com/toplax/images/our-faqs-image.jpg')}}"
-                                alt="">
+                            <img src="{{asset('images/faq.jpg')}}" alt="">
                         </figure>
                     </div>
                     <!-- Our Faqs Image End -->

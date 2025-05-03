@@ -112,11 +112,25 @@
                                 </li>
                                 <li class="nav-item submenu "><a class="nav-link" href="products">Our Products</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="#">Sieve Cleaning Rubber
+                                        <li class="nav-item submenu new"><a class="nav-link" href="#">Sieve Cleaning
+                                                Rubber
                                                 Balls</a>
+                                            <ul>
+                                                <li class="nav-item"><a class="nav-link" href="#">Rubber Cube</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#">Anti Vibration
+                                                        Mounts</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="nav-item"><a class="nav-link" href="#">Rubber Cube</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Anti Vibration Mounts</a>
+                                        <li class="nav-item submenu new"><a class="nav-link" href="#">Anti Vibration
+                                                Mounts</a>
+                                            <ul>
+                                                <li class="nav-item"><a class="nav-link" href="#">Rubber Cube</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="#">Anti Vibration
+                                                        Mounts</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="nav-item"><a class="nav-link" href="#">Rubber Sleeves</a>
                                         </li>
@@ -134,8 +148,10 @@
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="/research-and-development">R & D
                                         Certificates</a>
+                                </li>
 
-                                    {{--
+
+                                {{--
                                 <li class="nav-item submenu"><a class="nav-link" href="#">Gallery</a>
                                     <ul>
                                         <li class="nav-item"><a class="nav-link" href="/image-gallery">Image
@@ -152,7 +168,7 @@
                                         <li class="nav-item"><a class="nav-link" href="/blog">Blog</a>
                                         </li>
                                         <li class="nav-item"><a class="nav-link" href="/image-gallery">Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/faq">Faqs</a>
+                                        <li class="nav-item"><a class="nav-link" href="/faq">FAQ</a>
                                         </li>
 
                                     </ul>
@@ -166,6 +182,9 @@
                             <!-- Header Social Links Start -->
                             <div class="header-social-links">
                                 <ul>
+                                    <li><a href="">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </a></li>
                                     <li><a href="https://www.youtube.com/channel/UCKJXISzn9dYuLxDZb6Ssiag"><i
                                                 class="fa-brands fa-youtube"></i></a></li>
                                     <li><a
