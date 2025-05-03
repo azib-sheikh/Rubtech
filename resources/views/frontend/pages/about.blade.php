@@ -136,10 +136,11 @@ About
                         <!-- Team Social Icon Start -->
                         <div class="team-member-social-list">
                             <ul>
+                                <li><a href="https://in.linkedin.com/in/daljit-singh-sood-812b53270"><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+
+
                             </ul>
                         </div>
                         <!-- Team Social Icon End -->

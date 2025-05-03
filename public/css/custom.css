@@ -46,7 +46,7 @@
 :root {
     --primary-color: #222222;
     --secondary-color: #f5f5f5;
-    --text-color: #81848a;
+    --text-color: #232325;
     --accent-color: #253984 /* #ff9900 */;
     --white-color: #ffffff;
     --divider-color: #ebebeb;
@@ -658,7 +658,7 @@ header.main-header .header-sticky.active {
     padding: 0;
     margin: 0;
     list-style: none;
-    width: 230px;
+    width: 250px;
     border-radius: 20px;
     position: absolute;
     left: 0;
@@ -689,6 +689,7 @@ header.main-header .header-sticky.active {
     content: "\f105";
     float: right;
     transition: all 0.3s ease-in-out;
+    display: none;
 }
 
 .main-menu ul li.submenu ul li.submenu > a:hover:after {
@@ -745,6 +746,7 @@ header.main-header .header-sticky.active {
 }
 .header-social-links ul li a i:hover {
     transform: scale(1.2);
+    color: #f2c400;
 }
 
 .header-social-links ul li a i {
@@ -1466,7 +1468,7 @@ header.main-header .header-sticky.active {
 }
 
 .what-we-do-content {
-    padding: 100px 70px;
+    padding: 60px 70px;
     height: 100%;
 }
 
@@ -1553,6 +1555,7 @@ header.main-header .header-sticky.active {
     width: 130px;
     height: 130px;
     animation: contactrotate 20s infinite linear;
+    border-radius: 50%;
 }
 
 @keyframes contactrotate {
@@ -1817,7 +1820,7 @@ header.main-header .header-sticky.active {
 }
 .product-image .product-detail {
     position: absolute;
-    background-color: #0003;
+    background-color: #253a84f4;
     color: #fff;
     z-index: 2;
     border-radius: 40px;
@@ -2581,7 +2584,7 @@ header.main-header .header-sticky.active {
 
 .mission-vision-bg {
     position: relative;
-    background: url("https://html.awaikenthemes.com/toplax/images/our-service-bg.jpg");
+    background: url("/images/story-2.jpeg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -6658,7 +6661,7 @@ header.main-header .header-sticky.active {
 }
 .search-bar {
     position: absolute;
-    z-index: 999;
+    z-index: 9999;
     width: 100%;
     background: #fff;
     transform: translateY(-110%);
@@ -6696,4 +6699,11 @@ header.main-header .header-sticky.active {
 #sidebarform {
     z-index: 2;
     position: relative;
+}
+.page-header.contact-us {
+    background-image: url("/images/contact.jpg");
+}
+.main-menu .submenu.new ul {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }

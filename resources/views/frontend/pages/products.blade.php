@@ -144,6 +144,24 @@ Our Products
                             </div>
                         </a>
                     </div>
+                    <div class="product-image col-md-3 project-item-box mb-4">
+                        <a href="#">
+                            <div class="product-detail">
+                                Rubtech Mech delivers precision-engineered custom rubber prototypes, ensuring high
+                                performance, durability, and tailored
+                                solutions for your unique production needs.
+                            </div>
+
+                            <figure class="image-anime">
+                                <img src="{{asset('images/products/custom_prototype.jpg')}}" alt="">
+                            </figure>
+
+                            <div class="product-title">
+                                Rubber Rings
+                            </div>
+                        </a>
+                    </div>
+
 
 
 

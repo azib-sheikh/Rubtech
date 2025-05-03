@@ -44,18 +44,20 @@ gallery
                 </div>
                 <!-- image gallery end -->
             </div>
-
             <div class="col-lg-4 col-6">
                 <!-- image gallery start -->
-                <div class="photo-gallery wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View">
-                    <a href="images/gallery-2.jpg">
+                <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                    <a href="https://techoozesolutions.co.in/live_dynamic/rubtech/media/imagegallery/genel103.png">
                         <figure class="image-anime">
-                            <img src="https://html.awaikenthemes.com/toplax/images/gallery-2.jpg" alt="">
+                            <img src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/imagegallery/genel103.png"
+                                alt="">
                         </figure>
                     </a>
                 </div>
                 <!-- image gallery end -->
             </div>
+
+
 
             <div class="col-lg-4 col-6">
                 <!-- image gallery start -->
