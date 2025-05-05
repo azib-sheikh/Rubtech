@@ -90,7 +90,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Cereal </a>
+                                <a href="{{url('/industry/cereal-industry')}}">Cereal </a>
                             </div>
 
 
@@ -108,7 +108,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Coffee</a>
+                                <a href="{{url('/industry/coffee-industry')}}">Coffee</a>
                             </div>
 
 
@@ -126,7 +126,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Millet </a>
+                                <a href="{{url('/industry/millet-industry')}}">Millet </a>
                             </div>
 
 
@@ -144,7 +144,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Edible Oil</a>
+                                <a href="{{url('/industry/edible-oil-industry')}}">Edible Oil</a>
                             </div>
 
 
@@ -162,7 +162,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Spices </a>
+                                <a href="{{url('/industry/spices-industry')}}">Spices </a>
                             </div>
 
 
@@ -180,7 +180,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Guar Gum </a>
+                                <a href="{{url('/industry/guar-gum-industry')}}">Guar Gum </a>
                             </div>
 
 
@@ -198,7 +198,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Malt </a>
+                                <a href="{{url('/industry/malt-industry')}}">Malt </a>
                             </div>
 
 
@@ -220,7 +220,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Flour</a>
+                                <a href="{{url('/industry/flour-industry')}}">Flour</a>
                             </div>
 
 
@@ -242,7 +242,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Cement & Mortar </a>
+                                <a href="{{url('/industry/cement-and-mortar-industry')}}">Cement & Mortar </a>
                             </div>
 
 
@@ -262,7 +262,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Salt </a>
+                                <a href="{{url('/industry/salt-industry')}}">Salt </a>
                             </div>
 
 
@@ -280,7 +280,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Sugar</a>
+                                <a href="{{url('/industry/sugar-industry')}}">Sugar</a>
                             </div>
 
 
@@ -298,7 +298,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Rice Milling </a>
+                                <a href="{{url('/industry/rice-milling-industry')}}">Rice Milling </a>
                             </div>
 
 
@@ -352,7 +352,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Mineral</a>
+                                <a href="{{url('/industry/mineral-industry')}}">Mineral</a>
                             </div>
 
 
@@ -369,7 +369,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Mining</a>
+                                <a href="{{url('/industry/mining-industry')}}">Mining</a>
                             </div>
 
 
@@ -414,7 +414,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Pharmaceuticals </a>
+                                <a href="{{url('/industry/pharmaceuticals-industry')}}">Pharmaceuticals </a>
                             </div>
 
 
@@ -431,7 +431,7 @@ Industry we serve
                             </div>
 
                             <div class="project-tag">
-                                <a href="/single-industry">Powder </a>
+                                <a href="{{url('/industry/powder-industry')}}">Powder </a>
                             </div>
 
 

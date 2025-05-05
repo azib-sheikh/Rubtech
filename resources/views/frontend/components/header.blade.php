@@ -94,23 +94,23 @@
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="./">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="{{url('/')}}">Home</a>
 
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/about">About Us</a>
+                                <li class="nav-item"><a class="nav-link" href="{{url('/about')}}">About Us</a>
                                     {{-- <ul>
-                                        <li class="nav-item"><a class="nav-link" href="/ceo-message">CEO Message</a>
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/ceo-message')}}">CEO Message</a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="/certificate-awards">Certificates
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/certificate-awards')}}">Certificates
                                                 &
                                                 Awards</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/research-and-development">R &
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/research-and-development')}}">R &
                                                 D</a>
                                         </li>
 
                                     </ul> --}}
                                 </li>
-                                <li class="nav-item submenu "><a class="nav-link" href="products">Our Products</a>
+                                <li class="nav-item submenu "><a class="nav-link" href="javascript:void(0)">Our Products</a>
                                     <ul>
                                         <li class="nav-item submenu new"><a class="nav-link" href="#">Sieve Cleaning
                                                 Rubber
@@ -143,10 +143,10 @@
 
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="industries-we-serve">Industry We
+                                <li class="nav-item"><a class="nav-link" href="{{ url('/industries-we-serve') }}">Industry We
                                         Serve</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/research-and-development">R & D
+                                <li class="nav-item"><a class="nav-link" href="{{url('/research-and-development')}}">R & D
                                         Certificates</a>
                                 </li>
 
@@ -165,15 +165,15 @@
                                 <li class="nav-item submenu"><a class="nav-link" href="javascript:void(0)">Know us
                                         more</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="/blog">Blog</a>
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/blog')}}">Blog</a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="/image-gallery">Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/faq">FAQ</a>
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/image-gallery')}}">Gallery</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/faq')}}">FAQ</a>
                                         </li>
 
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{url('/contact')}}">Contact Us</a></li>
                             </ul>
                         </div>
 

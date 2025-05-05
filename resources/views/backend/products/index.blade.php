@@ -18,6 +18,12 @@
                             {{ session('success') }}
                         </div>
                     @endif
+                    @foreach($products as $key => $product)
+                    if($key == 1){
+                    {{$product}}
+                    }
+                    @endforeach
+                  
 
                     <div class="table-responsive">
                         <table class="table table-bordered">
@@ -33,16 +39,19 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($products as $product)
+                                
+                                @foreach($products as $key => $product)
                                     <tr>
-                                        <td>{{ $product->id }}</td>
+                                        <td>{{$key+1}}</td>
+                                        
                                         <td>
-                                            @if($product->image)
-                                                <img src="{{ asset($product->image) }}" alt="{{ $product->title }}" style="max-width: 50px;">
-                                            @else
-                                                No Image
-                                            @endif
-                                        </td>
+                                        @if($product->images && $product->images->isNotEmpty())
+    <img src="{{ asset('storage/' . $product->images->first()->image_path) }}" alt="{{ $product->title }}" style="max-width: 50px;">
+@else
+    No Image
+@endif
+</td>
+
                                         <td>{{ $product->title }}</td>
                                         <td>{{ Str::limit($product->content, 50) }}</td>
                                         <td>{{ Str::limit($product->description, 50) }}</td>

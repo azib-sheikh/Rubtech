@@ -28,7 +28,8 @@ class ProductController extends Controller
                 'content' => 'required|string',
                 'description' => 'required|string',
                 'compararison' => 'required|string',
-                'category' => 'nullable|string|max:255',
+                'category' => 'nullable|array',
+                'category.*' => 'string|max:255',
                 'images.*' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
             ]);
 
@@ -37,14 +38,13 @@ class ProductController extends Controller
             $product->content = $request->content;
             $product->description = $request->description;
             $product->compararison = $request->compararison;
-            $product->category = $request->category;
+            $product->category = json_encode($request->category);
             $product->user_id = auth()->id();
             $product->save();
 
             if ($request->hasFile('images')) {
                 foreach ($request->file('images') as $image) {
-                    $path = $image->store('public/products');
-                    $path = str_replace('public/', '', $path); // Remove 'public/' from the path
+                    $path = $image->store('uploads/products', 'public');
                     ProductImage::create([
                         'product_id' => $product->id,
                         'image_path' => $path
@@ -62,9 +62,7 @@ class ProductController extends Controller
     {
         $product = Products::with('images')->findOrFail($id);
         // Ensure images relationship is initialized
-        if (!$product->images) {
-            $product->images = collect();
-        }
+        
         return view('backend.products.edit', compact('product'));
     }
 
@@ -85,13 +83,12 @@ class ProductController extends Controller
             $product->content = $request->content;
             $product->description = $request->description;
             $product->compararison = $request->compararison;
-            $product->category = $request->category;
+            $product->category = json_encode($request->category);
             $product->save();
 
             if ($request->hasFile('images')) {
                 foreach ($request->file('images') as $image) {
-                    $path = $image->store('public/products');
-                    $path = str_replace('public/', '', $path); // Remove 'public/' from the path
+                    $path = $image->store('uploads/products', 'public');// Remove 'public/' from the path
                     ProductImage::create([
                         'product_id' => $product->id,
                         'image_path' => $path
@@ -107,18 +104,21 @@ class ProductController extends Controller
 
     public function destroy($id)
     {
-        $product = Products::findOrFail($id);
-        
-        // Delete all associated images
-        foreach ($product->images as $image) {
-            Storage::disk('public')->delete($image->image_path);
-            $image->delete();
+        $product = Products::with('images')->findOrFail($id);
+    
+        // Safely loop through images if they exist
+        if ($product->images && $product->images->count()) {
+            foreach ($product->images as $image) {
+                Storage::disk('public')->delete($image->image_path);
+                $image->delete();
+            }
         }
-
+    
         $product->delete();
-
+    
         return redirect()->route('products.index')->with('success', 'Product deleted successfully.');
     }
+    
 
     public function deleteImage($id)
     {
@@ -137,5 +137,10 @@ class ProductController extends Controller
         } catch (\Exception $e) {
             return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
         }
+    }
+    public function product($name){
+        $product = Products::where('title', $name)->first();
+        return view('frontend.pages.single-product', compact('product'));
+
     }
 }

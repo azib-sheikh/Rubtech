@@ -30,14 +30,15 @@ Blog
 <div class="page-blog">
     <div class="container">
         <div class="row">
+            @foreach ($blogs as $blog)
             <div class="col-lg-4 col-md-6">
                 <!-- Post Item Start -->
                 <div class="post-item wow fadeInUp">
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure>
-                            <a href="/single" class="image-anime" data-cursor-text="View">
-                                <img src="{{asset('images/fda.jpeg')}}" alt="">
+                            <a href="{{route('post', $blog->title)}}" class="image-anime" data-cursor-text="View">
+                                <img src="{{asset('storage/'.$blog->img)}}" alt="">
                             </a>
                         </figure>
                     </div>
@@ -47,14 +48,13 @@ Blog
                     <div class="post-item-body">
                         <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h2><a href="blog-single.html">Importance of FDA-Compliant Rubber Components in Food
-                                    Processing</a></h2>
+                            <h2><a href="{{route('post', $blog->title)}}">{{$blog->title}}</a></h2>
                         </div>
                         <!-- Post Item Content End -->
 
                         <!-- Post Readmore Button Start -->
                         <div class="post-readmore-btn">
-                            <a href="/single">Read more</a>
+                            <a href="{{route('post', $blog->title)}}">Read more</a>
                         </div>
                         <!-- Post Readmore Button End -->
                     </div>
@@ -62,38 +62,8 @@ Blog
                 </div>
                 <!-- Post Item End -->
             </div>
-            <div class="col-lg-4 col-md-6">
-                <!-- Post Item Start -->
-                <div class="post-item wow fadeInUp">
-                    <!-- Post Featured Image Start-->
-                    <div class="post-featured-image">
-                        <figure>
-                            <a href="/single" class="image-anime" data-cursor-text="View">
-                                <img src="{{asset('images/eco.png')}}" alt="">
-                            </a>
-                        </figure>
-                    </div>
-                    <!-- Post Featured Image End -->
-
-                    <!-- Post Item Body Start -->
-                    <div class="post-item-body">
-                        <!-- Post Item Content Start -->
-                        <div class="post-item-content">
-                            <h2><a href="blog-single.html">Sustainable Rubber Manufacturing: The Future of Eco-Friendly
-                                    Industrial Solutions</a></h2>
-                        </div>
-                        <!-- Post Item Content End -->
-
-                        <!-- Post Readmore Button Start -->
-                        <div class="post-readmore-btn">
-                            <a href="/single">Read more</a>
-                        </div>
-                        <!-- Post Readmore Button End -->
-                    </div>
-                    <!-- Post Item Body End -->
-                </div>
-                <!-- Post Item End -->
-            </div>
+            @endforeach
+           
 
 
 

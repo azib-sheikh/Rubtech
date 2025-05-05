@@ -53,13 +53,13 @@ class IndustryController extends Controller
             $industry->user_id = auth()->id();
 
             if ($request->hasFile('image')) {
-                $path = $request->file('image')->store('public/industries');
-                $industry->image = str_replace('public/', '', $path);
+                $path = $request->file('image')->store('uploads/industry', 'public'); 
+                $industry->image = $path;
             }
 
             $industry->save();
 
-            return redirect()->route('admin.industries.index')->with('success', 'Industry created successfully.');
+            return redirect()->route('industries.index')->with('success', 'Industry created successfully.');
         } catch (\Exception $e) {
             return redirect()->back()->with('error', 'Error creating industry: ' . $e->getMessage())->withInput();
         }
@@ -72,35 +72,37 @@ class IndustryController extends Controller
     }
 
     public function update(Request $request, $id)
-    {
-        try {
-            $request->validate([
-                'title' => 'required|string|max:255',
-                'content' => 'required|string',
-                'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
-            ]);
+{
+    try {
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'content' => 'required|string',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
+        ]);
 
-            $industry = Industry::findOrFail($id);
-            $industry->title = $request->title;
-            $industry->content = $request->content;
+        $industry = Industry::findOrFail($id);
+        $industry->title = $request->title;
+        $industry->content = $request->content;
 
-            if ($request->hasFile('image')) {
-                // Delete old image
-                if ($industry->image) {
-                    Storage::disk('public')->delete($industry->image);
-                }
-                // Store new image
-                $path = $request->file('image')->store('public/industries');
-                $industry->image = str_replace('public/', '', $path);
+        if ($request->hasFile('image')) {
+            // Delete old image if it exists
+            if ($industry->image && Storage::disk('public')->exists($industry->image)) {
+                Storage::disk('public')->delete($industry->image);
             }
 
-            $industry->save();
-
-            return redirect()->route('admin.industries.index')->with('success', 'Industry updated successfully.');
-        } catch (\Exception $e) {
-            return redirect()->back()->with('error', 'Error updating industry: ' . $e->getMessage())->withInput();
+            // Store new image in the same path as 'store' method
+            $path = $request->file('image')->store('uploads/industry', 'public');
+            $industry->image = $path;
         }
+
+        $industry->save();
+
+        return redirect()->route('industries.index')->with('success', 'Industry updated successfully.');
+    } catch (\Exception $e) {
+        return redirect()->back()->with('error', 'Error updating industry: ' . $e->getMessage())->withInput();
     }
+}
+
 
     public function destroy($id)
     {
@@ -114,9 +116,14 @@ class IndustryController extends Controller
             
             $industry->delete();
 
-            return redirect()->route('admin.industries.index')->with('success', 'Industry deleted successfully.');
+            return redirect()->route('industries.index')->with('success', 'Industry deleted successfully.');
         } catch (\Exception $e) {
             return redirect()->back()->with('error', 'Error deleting industry: ' . $e->getMessage());
         }
+    }
+    public function industry($slug)
+    {
+        $industry = Industry::where('slug', $slug)->first();
+        return view('frontend.pages.single-industry', compact('industry'));
     }
 } 

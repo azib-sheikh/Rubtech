@@ -34,11 +34,12 @@ class BlogController extends Controller
         ];
 
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('uploads/blogs', 'public');
-            $data['image'] = $imagePath;
+            $imagePath = $request->file('image')->store('uploads/blogs', 'public');    
+            $data['img'] = $imagePath;
         }
 
         Blog::create($data);
+
 
         return redirect()->route('blogs.index')->with('success', 'Blog created successfully!');
     }
@@ -70,7 +71,7 @@ class BlogController extends Controller
                 Storage::disk('public')->delete($blog->image);
             }
             $imagePath = $request->file('image')->store('uploads/blogs', 'public');
-            $data['image'] = $imagePath;
+            $data['img'] = $imagePath;
         }
 
         $blog->update($data);
@@ -85,5 +86,15 @@ class BlogController extends Controller
         }
         $blog->delete();
         return redirect()->route('blogs.index')->with('success', 'Blog deleted successfully!');
+    }
+    public function posts()
+    {
+        $blogs = Blog::with('user')->latest()->paginate(10);
+        return view('frontend.pages.blog', compact('blogs'));
+    }
+    public function post($title)
+    {
+        $blog = Blog::where('title', $title)->first();
+        return view('frontend.pages.single', compact('blog'));
     }
 }
