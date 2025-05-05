@@ -89,7 +89,7 @@
 
             <div class="mb-3">
                 <label for="content" class="form-label">Product's Content</label>
-                <textarea class="form-control ckeditor w-100 @error('content') is-invalid @enderror" name="content" id="content" rows="10" required>{{ old('content', $product->content) }}</textarea>
+                <textarea class="form-control tinymce w-100 @error('content') is-invalid @enderror" name="content" id="content" rows="10" required>{{ old('content', $product->content) }}</textarea>
                 @error('content')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -99,7 +99,7 @@
 
             <div class="mb-3">
                 <label for="description" class="form-label">Product's Description</label>
-                <textarea class="form-control ckeditor w-100 @error('description') is-invalid @enderror" name="description" id="description" rows="10" required>{{ old('description', $product->description) }}</textarea>
+                <textarea class="form-control tinymce w-100 @error('description') is-invalid @enderror" name="description" id="description" rows="10" required>{{ old('description', $product->description) }}</textarea>
                 @error('description')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -109,7 +109,7 @@
 
             <div class="mb-3">
                 <label for="compararison" class="form-label">Product's Comparison</label>
-                <textarea class="form-control ckeditor w-100 @error('compararison') is-invalid @enderror" name="compararison" id="compararison" rows="10" required>{{ old('compararison', $product->compararison) }}</textarea>
+                <textarea class="form-control tinymce w-100 @error('compararison') is-invalid @enderror" name="compararison" id="compararison" rows="10" required>{{ old('compararison', $product->compararison) }}</textarea>
                 @error('compararison')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>

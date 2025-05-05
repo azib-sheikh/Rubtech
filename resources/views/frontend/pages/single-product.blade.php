@@ -53,67 +53,14 @@ Product
         </div>
         <div class="col-md-6">
             <div class="d-flex justify-content-between">
-                <h2>16mm Sieve Cleaning</h2>
+                <h2>{{$product->title}}</h2>
                 <span class="product-tag">Category Name</span>
             </div>
 
 
             <hr>
             <div class="product-details">
-                <div class="row">
-                    <div class="col-6">
-                        <h5>MATERIAL</h5>
-                    </div>
-                    <div class="col-6">
-                        <ul>
-                            <li> Natural Rubber (NR)</li>
-                            <li> Styrene Butadiene Rubber (SBR)</li>
-                            <li>Polybutadiene Rubber (SBR)</li>
-                            <li>Ethylene Propylene (EPDM)</li>
-                            <li>Silicon</li>
-                            <li>Viton</li>
-                            <li>Neoprene</li>
-                            <li>Nitrile Rubber (NBR)</li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h5>WORKING TEMPRATURE RANGE</h5>
-                    </div>
-                    <div class="col-6">
-                        <p>-13°F UPTO 392°F</p>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h5>SHAPE</h5>
-                    </div>
-                    <div class="col-6">
-                        <p>SPHERICAL</p>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h5>APPLICATION</h5>
-                    </div>
-                    <div class="col-6">
-                        <p>SCREENING,SIEVING,SORTING,CLEANING</p>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <h5>WEIGHT IN GRM.</h5>
-                    </div>
-                    <div class="col-6">
-                        <p>2.3g</p>
-                    </div>
-
-                </div>
+                {!!$product->content!!}
             </div>
             <hr>
             <div class="product-enquiry">
@@ -122,7 +69,22 @@ Product
         </div>
     </div>
 </div>
-
+<div class="container pb-5 pt-3">
+<ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Comparative Study</button>
+  </li>
+  
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">{!!$product->description!!}</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">{!!$product->compararison!!}</div>
+ 
+</div>
+</div>
 <!--Product Page End-->
 
 @endsection

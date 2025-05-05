@@ -13,7 +13,8 @@ class Industry extends Model
         'title',
         'image',
         'content',
-        'user_id'
+        'user_id',
+        'slug'
     ];
 
     public function user()

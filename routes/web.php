@@ -19,9 +19,8 @@ Route::get('industries-we-serve', function () {
 Route::get('contact', function () {
     return view('frontend.pages.contact');
 });
-Route::get('blog', function () {
-    return view('frontend.pages.blog');
-});
+Route::get('blog', [BlogController::class, 'posts']);
+Route::get('post/{title}', [BlogController::class, 'post'])->name('post');
 Route::get('products', function () {
     return view('frontend.pages.products');
 });
@@ -34,15 +33,9 @@ Route::get('image-gallery', function () {
 Route::get('video-gallery', function () {
     return view('frontend.pages.video-gallery');
 });
-Route::get('single', function () {
-    return view('frontend.pages.single');
-});
-Route::get('single-product', function () {
-    return view('frontend.pages.single-product');
-});
-Route::get('single-industry', function () {
-    return view('frontend.pages.single-industry');
-});
+
+Route::get('products/{name}',[ProductController::class,'product']);
+
 Route::get('ceo-message', function () {
     return view('frontend.pages.promoter-message');
 });
@@ -52,6 +45,8 @@ Route::get('research-and-development', function () {
 Route::get('faq', function () {
     return view('frontend.pages.faq');
 });
+
+Route::get('industry/{slug}',[IndustryController::class,'industry'])->name('industry');
 
 // Authentication Routes
 Auth::routes();

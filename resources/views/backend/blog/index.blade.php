@@ -36,8 +36,8 @@
                         @foreach($blogs as $blog)
                             <tr>
                                 <td>
-                                    @if($blog->image)
-                                        <img src="{{ asset('storage/' . $blog->image) }}" 
+                                    @if($blog->img)
+                                        <img src="{{ asset('storage/' . $blog->img) }}" 
                                              alt="{{ $blog->title }}" 
                                              style="width: 50px; height: 50px; object-fit: cover;">
                                     @else

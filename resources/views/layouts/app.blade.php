@@ -15,6 +15,11 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('css/backend.css')}}">
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+   
+
+
     
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -104,7 +109,9 @@
 
         </main>
     </div>
-    @stack('scripts')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <!-- Load TinyMCE -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.8.2/tinymce.min.js"></script>
@@ -114,8 +121,8 @@
         document.addEventListener('DOMContentLoaded', function() {
             tinymce.init({
                 selector: 'textarea.tinymce',
-                plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
-                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+                plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount code',
+                toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | code | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
                 height: 400,
                 menubar: false,
                 branding: false,
@@ -123,6 +130,28 @@
             });
         });
     </script>
+    <script>
+    document.querySelector('form').addEventListener('submit', function (e) {
+        tinymce.triggerSave(); // Forces TinyMCE to update the textarea
+        const content = document.getElementById('content');
+        if (!content.value.trim()) {
+            // Make textarea visible temporarily for validation
+            content.style.display = 'block';
+            content.focus();
+            alert('Please fill in the Industry Content.');
+            e.preventDefault();
+        }
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('.select2').select2({
+            placeholder: "Select Categories"
+        });
+    });
+</script>
+@stack('scripts')
+
 </body>
 
 </html>

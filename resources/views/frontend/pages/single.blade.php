@@ -12,9 +12,8 @@ Processing
             <div class="col-lg-12">
                 <!-- Post Featured Image Start -->
                 <div class="post-image">
-                    <figure class="image-anime reveal"
-                        style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                        <img src="{{asset('images/fda.jpeg')}}" alt="" style="transform: translate(0px, 0px);">
+                    <figure class="image-anime reveal">
+                        <img src="{{asset('storage/'.$blog->img)}}" alt="" >
                     </figure>
                 </div>
                 <!-- Post Featured Image Start -->
@@ -24,56 +23,9 @@ Processing
 
                     <!-- Post Entry Start -->
 
-                    <div class="post-entry">
-                        <h2 class="wow fadeInUp" data-wow-delay="0.8s"
-                            style="visibility: hidden; animation-delay: 0.8s; animation-name: none;">
-                            Introduction</h2>
-                        <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">In the food
-                            processing industry, ensuring safety, hygiene, and compliance with regulatory standards is
-                            paramount. Food
-                            manufacturers must adhere to strict guidelines to prevent contamination and maintain product
-                            integrity. One critical
-                            aspect of maintaining these standards is the use of FDA-compliant rubber components. These
-                            components play a vital role
-                            in food processing machinery, ensuring that food remains uncontaminated while meeting
-                            stringent safety requirements.
-                            Without proper compliance, manufacturers risk product recalls, legal penalties, and damage
-                            to their reputation.</p>
-
-                        <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            This blog explores the significance of FDA-compliant rubber components, their applications,
-                            benefits, and key
-                            considerations when selecting them for food processing operations.
-                        </p>
-
-                        <h2 class="wow fadeInUp" data-wow-delay="0.8s"
-                            style="visibility: hidden; animation-delay: 0.8s; animation-name: none;">
-                            Understanding FDA Compliance for Rubber Components</h2>
-
-                        <p class="wow fadeInUp" data-wow-delay="0.2s"
-                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">The Food and
-                            Drug Administration (FDA) sets specific regulations regarding materials that come into
-                            direct or indirect
-                            contact with food. FDA-compliant rubber components must meet the requirements outlined in
-                            Title 21 CFR 177.2600, which
-                            defines the acceptable materials and testing procedures for rubber used in food processing.
-                            These standards ensure that rubber materials used in food-related
-                            applications do not pose health risks to consumers. <br>
-                            To be considered FDA-compliant, rubber materials must:
-                        </p>
-                        <ul class="wow fadeInUp" data-wow-delay="1.2s"
-                            style="visibility: hidden; animation-delay: 1.2s; animation-name: none;">
-                            <li>Be free from toxic substances and heavy metals</li>
-                            <li>Resist degradation from food products and cleaning agents</li>
-                            <li>Not leach harmful chemicals or odors into food</li>
-                            <li>Maintain structural integrity under processing conditions, including temperature
-                                fluctuations and pressure variations</li>
-                            <li>Undergo rigorous testing for chemical stability and migration limits</li>
-                        </ul>
-
-
-
-
+                    <div class="post-entry wow fadeInUp" data-wow-delay="0.8s">
+                        {!!$blog->content!!}
+                        
                     </div>
                     <!-- Post Entry End -->
 
