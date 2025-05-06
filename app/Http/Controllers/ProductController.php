@@ -143,4 +143,10 @@ class ProductController extends Controller
         return view('frontend.pages.single-product', compact('product'));
 
     }
+    public function category($name)
+    {
+        $products = Products::whereJsonContains('category', $name)->get();
+        return view('frontend.pages.products', compact('products'));
+    }
+    
 }

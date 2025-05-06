@@ -110,33 +110,45 @@
 
                                     </ul> --}}
                                 </li>
-                                <li class="nav-item submenu "><a class="nav-link" href="javascript:void(0)">Our Products</a>
+                                <li class="nav-item submenu "><a class="nav-link" href="{{url('/categories/all')}}">Our Products</a>
                                     <ul>
-                                        <li class="nav-item submenu new"><a class="nav-link" href="#">Sieve Cleaning
+                                        <li class="nav-item submenu new"><a class="nav-link" href="{{url('/category/seive cleaning ball')}}">Sieve Cleaning
                                                 Rubber
                                                 Balls</a>
                                             <ul>
-                                                <li class="nav-item"><a class="nav-link" href="#">Rubber Cube</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="#">Anti Vibration
-                                                        Mounts</a>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/rubber ball')}}">Rubber Ball</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/barrel shaped seive cleaning balls')}}">Barrel Shaped Balls</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Rubber Cube</a></li>
-                                        <li class="nav-item submenu new"><a class="nav-link" href="#">Anti Vibration
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/category/rubber cube')}}">Rubber Cube</a></li>
+                                        <li class="nav-item "><a class="nav-link" href="{{url('/category/anti vibration mounts')}}">Anti Vibration
                                                 Mounts</a>
-                                            <ul>
-                                                <li class="nav-item"><a class="nav-link" href="#">Rubber Cube</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="#">Anti Vibration
-                                                        Mounts</a>
+                                           
+                                        </li>
+                                        <li class="nav-item submenu new"><a class="nav-link" href="{{url('/category/rubber sleeve')}}">Rubber Sleeves</a>
+                                        <ul>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/lift rubber sleeve')}}">Lift Rubber Sleeve</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/air lock rubber sleeve')}}">Air Lock Rubber Sleeve</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/de stoner')}}">De Stoner</a>
+                                                </li>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/classifier')}}">Classifier</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Rubber Sleeves</a>
+                                        <li class="nav-item submenu new"><a class="nav-link" href="{{url('category/rubber inspection cap')}}">Rubber Inspection Cap</a>
+                                        <ul>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/inspection cap')}}">Inspection Cap</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/inspection cap with knob lock')}}">Inspection Cap With Knob Lock</a></li>
+                                                
+                                            </ul>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Inspection Cap</a>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Rubber Rings</a>
+                                        <li class="nav-item submenu new"><a class="nav-link" href="{{url('/category/rubber ring')}}">Rubber Rings</a>
+                                        <ul>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/rubber ring small')}}">Rubber Ring Small</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="{{url('/category/rubber ring big')}}">Rubber Ring Big</a></li>
+                                                
+                                            </ul>
                                         </li>
                                         <li class="nav-item"><a class="nav-link" href="#">Custom Prototype</a>
                                         </li>

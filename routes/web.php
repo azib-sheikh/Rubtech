@@ -35,6 +35,10 @@ Route::get('video-gallery', function () {
 });
 
 Route::get('products/{name}',[ProductController::class,'product']);
+Route::get('/category/{name}', [ProductController::class, 'category']);
+Route::get('/categories/all', function(){
+    return view('frontend.pages.allproductcategory');
+});
 
 Route::get('ceo-message', function () {
     return view('frontend.pages.promoter-message');

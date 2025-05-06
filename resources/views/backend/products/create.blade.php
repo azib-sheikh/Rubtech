@@ -94,7 +94,7 @@
     <option value="rubber ring">Rubber ring</option>
     <option value="rubber ring small">Rubber ring small</option>
     <option value="rubber ring big">Rubber ring big</option>
-    <option value="anti vibration mountsg">Anti vibration mounts</option>
+    <option value="anti vibration mounts">Anti vibration mounts</option>
     <option value="rubber inspection cap">Rubber inspection cap</option>
     <option value="inspection cap">Inspection cap</option>
     <option value="inspection cap with knob lock">Inspection cap with knob lock</option>
