@@ -2,7 +2,9 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-
+    $imagePaths = collect($product['images'])->pluck('image_path')->toArray();
+    dd($imagePaths);
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
@@ -18,11 +20,7 @@
                             {{ session('success') }}
                         </div>
                     @endif
-                    @foreach($products as $key => $product)
-                    if($key == 1){
-                    {{$product}}
-                    }
-                    @endforeach
+   
                   
 
                     <div class="table-responsive">
