@@ -150,6 +150,11 @@
         });
     });
 </script>
+<script>
+function changeMainImage(src) {
+    document.getElementById('main-product-image').src = src;
+}
+</script>
 @stack('scripts')
 
 </body>

@@ -211,7 +211,7 @@ Home Page
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide product-image">
-                    <a href="#">
+                    <a href="{{url('/category/seive cleaning ball')}}">
                         <div class="product-detail">
                             Sieve Cleaning Rubber Balls, made from high-quality materials such as NR, SBR, PBR, EPDM,
                             Silicon, Viton, Neoprene, and
@@ -227,7 +227,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide product-image">
-                    <a href="#">
+                    <a href="{{url('/category/rubber cube')}}">
                         <div class="product-detail">
                             Rubber cube ensures efficient performance in various industries, including edible oil,
                             millet, and salt processing. Its
@@ -244,7 +244,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide product-image">
-                    <a href="#">
+                    <a href="{{url('/category/anti vibration mounts')}}">
                         <div class="product-detail">
                             These Mounts are ideal for use in machinery, compressors, and equipment requiring vibration
                             absorption to enhance
@@ -261,7 +261,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide product-image">
-                    <a href="#">
+                    <a href="{{url('/category/rubber sleeves')}}">
                         <div class="product-detail">
                             Hollow cylindrical sleeves ideal for lift pipes, viewing glass support, and air-lock
                             systems, ensuring durability and
@@ -278,7 +278,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide product-image">
-                    <a href="#">
+                    <a href="{{url('/category/inspection cap')}}">
                         <div class="product-detail">
                             This versatile inspection cap is utilized across various industries, including edible oil,
                             millet, and salt processing,
@@ -296,7 +296,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide product-image">
-                    <a href="#">
+                    <a href="{{url('/category/rubber rings')}}">
                         <div class="product-detail">
                             RTM Rubber Rings provide durable, versatile sealing for demanding industrial applications,
                             ensuring reliable
@@ -458,7 +458,7 @@ Home Page
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/flour-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/flour.jpg')}}" alt="">
                         </figure>
@@ -468,7 +468,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/mineral-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/mining.jpg')}}" alt="">
                         </figure>
@@ -478,7 +478,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/edible-oil-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/oil.jpg')}}" alt="">
                         </figure>
@@ -488,7 +488,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/cement-and-mortar-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/CEMENT.png')}}" alt="">
                         </figure>
@@ -498,7 +498,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/pharmaceuticals-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/pharma.png')}}" alt="">
                         </figure>
@@ -508,7 +508,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/salt-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/salt.jpg')}}" alt="">
                         </figure>
@@ -518,7 +518,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/sugar-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/sugar.jpg')}}" alt="">
                         </figure>
@@ -528,7 +528,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/rice-milling-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/rice-milling.jpg')}}" alt="">
                         </figure>
@@ -538,7 +538,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/cereal-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/cereal.jpg')}}" alt="">
                         </figure>
@@ -548,7 +548,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/coffee-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/coffe.jpg')}}" alt="">
                         </figure>
@@ -558,7 +558,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/guar-gum-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/guar-gum.jpg')}}" alt="">
                         </figure>
@@ -568,7 +568,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/malt-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/malt.png')}}" alt="">
                         </figure>
@@ -578,7 +578,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/millet-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/flour-2.png')}}" alt="">
                         </figure>
@@ -588,7 +588,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/powder-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/powder.jpg')}}" alt="">
                         </figure>
@@ -598,7 +598,7 @@ Home Page
                     </a>
                 </div>
                 <div class="swiper-slide industry-image">
-                    <a href="#">
+                    <a href="{{url('/industry/spices-industry')}}">
                         <figure class="image-anime">
                             <img src="{{asset('images/industry/Spices.jpg')}}" alt="">
                         </figure>
@@ -820,7 +820,7 @@ Home Page
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure>
-                            <a href="/single" class="image-anime" data-cursor-text="View">
+                            <a href="{{url('post/Importance%20of%20FDA-Compliant%20Rubber%20Components%20in%20Food%20Processing')}}" class="image-anime" data-cursor-text="View">
                                 <img src="{{asset('images/fda.jpeg')}}" alt="">
                             </a>
                         </figure>
@@ -831,14 +831,14 @@ Home Page
                     <div class="post-item-body">
                         <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h2><a href="/single">Importance of FDA-Compliant Rubber Components in Food Processing</a>
+                            <h2><a href="{{url('post/Importance%20of%20FDA-Compliant%20Rubber%20Components%20in%20Food%20Processing')}}">Importance of FDA-Compliant Rubber Components in Food Processing</a>
                             </h2>
                         </div>
                         <!-- Post Item Content End -->
 
                         <!-- Post Item Button Start -->
                         <div class="post-item-btn">
-                            <a href="/single"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg"
+                            <a href="{{url('post/Importance%20of%20FDA-Compliant%20Rubber%20Components%20in%20Food%20Processing')}}"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg"
                                     alt=""></a>
                         </div>
                         <!-- Post Item Button End -->
@@ -854,7 +854,7 @@ Home Page
                     <!-- Post Featured Image Start-->
                     <div class="post-featured-image">
                         <figure>
-                            <a href="/single" class="image-anime" data-cursor-text="View">
+                            <a href="{{url('post/Sustainable%20Rubber%20Manufacturing:%20The%20Future%20of%20Eco-Friendly%20Industrial%20Solutions')}}" class="image-anime" data-cursor-text="View">
                                 <img src="{{asset('images/eco.png')}}" alt="">
                             </a>
                         </figure>
@@ -865,14 +865,14 @@ Home Page
                     <div class="post-item-body">
                         <!-- Post Item Content Start -->
                         <div class="post-item-content">
-                            <h2><a href="/single">Sustainable Rubber Manufacturing: The Future of Eco-Friendly
+                            <h2><a href="{{url('post/Sustainable%20Rubber%20Manufacturing:%20The%20Future%20of%20Eco-Friendly%20Industrial%20Solutions')}}">Sustainable Rubber Manufacturing: The Future of Eco-Friendly
                                     Industrial Solutions</a></h2>
                         </div>
                         <!-- Post Item Content End -->
 
                         <!-- Post Item Button Start -->
                         <div class="post-item-btn">
-                            <a href="/single"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg"
+                            <a href="{{url('post/Sustainable%20Rubber%20Manufacturing:%20The%20Future%20of%20Eco-Friendly%20Industrial%20Solutions')}}"><img src="https://html.awaikenthemes.com/toplax/images/arrow-white.svg"
                                     alt=""></a>
                         </div>
                         <!-- Post Item Button End -->

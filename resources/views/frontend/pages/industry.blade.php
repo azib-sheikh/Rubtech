@@ -82,12 +82,15 @@ Industry we serve
 
                     <div class="col-md-6 project-item-box cereal">
                         <!-- Project Item Start -->
+                         
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/cereal-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/cereal.jpg')}}" alt="">
                                 </figure>
                             </div>
+                            </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/cereal-industry')}}">Cereal </a>
@@ -95,17 +98,20 @@ Industry we serve
 
 
                         </div>
+
                         <!-- Project Item End -->
                     </div>
 
                     <div class="col-md-6 project-item-box coffee">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/coffee-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/coffe.jpg')}}" alt="">
                                 </figure>
                             </div>
+                            </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/coffee-industry')}}">Coffee</a>
@@ -119,11 +125,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box millet">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/millet-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/flour-2.png')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/millet-industry')}}">Millet </a>
@@ -137,11 +145,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box oil">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
+                        <a href="{{url('/industry/edible-oil-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/oil.jpg')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/edible-oil-industry')}}">Edible Oil</a>
@@ -155,11 +165,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box spices">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/spices-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/spices.jpg')}}" alt="">
                                 </figure>
                             </div>
+                         </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/spices-industry')}}">Spices </a>
@@ -173,11 +185,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box guargum">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/guar-gum-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/guar-gum.jpg')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/guar-gum-industry')}}">Guar Gum </a>
@@ -191,11 +205,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box malt">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/malt-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/malt.png')}}" alt="">
                                 </figure>
                             </div>
+                        </a>  
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/malt-industry')}}">Malt </a>
@@ -213,11 +229,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box flour">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp">
+                        <a href="{{url('/industry/flour-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/flour.jpg')}}" alt="">
                                 </figure>
                             </div>
+                        </a>    
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/flour-industry')}}">Flour</a>
@@ -235,11 +253,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box cement">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/cement-and-mortar-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/CEMENT.png')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/cement-and-mortar-industry')}}">Cement & Mortar </a>
@@ -255,11 +275,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box salt">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/salt-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/salt.jpg')}}" alt="">
                                 </figure>
                             </div>
+                         </a>  
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/salt-industry')}}">Salt </a>
@@ -273,11 +295,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box sugar">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/sugar-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/sugar.jpg')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/sugar-industry')}}">Sugar</a>
@@ -291,11 +315,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box rice">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/rice-milling-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/rice-milling.jpg')}}" alt="">
                                 </figure>
                             </div>
+                    </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/rice-milling-industry')}}">Rice Milling </a>
@@ -345,11 +371,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box mineral">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="{{url('/industry/mineral-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/mining.jpg')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/mineral-industry')}}">Mineral</a>
@@ -362,11 +390,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box mineral">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="{{url('/industry/mining-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/mining.png')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/mining-industry')}}">Mining</a>
@@ -407,11 +437,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box pharma">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/pharmaceuticals-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/pharma.png')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/pharmaceuticals-industry')}}">Pharmaceuticals </a>
@@ -424,11 +456,13 @@ Industry we serve
                     <div class="col-md-6 project-item-box powder">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="{{url('/industry/powder-industry')}}">
                             <div class="project-image">
                                 <figure class="image-anime">
                                     <img src="{{asset('images/industry/powder.jpg')}}" alt="">
                                 </figure>
                             </div>
+                        </a>
 
                             <div class="project-tag">
                                 <a href="{{url('/industry/powder-industry')}}">Powder </a>
@@ -493,8 +527,8 @@ Industry we serve
                     <div class="sidebar-cta-Body">
                         <!-- Sidebar CTA Content Start -->
                         <div class="sidebar-cta-content">
-                            <h3>Contact <span>us!</span></h3>
-                            <p>Got questions or need assistance with your Industry needs?</p>
+                            <h3>Get a <span>Quote!</span></h3>
+                           
                         </div>
                         <!-- Sidebar CTA Content End -->
 

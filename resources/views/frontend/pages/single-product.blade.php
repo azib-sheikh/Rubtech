@@ -25,31 +25,34 @@ Product
 </div>
 <!-- Page Header End -->
 <!--Product Page Start-->
+<div>
+
+        
+
+</div>
 <div class="container py-5">
     <div class="row">
         <div class="col-md-6">
             <div class="row">
                 <div class="col-3 p-0">
-                    <img class="mb-2"
-                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product_images/502470085_16mm Rubber Balls 1.jpg"
-                        alt="">
-                    <img class="mb-2"
-                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product_images/502470085_16mm Rubber Balls 1.jpg"
-                        alt="">
-                    <img class="mb-2"
-                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product_images/502470085_16mm Rubber Balls 1.jpg"
-                        alt="">
+                    @if($product->images && $product->images->count())
+                        @foreach($product->images as $image)
+                        <img class="mb-2 thumbnail-img" 
+                            src="{{ asset('storage/' . $image['image_path']) }}"
+                            alt="{{ $product->title }}"
+                            onclick="changeMainImage(this.src)"
+                            style="width: 100%; height: 100px; object-fit: cover;">
+                        @endforeach
+                    @else
+                        <div class="alert alert-info">No images available</div>
+                    @endif
                 </div>
                 <div class="col-9">
-                    <img style="height: 100%;object-fit:cover"
-                        src="https://techoozesolutions.co.in/live_dynamic/rubtech/media/product_images/502470085_16mm Rubber Balls 1.jpg"
-                        alt="">
+                    <img id="main-product-image" style="height: 400px; width: 100%; object-fit:cover"
+                        src="{{ count($product->images) > 0 ? asset('storage/' . $product->images[0]['image_path']) : asset('images/no-image.png') }}"
+                        alt="{{ $product->title }}">
                 </div>
-
             </div>
-
-
-
         </div>
         <div class="col-md-6">
             <div class="d-flex justify-content-between">
@@ -88,3 +91,4 @@ Product
 <!--Product Page End-->
 
 @endsection
+

@@ -40,7 +40,7 @@ Our Products
                         <a href="{{url('/products/')}}/{{ strtolower($product->title) }}">
                            
                             <figure class="image-anime">
-                                <img src="{{asset('images/products/seivecleaningball.jpg')}}" alt="">
+                                <img src="{{ count($product->images) > 0 ? asset('storage/' . $product->images[0]['image_path']) : asset('images/no-image.png') }}" alt="">
                             </figure>
 
                             <div class="product-title">

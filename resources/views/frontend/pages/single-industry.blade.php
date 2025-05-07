@@ -109,17 +109,15 @@ Product
                     <div class="sidebar-cta-box wow fadeInUp" data-wow-delay="0.25s"
                         style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
                         <!-- Sidebar Image Start -->
-                        <div class="sidebar-cta-logo">
-                            <img src="images/footer-logo.svg" alt="">
-                        </div>
+                      
                         <!-- Sidebar Image End -->
 
                         <!-- Sidebar CTA Body Start -->
                         <div class="sidebar-cta-Body">
                             <!-- Sidebar CTA Content Start -->
                             <div class="sidebar-cta-content">
-                                <h3>Contact <span>us!</span></h3>
-                                <p>Got questions or need assistance with your Industry needs?</p>
+                                <h3>Get a <span>Quote</span></h3>
+                                
                             </div>
                             <!-- Sidebar CTA Content End -->
 
