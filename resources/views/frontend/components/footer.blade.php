@@ -43,17 +43,17 @@
                     <!-- Footer Social Link Start -->
                     <div class="footer-social-links">
                         <ul>
-                            <li><a href="https://www.linkedin.com/company/rubtech-mech-gurgaon"><i
+                            <li><a href="https://www.linkedin.com/company/rubtech-mech-gurgaon/"><i
                                         class="fa-brands fa-linkedin"></i></a></li>
                             <li><a href="https://www.youtube.com/channel/UCKJXISzn9dYuLxDZb6Ssiag"><i
                                         class="fa-brands fa-youtube"></i></a></li>
 
                             <li><a
-                                    href="https://www.facebook.com/people/Rubtech-Mech/pfbid026haTZ3D83Y2vYmEQjb2fTL8MgEPsti1BbTfmnHdVwsG6Qv7uSaSeiSGDocdJPR8Pl/"><i
+                                    href="https://www.facebook.com/profile.php?id=100082993548178"><i
                                         class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="https://www.instagram.com/rubtechmech/"><i
                                         class="fa-brands fa-instagram"></i></a></li>
-                            <li><a style="font-size: 20px" href="https://api.whatsapp.com/send/?phone=9599002161"><i
+                            <li><a style="font-size: 20px" href="https://api.whatsapp.com/send?phone=919599002161&text=Welcome%21%20to%20Rubtech"><i
                                         class="fa-brands fa-whatsapp"></i></a></li>
                         </ul>
                     </div>

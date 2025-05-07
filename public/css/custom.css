@@ -3314,7 +3314,7 @@ header.main-header .header-sticky.active {
 
 .sidebar-cta-box {
     position: relative;
-    background-image: url("https://html.awaikenthemes.com/toplax/images/sidebar-cta-bg-img.jpg");
+    background-image: url("/images/v-image-about.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -6674,6 +6674,7 @@ header.main-header .header-sticky.active {
 }
 .search-bar.active {
     transform: translateY(0px);
+    position: fixed;
 }
 
 .search-bar .header-close {

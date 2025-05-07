@@ -117,6 +117,43 @@
                 @enderror
             </div>
 
+            <div class="mb-3">
+                <label for="category" class="form-label">Product's Category</label>
+                <select name="category[]" multiple="multiple" class="form-control select2">
+                @php
+    if (is_string($product->category)) {
+        $selectedCategories = json_decode($product->category, true) ?? [];
+    } elseif (is_array($product->category)) {
+        $selectedCategories = $product->category;
+    } else {
+        $selectedCategories = [];
+    }
+@endphp
+
+                    <option value="seive cleaning ball" {{ in_array('seive cleaning ball', $selectedCategories) ? 'selected' : '' }}>Seive cleaning ball</option>
+                    <option value="rubber ball" {{ in_array('rubber ball', $selectedCategories) ? 'selected' : '' }}>Rubber ball</option>
+                    <option value="barrel shaped seive cleaning balls" {{ in_array('barrel shaped seive cleaning balls', $selectedCategories) ? 'selected' : '' }}>Barrel shaped seive cleaning balls</option>
+                    <option value="rubber sleeve" {{ in_array('rubber sleeve', $selectedCategories) ? 'selected' : '' }}>Rubber sleeve</option>
+                    <option value="lift rubber sleeve" {{ in_array('lift rubber sleeve', $selectedCategories) ? 'selected' : '' }}>Lift rubber sleeve</option>
+                    <option value="air lock rubber sleeve" {{ in_array('air lock rubber sleeve', $selectedCategories) ? 'selected' : '' }}>Air lock rubber sleeve</option>
+                    <option value="de stoner" {{ in_array('de stoner', $selectedCategories) ? 'selected' : '' }}>De stoner</option>
+                    <option value="classifier" {{ in_array('classifier', $selectedCategories) ? 'selected' : '' }}>Classifier</option>
+                    <option value="rubber ring" {{ in_array('rubber ring', $selectedCategories) ? 'selected' : '' }}>Rubber ring</option>
+                    <option value="rubber ring small" {{ in_array('rubber ring small', $selectedCategories) ? 'selected' : '' }}>Rubber ring small</option>
+                    <option value="rubber ring big" {{ in_array('rubber ring big', $selectedCategories) ? 'selected' : '' }}>Rubber ring big</option>
+                    <option value="anti vibration mounts" {{ in_array('anti vibration mounts', $selectedCategories) ? 'selected' : '' }}>Anti vibration mounts</option>
+                    <option value="rubber inspection cap" {{ in_array('rubber inspection cap', $selectedCategories) ? 'selected' : '' }}>Rubber inspection cap</option>
+                    <option value="inspection cap" {{ in_array('inspection cap', $selectedCategories) ? 'selected' : '' }}>Inspection cap</option>
+                    <option value="inspection cap with knob lock" {{ in_array('inspection cap with knob lock', $selectedCategories) ? 'selected' : '' }}>Inspection cap with knob lock</option>
+                    <option value="Rubber cube" {{ in_array('Rubber cube', $selectedCategories) ? 'selected' : '' }}>Rubber cube</option>
+                </select>
+                @error('category[]')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
+            </div>
+
             <div class="mt-4">
                 <button type="submit" class="btn px-4 btn-primary">Update</button>
             </div>

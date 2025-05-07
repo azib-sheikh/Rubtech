@@ -44,7 +44,7 @@ Faqs
             <div class="col-lg-7">
                 <!-- Section Button Start -->
                 <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                    <a href="faqs.html" class="btn-default"><span>Contact us</span></a>
+                    <a href="{{url('/contact')}}" class="btn-default"><span>Contact us</span></a>
                 </div>
                 <!-- Section Button End -->
             </div>
@@ -65,8 +65,8 @@ Faqs
                     <!-- Faqs Image Cta Box Start -->
                     <div class="faqs-img-cta-box">
                         <ul>
-                            <li><a href="#"><img src="images/icon-phone-accent.svg" alt=""> +91 1236547890</a></li>
-                            <li><a href="#"><img src="images/icon-mail-accent.svg" alt=""> info@domainname.com</a></li>
+                            <li><a href="tel:+919717599905"><img src="images/icon-phone-accent.svg" alt="">+91-9717599905</a></li>
+                            <li><a href="mailto:enquiry@rubtechmech.in"><img src="images/icon-mail-accent.svg" alt="">enquiry@rubtechmech.in</a></li>
                         </ul>
                     </div>
                     <!-- Faqs Image Cta Box End -->

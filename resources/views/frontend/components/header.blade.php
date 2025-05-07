@@ -180,7 +180,7 @@
                                         <li class="nav-item"><a class="nav-link" href="{{url('/blog')}}">Blog</a>
                                         </li>
                                         <li class="nav-item"><a class="nav-link" href="{{url('/image-gallery')}}">Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="{{url('/faq')}}">FAQ</a>
+                                        <li class="nav-item"><a class="nav-link" href="{{url('/faq')}}">FAQs</a>
                                         </li>
 
                                     </ul>
@@ -194,18 +194,18 @@
                             <!-- Header Social Links Start -->
                             <div class="header-social-links">
                                 <ul>
-                                    <li><a href="">
+                                    <li><a href=" https://www.linkedin.com/company/rubtech-mech-gurgaon/">
                                             <i class="fa-brands fa-linkedin-in"></i>
                                         </a></li>
                                     <li><a href="https://www.youtube.com/channel/UCKJXISzn9dYuLxDZb6Ssiag"><i
                                                 class="fa-brands fa-youtube"></i></a></li>
                                     <li><a
-                                            href="https://www.facebook.com/people/Rubtech-Mech/pfbid026haTZ3D83Y2vYmEQjb2fTL8MgEPsti1BbTfmnHdVwsG6Qv7uSaSeiSGDocdJPR8Pl/"><i
+                                            href="https://www.facebook.com/profile.php?id=100082993548178"><i
                                                 class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="https://www.instagram.com/rubtechmech/"><i
                                                 class="fa-brands fa-instagram"></i></a></li>
                                     <li><a style="font-size: 20px"
-                                            href="https://api.whatsapp.com/send/?phone=9599002161"><i
+                                            href="https://api.whatsapp.com/send?phone=919599002161&text=Welcome%21%20to%20Rubtech"><i
                                                 class="fa-brands fa-whatsapp"></i></a></li>
                                 </ul>
                             </div>

@@ -6,6 +6,7 @@ use App\Models\Products;
 use App\Models\ProductImage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
 
 class ProductController extends Controller
 {
@@ -74,7 +75,8 @@ class ProductController extends Controller
                 'content' => 'required|string',
                 'description' => 'required|string',
                 'compararison' => 'required|string',
-                'category' => 'nullable|string|max:255',
+                'category' => 'nullable|array',
+                'category.*' => 'string|max:255',
                 'images.*' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048'
             ]);
 
@@ -87,8 +89,11 @@ class ProductController extends Controller
             $product->save();
 
             if ($request->hasFile('images')) {
+                // Delete old images if needed
+                // $product->images()->delete();
+                
                 foreach ($request->file('images') as $image) {
-                    $path = $image->store('uploads/products', 'public');// Remove 'public/' from the path
+                    $path = $image->store('uploads/products', 'public');
                     ProductImage::create([
                         'product_id' => $product->id,
                         'image_path' => $path
@@ -139,9 +144,24 @@ class ProductController extends Controller
         }
     }
     public function product($name){
-        $product = Products::where('title', $name)->first();
-        return view('frontend.pages.single-product', compact('product'));
+        $product = Products::with(['images' => function($query) {
+            $query->orderBy('created_at', 'desc');
+        }])->where('title', $name)->first();
+        
+        if (!$product) {
+            abort(404);
+        }
 
+        // Debug information
+        \Log::info('Product Data:', [
+            'id' => $product->id,
+            'title' => $product->title,
+            'images_count' => $product->images ? $product->images->count() : 0,
+            'images' => $product->images ? $product->images->toArray() : [],
+            'raw_images' => \DB::table('product_images')->where('product_id', $product->id)->get()->toArray()
+        ]);
+        
+        return view('frontend.pages.single-product', compact('product'));
     }
     public function category($name)
     {
